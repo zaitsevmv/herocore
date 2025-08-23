@@ -1,5 +1,14 @@
 # herocore
 
+## About the project
+
+I don't like current tmnf server controlers (XASECO, TRAKMAN, minicontrol), because they are very slow and hard to scale. Thats why I created herocore.
+
+herocore is a lightweight, high-performance server controller built from the ground up for speed and scalability. Using gRPC, it enables low-latency communication between tmnf server and custom backend services.
+
+## Stack
+
+- [userver](https://userver.tech)
 
 ## Makefile
 
