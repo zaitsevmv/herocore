@@ -1,6 +1,7 @@
 #pragma once
 
 #include <coroutine>
+#include <exception>
 
 template<typename T>
 class TAsyncTask {
@@ -8,10 +9,10 @@ private:
     struct promise_type {
         T Value;
         std::exception_ptr Exception;
-        std::courotine_handle<> Handle;
+        std::coroutine_handle<> Handle;
 
         TAsyncTask get_return_object() { 
-            return {TAsyncTask<T>::from_promise(*this)}; 
+            return {}; 
         }
 
         std::suspend_always initial_suspend() noexcept { return {}; }
