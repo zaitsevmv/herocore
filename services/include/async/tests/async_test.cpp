@@ -9,6 +9,9 @@ int main() {
     SET_LOG_FILE("test_log");
 
     LOG_DEBUG() << "abc";
+    LOG_NEXT_PAGE();
+    LOG_DEBUG() << "abc";
+
 
     return 0;
 }

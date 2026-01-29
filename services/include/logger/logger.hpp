@@ -1,10 +1,12 @@
 #pragma once
 
+#include <atomic>
 #include <cstdint>
 #include <fstream>
 #include <mutex>
 #include <sstream>
 #include <string>
+#include <vector>
 
 namespace logger {
 
@@ -55,6 +57,7 @@ public:
     void SetLogLevel(LogLevel level);
     LogStream Log(LogLevel level);
     void WriteLog(const std::string& data, LogLevel level);
+    void NextPage();
     
     static Logger& Instance();
     
@@ -66,8 +69,12 @@ private:
 
     LogLevel level_ = LogLevel::DEBUG;
 
+    std::vector<std::string> CachedLogs_;
+    std::mutex CacheMutex_;
+    std::atomic<uint32_t> CurrentPage_;
+
     std::ofstream fileStream;
-    std::mutex mutex_;
+    std::mutex FileMutex_;
 };
 
 }  // namespace logger
@@ -80,3 +87,4 @@ private:
     ::logger::Logger::Instance().Log(logger::LogLevel::CRITICAL)
 #define SET_LOG_FILE(filename) ::logger::Logger::Instance().SetLogFile(filename)
 #define SET_LOG_LEVEL(level) ::logger::Logger::Instance().SetLogLevel(level)
+#define LOG_NEXT_PAGE() ::logger::Logger::Instance().NextPage()
