@@ -32,5 +32,5 @@ dist-clean:
 # Format the sources
 .PHONY: format
 format:
-	find src -name '*pp' -type f | xargs $(CLANG_FORMAT) -i
-	find tests -name '*.py' -type f | xargs autopep8 -i
+	find . -name '*pp' -type f | xargs $(CLANG_FORMAT) -i
+	find . -name '*.py' -type f | xargs autopep8 -i
