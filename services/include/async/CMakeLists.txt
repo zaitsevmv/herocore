@@ -1,5 +1,5 @@
-add_library(async_task INTERFACE)
+add_library(reactor reactor.h reactor.cpp)
 
-target_include_directories(async_task INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
-
-add_subdirectory(tests)
+target_include_directories(reactor PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+)

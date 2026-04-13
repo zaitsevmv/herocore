@@ -1,9 +1,11 @@
 #pragma once
 
+#include <concepts>
 #include <coroutine>
 #include <exception>
 
 template<typename T>
+requires std::movable<T>
 class TGenerator {
 private:
     struct promise_type {
