@@ -1,3 +1,4 @@
+#include <chrono>
 #include <cstdint>
 #include <memory>
 #include "async/reactor.h"
@@ -6,18 +7,21 @@ namespace NUtils {
 
 class TRaft {
 public:
+    using TTimePoint = std::chrono::time_point<std::chrono::steady_clock>;
+    enum class EHostStatus : uint32_t {
+        Leader = 1, Follower = 2, Candidate = 3
+    };
+
     TRaft(NAsync::TReactorPtr reactor);
 
     void RequestVote();
 
-    void AppendEntries();
+    void Start(uint16_t port);
+
+    void AddRequest(const std::string& request);
 
 private:
     class TImpl;
-
-    enum class EHostStatus : uint32_t {
-        Leader = 0, Follower = 1, Candidate = 2
-    };
 
     std::unique_ptr<TImpl> Pimpl;
 };

@@ -12,6 +12,10 @@ template<typename T>
 requires std::movable<T>
 class TAsyncTask {
 public:
+    struct promise_type;
+    using TCallbackFunc = std::function<void(std::shared_ptr<T>, std::exception_ptr)>;
+    using THandle = std::coroutine_handle<promise_type>;
+
     struct promise_type {
     public:
         auto initial_suspend() {
@@ -51,7 +55,7 @@ public:
 
         void AlertSubscribers() {
             for (auto& func: SubscriberCallbacks_) {
-                func(TaskResult_.get());
+                func(TaskResult_, Exception_);
             }
         }
 
@@ -59,10 +63,8 @@ public:
         std::coroutine_handle<> Continuation_;
         std::exception_ptr Exception_;
     private:
-        std::vector<std::function<void(T)>> SubscriberCallbacks_;
+        std::vector<TCallbackFunc> SubscriberCallbacks_;
     };
-
-    using THandle = std::coroutine_handle<promise_type>;
 
     TAsyncTask(THandle h)
         :Handle_(h) {}
@@ -76,15 +78,11 @@ public:
         Handle_.resume();
     }
 
-    void Subscribe(std::function<void()> cb) {
+    void Subscribe(TCallbackFunc cb) {
         if (Handle_ && !Handle_.done()) {
             Handle_.promise().AddCallback(std::move(cb));
         } else if (Handle_) {
-            if (Handle_.promise().Exception_) {
-                std::rethrow_exception(Handle_.promise().Exception_);
-            } else if (Handle_.promise().TaskResult_) {
-                cb(Handle_.promise().TaskResult_.get());
-            }
+            cb(Handle_.promise().TaskResult_, Handle_.promise().Exception_);
         }
     }
 
