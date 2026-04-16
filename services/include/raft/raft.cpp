@@ -96,7 +96,8 @@ NAsync::TAsyncTask<bool> TRaft::TImpl::SendSocket(const std::string& data, int t
         .SenderTerm = CurrentTerm_,
         .Message = data
     };
-    if (!co_await SendDataAsync(Reactor_, target, msg.Serialize())) {
+    auto msgString = msg.Serialize();
+    if (!co_await SendDataAsync(Reactor_, target, msgString)) {
         // some retry logic, or new connection and retry
     }
     co_return true;

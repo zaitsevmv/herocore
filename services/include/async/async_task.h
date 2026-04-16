@@ -3,6 +3,7 @@
 #include <concepts>
 #include <coroutine>
 #include <exception>
+#include <functional>
 #include <memory>
 
 namespace NAsync {
@@ -12,6 +13,7 @@ requires std::movable<T>
 class TAsyncTask {
 public:
     struct promise_type {
+    public:
         auto initial_suspend() {
             return std::suspend_always();
         }
@@ -20,6 +22,7 @@ public:
             struct TFinalAwaiter {
                 bool await_ready() noexcept { return false; }
                 std::coroutine_handle<> await_suspend(std::coroutine_handle<promise_type> h) noexcept {
+                    h.promise().AlertSubscribers();
                     if (h.promise().Continuation_ && !h.promise().Continuation_.done()) {
                         return h.promise().Continuation_;
                     }
@@ -42,9 +45,21 @@ public:
             Exception_ = std::current_exception();
         }
 
+        void AddCallback(std::function<void()> cb) {
+            SubscriberCallbacks_.emplace_back(std::move(cb));
+        }
+
+        void AlertSubscribers() {
+            for (auto& func: SubscriberCallbacks_) {
+                func(TaskResult_.get());
+            }
+        }
+
         std::shared_ptr<T> TaskResult_ = nullptr;
         std::coroutine_handle<> Continuation_;
         std::exception_ptr Exception_;
+    private:
+        std::vector<std::function<void(T)>> SubscriberCallbacks_;
     };
 
     using THandle = std::coroutine_handle<promise_type>;
@@ -59,6 +74,18 @@ public:
 
     void Run() {
         Handle_.resume();
+    }
+
+    void Subscribe(std::function<void()> cb) {
+        if (Handle_ && !Handle_.done()) {
+            Handle_.promise().AddCallback(std::move(cb));
+        } else if (Handle_) {
+            if (Handle_.promise().Exception_) {
+                std::rethrow_exception(Handle_.promise().Exception_);
+            } else if (Handle_.promise().TaskResult_) {
+                cb(Handle_.promise().TaskResult_.get());
+            }
+        }
     }
 
     struct TTaskAwaiter {
