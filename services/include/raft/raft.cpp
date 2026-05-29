@@ -153,6 +153,8 @@ void TRaft::TImpl::Heartbeat() {
                 std::promise<bool> requestResult;
                 sendResults.push_back(requestResult.get_future());
                 auto coro = SendSocket(request, host.HostSocket);
+                // probably better to do like this
+                // auto sendResults.push_back(std::async([&coro]() -> NAsync::TAsyncTask<bool> {co_return co_await coro; }));
                 coro.Subscribe([&requestResult](auto coroRes, auto e) mutable {
                     if (e) {
                         requestResult.set_exception(e);
