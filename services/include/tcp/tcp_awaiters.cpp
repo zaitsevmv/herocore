@@ -26,7 +26,7 @@ bool TTCPReadAwaiter::await_ready() const {
     return false;
 }
 
-void TTCPReadAwaiter::await_suspend(std::coroutine_handle<> handle) {
+std::coroutine_handle<> TTCPReadAwaiter::await_suspend(std::coroutine_handle<> handle) {
     UserData_->Handle = handle;
     if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Read,
         TReactorCtx{
@@ -34,8 +34,9 @@ void TTCPReadAwaiter::await_suspend(std::coroutine_handle<> handle) {
         }
     )) {
         UserData_->Cqe = nullptr;
-        handle.resume();
+        return handle;
     }
+    return std::noop_coroutine();
 }
 
 size_t TTCPReadAwaiter::await_resume() {
@@ -57,7 +58,7 @@ bool TTCPWriteAwaiter::await_ready() const {
     return false;
 }
 
-void TTCPWriteAwaiter::await_suspend(std::coroutine_handle<> handle) {
+std::coroutine_handle<> TTCPWriteAwaiter::await_suspend(std::coroutine_handle<> handle) {
     UserData_->Handle = handle;
     if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Write, 
         TReactorCtx{
@@ -65,8 +66,9 @@ void TTCPWriteAwaiter::await_suspend(std::coroutine_handle<> handle) {
         }
     )) {
         UserData_->Cqe = nullptr;
-        handle.resume();
+        return handle;
     }
+    return std::noop_coroutine();
 }
 
 size_t TTCPWriteAwaiter::await_resume() {
@@ -88,12 +90,13 @@ bool TTCPAcceptAwaiter::await_ready() const {
     return UserData_->Cqe != nullptr;
 }
 
-void TTCPAcceptAwaiter::await_suspend(std::coroutine_handle<> handle) {
+std::coroutine_handle<> TTCPAcceptAwaiter::await_suspend(std::coroutine_handle<> handle) {
     UserData_->Handle = handle;
     if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Accept, {})) {
         UserData_->Cqe = nullptr;
-        handle.resume();
+        return handle;
     }
+    return std::noop_coroutine();
 }
 
 int TTCPAcceptAwaiter::await_resume() {
@@ -118,7 +121,7 @@ bool TTCPConnectAwaiter::await_ready() const {
     return false;
 }
 
-void TTCPConnectAwaiter::await_suspend(std::coroutine_handle<> handle) {
+std::coroutine_handle<> TTCPConnectAwaiter::await_suspend(std::coroutine_handle<> handle) {
     UserData_->Handle = handle;
     if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Connect, 
         TReactorCtx{
@@ -127,8 +130,9 @@ void TTCPConnectAwaiter::await_suspend(std::coroutine_handle<> handle) {
         }
     )) {
         UserData_->Cqe = nullptr;
-        handle.resume();
+        return handle;
     }
+    return std::noop_coroutine();
 }
 
 void TTCPConnectAwaiter::await_resume() {
