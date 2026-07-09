@@ -138,8 +138,16 @@ void TRaft::TImpl::Start(uint16_t port) {
             std::this_thread::sleep_until(deadline);
         } while (true);
     };
+    auto discovery = [this]() -> NAsync::TAsyncTask<bool> {
+        do {
+            uint16_t somePort = 3333;
+            co_await AcceptNewHosts(3333);
+        } while (true);
+        co_return false;
+    };
     std::jthread listeningThread(listener);
     std::jthread heartbeatThread(heartbeat);
+    std::jthread discoveryThread(discovery);
 }
 
 void TRaft::TImpl::Heartbeat() {
@@ -150,16 +158,16 @@ void TRaft::TImpl::Heartbeat() {
             // TODO: add to config
             auto deadline = TTimePoint::clock::now() + 3s;
             for (const auto& host: KnownHosts_) {
-                std::promise<bool> requestResult;
-                sendResults.push_back(requestResult.get_future());
+                auto requestResult = std::make_shared<std::promise<bool>>();
+                sendResults.push_back(requestResult->get_future());
                 auto coro = SendSocket(request, host.HostSocket);
                 // probably better to do like this
                 // auto sendResults.push_back(std::async([&coro]() -> NAsync::TAsyncTask<bool> {co_return co_await coro; }));
                 coro.Subscribe([&requestResult](auto coroRes, auto e) mutable {
                     if (e) {
-                        requestResult.set_exception(e);
+                        requestResult->set_exception(e);
                     }
-                    requestResult.set_value(coroRes.get());
+                    requestResult->set_value(coroRes.get());
                 });
                 coro.Run();
             }
@@ -227,14 +235,14 @@ NAsync::TAsyncTask<bool> TRaft::TImpl::Listen(uint16_t port) {
     std::vector<std::future<std::shared_ptr<NUtils::TMessage>>> readResults;
     readResults.reserve(KnownHosts_.size());
     for (const auto& host: KnownHosts_) {
-        std::promise<std::shared_ptr<NUtils::TMessage>> requestResult;
-        readResults.push_back(requestResult.get_future());
+        auto requestResult = std::make_shared<std::promise<std::shared_ptr<NUtils::TMessage>>>();
+        readResults.push_back(requestResult->get_future());
         auto msgCoro = ReadMessageAsync(Reactor_, host.HostSocket);
-        msgCoro.Subscribe([&requestResult](auto coroRes, auto e) mutable {
+        msgCoro.Subscribe([requestResult](auto coroRes, auto e) mutable {
             if (e) {
-                requestResult.set_exception(e);
+                requestResult->set_exception(e);
             }
-            requestResult.set_value(coroRes);
+            requestResult->set_value(coroRes);
         });
         msgCoro.Run();
     }
@@ -271,13 +279,29 @@ NAsync::TAsyncTask<bool> TRaft::TImpl::HandleMessage(const TRaftMessage& message
                 CurrentStatus_ = TRaft::EHostStatus::Follower;
                 CandidateVotes_.clear();
                 LeaderId_ = hostId;
+            } else if (message.SenderStatus == static_cast<uint32_t>(EHostStatus::Follower)) {
+                try {
+                    uint32_t voteId = std::stoul(message.Message);
+                    CandidateVotes_.insert(voteId);
+                } catch(...) {}
             }
             break;
         };
         case EHostStatus::Follower: {
             if (message.SenderStatus == static_cast<uint32_t>(EHostStatus::Candidate)) {
                 LeaderId_ = hostId;
-                // send smth
+                auto requestResult = std::make_shared<std::promise<bool>>();
+                auto fut = requestResult->get_future();
+                auto msgCoro = SendSocket(std::to_string(TRaftMessage::GenerateMessageId()), KnownHosts_[hostId].HostSocket);
+                msgCoro.Subscribe([requestResult](auto coroRes, auto e) mutable {
+                    if (e) {
+                        requestResult->set_exception(e);
+                    }
+                    requestResult->set_value(coroRes.get());
+                });
+                msgCoro.Run();
+                // TODO: think how it should work
+                fut.wait_for(3s);
             }
             break;
         };
