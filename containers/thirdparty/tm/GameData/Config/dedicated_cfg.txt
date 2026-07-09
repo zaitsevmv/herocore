@@ -17,17 +17,17 @@
 	</authorization_levels>
 	
  	<masterserver_account>
-		<login>herobrines_place</login>
+		<login_server></login>
 		<password_server></password>
 		<validation_key></validation_key>
 	</masterserver_account>
 	
 	<server_options> <!-- Server name and comment -->
-		<name>123</name>
-		<comment>test</comment>
+		<name_server></name>
+		<comment></comment>
 		<hide_server>0</hide_server>
 
-		<max_players>10</max_players>
+		<max_players>40</max_players>
 		<password></password>
 		
 		<max_spectators>16</max_spectators>
@@ -71,7 +71,7 @@
 		<p2p_cache_size>600</p2p_cache_size>
 
 		<xmlrpc_port>5000</xmlrpc_port>
-		<xmlrpc_allowremote>False</xmlrpc_allowremote>
+		<xmlrpc_allowremote>True</xmlrpc_allowremote>
 		
 		<blacklist_url></blacklist_url>
 		<guestlist_filename></guestlist_filename>

@@ -39,9 +39,9 @@
 	<!-- For the nation, please use the 3-character abbreviation from -->
 	<!-- http://en.wikipedia.org/wiki/List_of_IOC_country_codes       -->
 	<masterserver_account>
-		<login>beginnerreborn</login>  <!-- Edit this^^ -->
-		<password>7642DRziYC</password> <!-- Edit this -->
-		<nation>GER</nation> <!-- Edit this -->
+		<login></login>  <!-- Edit this^^ -->
+		<password_server></password> <!-- Edit this -->
+		<nation>UZB</nation> <!-- TODO: Edit this -->
 	</masterserver_account>
 
 	<messages>
