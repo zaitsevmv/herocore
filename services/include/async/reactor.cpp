@@ -78,7 +78,7 @@ void TReactor::RunOnce() {
         if (cqe->user_data != 0) {
             TReactor::TUserData* userData = reinterpret_cast<TUserData*>(cqe->user_data);
             userData->Cqe = cqe;
-            std::thread([userData](){userData->Handle.resume();}).detach();
+            userData->Handle.resume();
         }
     }
 
