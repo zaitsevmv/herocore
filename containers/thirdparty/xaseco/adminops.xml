@@ -6,14 +6,12 @@
 		<operator>Operator</operator>
 	</titles>
 
-	<admins>  <!-- do the same you did for masteradmins in config.xml -->
-<!-- format: -->
-<!--		<tmlogin>YOUR_ADMIN_LOGIN</tmlogin> <ipaddress></ipaddress> -->
+	<admins>
+		<tmlogin></tmlogin> <ipaddress></ipaddress>
 	</admins>
 
 	<operators>
-	<!-- format: -->
-	<!--		<tmlogin>YOUR_OPERATOR_LOGIN</tmlogin> <ipaddress></ipaddress> -->
+		<tmlogin></tmlogin> <ipaddress></ipaddress>
 	</operators>
 
 	<admin_abilities>

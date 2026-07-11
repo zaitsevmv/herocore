@@ -10,7 +10,7 @@
 	// if true, vote command automatically votes for starter
 	// if false, the old way remains where starter has to vote /y too
 	// this option also applies to TMX /add votes
-	$auto_vote_starter = false;
+	$auto_vote_starter = true;
 
 	// can spectators start votes or vote for another player's votes?
 	// these options also apply to TMX /add votes
@@ -74,7 +74,7 @@
 		// if 1, the voting explanation is only sent to the new player
 		//       upon joining
 		// if 0, no explanations are sent at all
-		$global_explain = 2;
+		$global_explain = 1;
 
 		// define the vote ratios for all types
 		$vote_ratios = array(

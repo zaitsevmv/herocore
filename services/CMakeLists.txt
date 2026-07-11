@@ -10,3 +10,4 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(LIBURING REQUIRED liburing)
 
 add_subdirectory(include)
+add_subdirectory(benchmarks)

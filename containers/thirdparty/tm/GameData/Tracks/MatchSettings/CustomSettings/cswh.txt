@@ -15,7 +15,7 @@
 		<team_maxpoints>6</team_maxpoints>
 		<team_usenewrules>0</team_usenewrules>
 		<team_pointslimitnewrules>5</team_pointslimitnewrules>
-		<timeattack_limit>360000</timeattack_limit>
+		<timeattack_limit>0</timeattack_limit>
 		<timeattack_synchstartperiod>0</timeattack_synchstartperiod>
 		<laps_nblaps>5</laps_nblaps>
 		<laps_timelimit>0</laps_timelimit>
@@ -43,7 +43,5079 @@
 
 	<startindex>0</startindex>
 	<challenge>
-		<file>Campaigns\Nations\Green\B07-Race.Challenge.Gbx</file>
+		<file>Challenges\TMX\lol is what i like #131_13489842.Challenge.gbx</file>
 		<ident>NdajMtuuXvuxhfGkye4Om8wUXYi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport X016_13487982.Challenge.gbx</file>
+		<ident>NdajMtuuXvuxhfGkye4Om8wUXYi</ident>
+	</challenge>
+		<challenge>
+		<file>Challenges\TMX\En Tech et en Eau_8986633.gbx</file>
+		<ident>N0E7MkJ5OXya5TTJlDX6ZPoFIC6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\500cc Mini 14_10149899.gbx</file>
+		<ident>sw2uEo7DXP7aAUGPpxu3KzRZts4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\easymoney12_9658383.gbx</file>
+		<ident>N1TYUxbqRfq65VEDxffK2vnZhf4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini for beginners#3_1155087.gbx</file>
+		<ident>a4BoMNlsaqh7LRaD0wI88tG4cL2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short ~ 01_18.gbx</file>
+		<ident>WheMcy3yXQAEVS9ltYI2q_UXKWe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EWWY SHORT 11_10616852.gbx</file>
+		<ident>a_NMdoNmqTqQWO9DAp8HnJV3pk5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\E-short-25_2809877.gbx</file>
+		<ident>_My12oI_t9BDgEg4uipQ8_Xzst9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kikou Japonnais 01_30.gbx</file>
+		<ident>D_pdNtZkv95cpi65ragN5f1LMZ9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Off.R1_24609.gbx</file>
+		<ident>He2UQgn5T6plINfoKzu3v9EXlG5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners #1_2875429.gbx</file>
+		<ident>F4NOJMggQL7XouyXKX5RWYoSsAl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\PureTech!_2834472.gbx</file>
+		<ident>6GqNtYpGUaDkBe8yJGxci_6z6F6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Swimming pool_16422.gbx</file>
+		<ident>37hcgxBziwal2VMSJl58k3iiGJ6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Speedie  LoL  #2_68.gbx</file>
+		<ident>P50EtsXJtJPDtQtBmxUJML5Kfn8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.:๏ғ Mini 7_10780743.gbx</file>
+		<ident>hB4PUZ9ugdEGJ2EtE1eXuzMYoPc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short #1_71.gbx</file>
+		<ident>wgqbm46DVdczdyeUWJWVuI55Xsb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short #2_79.gbx</file>
+		<ident>PphOqAmc7YkzcHqO_udKYuf9E8c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short #3_86.gbx</file>
+		<ident>FFESDXTPXUjCkCvncy4X68woVim</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EpiC  LoL ? #15_101.gbx</file>
+		<ident>mm7pbT6dkIEwURxtEF11r2k_fgd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Osef 09x_x_2515046.gbx</file>
+		<ident>MPxOqbWAntjfZZJG9llO3sVqm6d</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EpiC  LoL ? #17_111.gbx</file>
+		<ident>u7w3ixa4HPwxSabuqSg4rfUGCDe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\im the cutest lol mapper_10780788.gbx</file>
+		<ident>rqQvADqjScgR6GPD99hBxyBJDzg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini-Speed-Tech#1_155773.gbx</file>
+		<ident>CSQrwhngXt8UB8AeI0NOK0vNiC2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 06_12550270.gbx</file>
+		<ident>bwtasDkIOiM5o0AHUQUzMsruiFj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\4# Mini  quot;NO BEGINNER quot;_286848.gbx</file>
+		<ident>toMh2pWtTc7beciibEGkAQ9nYWj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 01_3596433.gbx</file>
+		<ident>2Sq__ZUnJC9vSOy5XbHShfTYi96</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech_147.gbx</file>
+		<ident>qlo3oNRfWn3bgrmpoPzRAYBIj5h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\maps for courage #9_10485909.gbx</file>
+		<ident>hjnyXkN0nPQCzXxdfvn9HRoZBd5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿à¸£à¹à¹×§lÑ 01_10354847.gbx</file>
+		<ident>V7C09nX32KH48G1pFldJZslB91a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails Project 02_10166433.gbx</file>
+		<ident>SI9CGSeHMQR8MW5ayM7y9y2ENf9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\New Tech #3_6054049.gbx</file>
+		<ident>SV1ylBwHY1R4fB97J9gXco5Kzr4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.:Mini :.|for|«Beginners»_5595305.gbx</file>
+		<ident>igD1YpTZunn0MoPjwjxN0vZTzP1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini#1 Beginner_295083.gbx</file>
+		<ident>72F0ml3OSOxGpGKdP2p1C13rFCm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ÐE??@ KoRtA  18-8-19_7536814.gbx</file>
+		<ident>o12jJpo6Q6X8zk6mshgY_5pHo6m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Heavenly stagecoach_10404019.gbx</file>
+		<ident>zgr5MaE6AfkSiqPPc6igFpxzuug</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\CCP#14 - Sylvia's Garden_13050038.gbx</file>
+		<ident>wdBEgDCXKDoutIZ0Y2N18WTryJa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner001_3195070.gbx</file>
+		<ident>ueGF7ICtSn2Wlew6xOq1YemT0Ad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #14_237763.gbx</file>
+		<ident>xs6fQzAZCswKjhAuDhEFUT2vBH6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kse Pa Kiasa_10789060.gbx</file>
+		<ident>EsKB6x9fNb0C3YORvGpb7ouhIb6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Surp's LoL #3 still a beginner_5554376.gbx</file>
+		<ident>HxjMR_JPhZXa88B7snrOHawDDkm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner1_3195084.gbx</file>
+		<ident>lrLucRgqxQ5yESnppMKAPRkOR7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Abba is Baba #08_8159437.gbx</file>
+		<ident>m7MvA7IMjepHaQFr266XXCjxSbk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Track For Beginners_3244237.gbx</file>
+		<ident>grHcra2ThwtgjfmVspar4LThFhf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\voll daneben_6045904.gbx</file>
+		<ident>O_ZFcJrKYhyzL52JFTZQkVNdlej</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner2_3195088.gbx</file>
+		<ident>gQg5W42_3hWJzT6yAVuIWL7lmgg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\500cc Mini 3_10100949.gbx</file>
+		<ident>pYZnKnQn1d7plILpElTRcBEQqbc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner3_3195094.gbx</file>
+		<ident>FqdHuIdsTlTQKFux1Ufy45DI279</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner004_3195118.gbx</file>
+		<ident>zV4GQBrLz9lzuwxi32zgTXs_oj0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R3aLife...4_4219121.gbx</file>
+		<ident>XI6wp8QpXzgeLsT0mjjFyyHY7zi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner4_3195122.gbx</file>
+		<ident>BGoJ89La2S3GSFK2eBeungkhiVf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Jal0usie._12443894.gbx</file>
+		<ident>4PeyEwXT6MeyNIOdJg6bTuJdp4m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner006_3195126.gbx</file>
+		<ident>f5fFb0QnLaDtwpfed32JHVeX6n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner007_3195128.gbx</file>
+		<ident>HAP_8EVUhcp4tm4xqz4d4zQQ5k4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#C_11034875.gbx</file>
+		<ident>XSRrpT7rDpNOsuBhX4W745RuUvk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Multiple Cars :)_10109179.gbx</file>
+		<ident>pAz9dwK0rKGvHcM6Mo47TOSNkf7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini*tech*//03_229629.gbx</file>
+		<ident>OyDhpzqdtbhYjTCZEq3N_bx4e1f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lowbudgetmini.09_5275903.gbx</file>
+		<ident>DayYdpUgMa6wqwuiGrytSiIBk_6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\NFC Beginner_3195141.gbx</file>
+		<ident>4Xl9VmejjMXu4Pt3LS4lskT3hNm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\travul #021_11763980.gbx</file>
+		<ident>XaHxhOkV7VNonRqTw76wDK74ya7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FiFix apos;s Random_4604172.gbx</file>
+		<ident>bfqA6mdk3Ct18a4CYDAtsN2W6Vc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\travul #022_11763985.gbx</file>
+		<ident>cGVenlg6ay7K0boNDjSvAUxDIHj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#D_11034902.gbx</file>
+		<ident>V_aXWevvLzCrZYBAN4Vz05XIR0f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LG  ( TECH )  4_7422232.gbx</file>
+		<ident>EOoqt3E6iIKwdbuSDeBA62VdW72</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Two Jump Lenght_290.gbx</file>
+		<ident>RfbaPn3pDgNSVZ1uw2VOpitgSzg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\antig_295.gbx</file>
+		<ident>F4XFhjJES8CMxYazF3b0R2m3k2l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Medium LoL 4_7151913.gbx</file>
+		<ident>1QdCnAKyyg1iaXb80cDtT3pzOU0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Berk_298.gbx</file>
+		<ident>gTfdcr3N0sMcP6Jg7vX3PoGQSKl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Boulevard #1_2859315.gbx</file>
+		<ident>DDCpAwnip3kftH4jN9jp0y_YxVk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Blue Beginner-C1_Para_958782.gbx</file>
+		<ident>oPFN81moqrQH7dk5k0PF7b1ujQj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner_2326853.gbx</file>
+		<ident>GO1z6wXDBP6EJzE9zLi1hEYVq9i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World Cup Round 6_10854728.gbx</file>
+		<ident>mLJrbLlPSb0gtEO8wqj7Y1CjCY3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LolSkillz 02_2597202.gbx</file>
+		<ident>HxXrTJ7k3JgxQlJaxUHpNNeKG19</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[REV] SpeedMadness 1_7430488.gbx</file>
+		<ident>GVy6vyutRJbEdi4O7UwA14sSgo9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\XtremE No.2_345.gbx</file>
+		<ident>O23cV9jvbDrIBrKFwnK783Am7V1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini*Drop 045_13082970.gbx</file>
+		<ident>88cwvQYkp8OMxAxjlqnL5ehher7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\easy for beginners_745817.gbx</file>
+		<ident>iGB3wSypVIPF67I9AXK6FwUdCz6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Aero Element 2_10862941.gbx</file>
+		<ident>Jq4t8in27PjdMzoU61NC_jkcawe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tuffsan.Minitech25_737629.gbx</file>
+		<ident>jV4uLCPwjHtWbh8o7MfBRXiZeyk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r?G»almost like a WRC!!!_363.gbx</file>
+		<ident>5oYA2hiR1SyvvMmnHj8moh9d_Tm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Insidious precision_10010992.gbx</file>
+		<ident>1JAxMoPI0T8mXdLRj5scqeKfeSh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Brazor`s Shorty 003_3506548.gbx</file>
+		<ident>vzIHKAg_6I_V3S2Kyo5TawdHli6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\very short shuriken 2_10133881.gbx</file>
+		<ident>jHquE446OeiZdTYVXKeRGeGKNca</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-.G59.-_9421178.gbx</file>
+		<ident>XRUbJSMZGgQDQMQioHVBLhDbBC4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mud_24974.gbx</file>
+		<ident>GrR9uLeSGPkPwRCC7rigPISKGAm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\minibyturtle"applejuice_10092944.gbx</file>
+		<ident>JBz71gUJV0kzHHKag0No5OPBUR1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dirt_Fun_400.gbx</file>
+		<ident>hnZTybpOqKNNiWfXvWZCKnt17Nb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ツ #3_10068391.gbx</file>
+		<ident>e3vup5Lco3YKScCQPcP3L4QorI2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\?h?rt ??eed (Kristoff) 3_4284851.gbx</file>
+		<ident>0XFgOUT0C_ViCamkBNaYS24XnNk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WTF? The Bug Of Bugs_436.gbx</file>
+		<ident>ky2ildndRVJa8Xi56xqqieVEj40</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Karj Short 120_13074870.gbx</file>
+		<ident>znOXh4uqn5rRE5Amd_fKrvfDXv2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\my first tech_8937912.gbx</file>
+		<ident>FSXKUMyZID2mPMbgLdhJw1CVPv2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[13]_2728397.gbx</file>
+		<ident>gsKC1HSGlQJguOf1gpaCGmnQJif</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST  SPEED---TECH  4_7594449.gbx</file>
+		<ident>cA8f92wlQDettjeMK0vIh2W9C73</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[20]_2744788.gbx</file>
+		<ident>zm5U5t5UNYQ4zidR_C_h8vMoWJl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Drunk TEST_25048.gbx</file>
+		<ident>_rAGtweTdZfURjZs8UyhBsvU8Ke</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Symetri map_476.gbx</file>
+		<ident>Na8H5mjA332mQ1qiPurQz7W0JLi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\easy drifts 36_6914530.gbx</file>
+		<ident>vcgmsHW0rC2DKVpl0kLcvqxtD4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Cup» 15.0_6922729.gbx</file>
+		<ident>rurJn2WN7C2Bc4O0pfGRP21PR4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision Mystery_10158574.gbx</file>
+		<ident>wC2p8tGvvZWdYZdu1JORytGqdy9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 01_25070.gbx</file>
+		<ident>Jo4bbi_MdMX3ir1X14tXlejDXF3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\esco track1_497.gbx</file>
+		<ident>bTIdaIjLIbDy6BmBIJ3ayw40ASd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 02_25073.gbx</file>
+		<ident>trDED6LunjzQI0YJCKkPZufRwjm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\very short sysy 01_499.gbx</file>
+		<ident>3tgblokXxZQVjgvQtFHzmj3IKC2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sculpture Jump_10109429.gbx</file>
+		<ident>0qEVj_O78eLx4mj0589edPVGjfk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 03_25075.gbx</file>
+		<ident>bD7gdcdyU8d8zx5t4O5VE7t9d0f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 05_25081.gbx</file>
+		<ident>j2mZkplG548E4H4lg9DH5Oql2Na</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 07_25090.gbx</file>
+		<ident>9KcBItaAfG3J4hbCx6kf6KreAVb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BoneBagTrack 08_25092.gbx</file>
+		<ident>y3MgfWXNzb_wqaDBQpatslgJUh2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 12_3293713.gbx</file>
+		<ident>23qdYcBHkzGGcvMiuGhiIbzq9S6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner  Fun_1057298.gbx</file>
+		<ident>JsgxshtEceFASVdtwq7b8bpkvu1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\500cc Mini 15_10158611.gbx</file>
+		<ident>EvHgpzZ23xDq2FOm73JUtsgy6pk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 19_3293715.gbx</file>
+		<ident>0_XItXKB53UW7Eq7NebXF1IHJsa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A01-Race Blocked_8454708.gbx</file>
+		<ident>jeXrrkhbHlxnzI_RjDyxWobjn1e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 4_3293752.gbx</file>
+		<ident>v4fZobgJeyriTeMTda__KWPOxNa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lƒs LoL #7_8675897.gbx</file>
+		<ident>Nn0QWqZSAiXyWPNiywkpW8Xw3vh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Fun Tech_8954437.gbx</file>
+		<ident>khWa6MGdQLK2gGn2H29jeReWKf7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kikou Japonnais 05_587.gbx</file>
+		<ident>V66zdJw_USXiP8Sf9cMcWRl6qal</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoL 4 all #051_4588108.gbx</file>
+		<ident>QzBnXJmsh9miPQ127X_3OnAnq9h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 2_10158672.gbx</file>
+		<ident>ZWsmzmjAXL_3o1TU_NZKIJ_5lxj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Full Speed_303697.gbx</file>
+		<ident>shfuwS51ZzuGeJx5GDGNt6yeAfl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 3_10158677.gbx</file>
+		<ident>pjHABtShEJdd5y7KVGsKxjjKDtd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Herobrine's schizophrenia_10338904.gbx</file>
+		<ident>IfTQ8cz7HvPcMCMoGFZUkvlnIwf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 4_10158680.gbx</file>
+		<ident>P6VLh7mm0JRMA5ugSr5qaz3hpZb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\N Tech 7_7512664.gbx</file>
+		<ident>u5mLHM5qAoNiX_poNMd6UTBu5p6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 5_10158683.gbx</file>
+		<ident>aBdTVNyFL9TtRQ_sPNOxsalmdN</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 6_3293787.gbx</file>
+		<ident>D19GhNQoOtGeHn47v_XU9A_Xx21</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 8_3293800.gbx</file>
+		<ident>uA2IAwo8dR9yfIeqM9to_ac0nIk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TRACKS EVERYONE CLEARLY HATES 1_11035241.gbx</file>
+		<ident>SoXGFuDWqgw0GvdG_BSdBaDvyBk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-RPG_5390954.gbx</file>
+		<ident>uge0EfuhkyY27W_S5sxpS9ysZCk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #148_10756718.gbx</file>
+		<ident>qSS_lqxfTKPRQSYOZ78y26S_X51</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sabrina_10044014.gbx</file>
+		<ident>kC9LX4YTlHNQzLuVVbVdOmiPpUf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 10_3293807.gbx</file>
+		<ident>rVb_sZG9OCRUAsDOntrmj4fq382</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EB Tech 01_98930.gbx</file>
+		<ident>lx7lO7rHRptoBaj3PFsKCxjj5ye</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 13_3293818.gbx</file>
+		<ident>gm0CJj0n4Ifnsb6xXYCtAQKR5p7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 14_3293821.gbx</file>
+		<ident>sKUnnIrsyxOkyz0isCdm4Q5Lkg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 16_3293825.gbx</file>
+		<ident>66LokqGsnMCOS2bLH3VXJUrPRch</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AI&amp;I#13 - Gravity Switch_12681858.gbx</file>
+		<ident>bq7B3RgZufJfBIazyX3TwfAkbYb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hunt The Record_25218.gbx</file>
+		<ident>gQDUrvjrSsf_XgKQRvIgVnB5dU9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4F_lol 171_7307908.gbx</file>
+		<ident>HmQDohARdiEPnmAwg0y3g2Hlaxb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lol Xtreme  01_4285067.gbx</file>
+		<ident>51Wq6p_8H56pXTKdAKJ6Bd7vbgd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Easy Zone_3728014.gbx</file>
+		<ident>Kvi5euz12RUu_WB1C5IKDyDRPfh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 20_3293840.gbx</file>
+		<ident>oIHchS9lA4vOpMMEVyUsjwGZLC5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\..a piece of Short/LoL.. 1_8667793.gbx</file>
+		<ident>epIaKKNFCxezIbnJnaDU_APIqG9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMR Beginners 21_3293842.gbx</file>
+		<ident>IHa60LrsEpuOXbCMFQRIg4YYidd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\S01-Race_10183316.gbx</file>
+		<ident>r8lhwrpffvO7qRFQWikScM7TSFa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fast Beginners_3113696.gbx</file>
+		<ident>Qvf6W_xCoTly37E8puO6td1ixDd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\(2026 CC Shorts W-S) 05 Speed  Zeta Reticuli_13083366.gbx</file>
+		<ident>oo0L66QsSDsgLontYC__WnMbRu7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech_8938213.gbx</file>
+		<ident>T4elq13IReYm49bGTffKHYQ9XOk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿Short Ã30 September Cup_10789614.gbx</file>
+		<ident>kxnU52HBBPEIk0Z0ys4HcHN6tBd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LOL Map No.15_5817079.gbx</file>
+		<ident>jawQyZmkgEuhmIsLv2PlSuIhL6e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for my love_10846983.gbx</file>
+		<ident>bQpkqp2tBBST9guQ0RRVvv3vGU8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demonmix$a0055_10101512.gbx</file>
+		<ident>4e2mjYtnctcBTYlPv2kL7nwzu12</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lovva°nAno°short°13._5776145.gbx</file>
+		<ident>DCdxTq0AtP_3O8SXrLrQnL9lP52</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ideal Path 6 (presented by ChatGPT)_10724117.gbx</file>
+		<ident>RsH5p9H69hxZkL06uLzfhRG4Ri6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\¬Very . Short 02_3547924.gbx</file>
+		<ident>HpdxQ87_WBANKM43O4A6Wz1iNyj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\saber recruit :TECH_7578391.gbx</file>
+		<ident>8MPid_EOzfGuwdr5NQtiDVudAJ9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Palmira_6374174.gbx</file>
+		<ident>spNv8QWaH8TH2HT2ONMKblSOZ39</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Airtech for Beginners_2073381.gbx</file>
+		<ident>pI_Xv4XQLtNRLjIavQHmlfRh4ae</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sunny Hunt #05_9700136.gbx</file>
+		<ident>yiBUTjjkczcLIvzE9jDI47vNErc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #9_12452651.gbx</file>
+		<ident>H18njxfJPR8Ss1rYbUvZR_g_0D5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\First Try (Beginners)_1467191.gbx</file>
+		<ident>IvEuRKHeYwLw5ubK9TGBI4Za_re</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Good Turns_10027843.gbx</file>
+		<ident>m2444xhIph_Kx_hcVzRw206_X89</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LittleHunter_869188.gbx</file>
+		<ident>Aq96t_qKjf4xV8fZDx8HEw08_O4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\elephant short tech 12_8348495.gbx</file>
+		<ident>uihyd9I2h3Ro26XyIWzO4d6SZbk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Schizobrine's herophrenia #4_11838288.gbx</file>
+		<ident>pq3I8MjPm3eFwyL9YvQOk3tITs8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\T-Beginner_2466640.gbx</file>
+		<ident>bZqDRjp5TBS4GpxiWJVzj4Ftk_j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\W.I.P_10683221.gbx</file>
+		<ident>Qpc3hv60I8YgegcnrCJdPHEQoag</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\cuthunt#1_10068823.gbx</file>
+		<ident>JJoaRfh8GkyLjunzLw1EuvTVQee</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner » Track?_2040666.gbx</file>
+		<ident>nRGcc5Q0nGorZ4REsbAVb3NxKe2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ideal path 3_10158943.gbx</file>
+		<ident>O9MJcHDfEbtJE7P7dDsF4679s0j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\all7_10781536.gbx</file>
+		<ident>qTJRw1mtOJBXBH6KmBfy1mU6cbe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Water Funmap 4_9055.gbx</file>
+		<ident>c5YfpOFsZGxPmAl4HMBTPmNlXW9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\7 Luftballons_6972265.gbx</file>
+		<ident>G07mkfD7Uls_5qn3N7swHmKC_7c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 04_5890924.gbx</file>
+		<ident>qN3mz4hTHshJAhprlLD2iB8Kvz2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 05_5890929.gbx</file>
+		<ident>IpmwnciRoVHNPrZGhML9etVncWa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 06_5890932.gbx</file>
+		<ident>5gCr5oV8vx6QyWju4CZil1A8xcg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 07_5890935.gbx</file>
+		<ident>18erKl5ZDat61dKkx2iRGucaXw6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maps 4 Humans 51_10855290.gbx</file>
+		<ident>VdRZNBWxLCSaMtgDbDRmWs0wubm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Awful 9 Frogs_10183546.gbx</file>
+		<ident>bK_pOZ7UOxHaWQqSmY6TSavUdJj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Summer Party 3_7455630.gbx</file>
+		<ident>N0VLEgSrzpd6zupf6GiX8ZmjHM7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\abobax_11830159.gbx</file>
+		<ident>3aK1ifzgYTwVxqvmlZVpQmZQOEf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Adamo - Simple - 2_8536980.gbx</file>
+		<ident>8V22gypuJYwGfbHivygpKUHZyK6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ St. Vitus' dance #1_10339228.gbx</file>
+		<ident>L5DaWd6OBlc0QlGINU33cBmKgOh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\v!bes short tech/5_9561002.gbx</file>
+		<ident>G14Zp5tf61v9ztWQrv_MVvqIfm6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\rr Short #49_8086444.gbx</file>
+		<ident>Ft5yvB5pOx8X8JFZt3dW0oqgYSa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginnerman_3326892.gbx</file>
+		<ident>XHkZ6PFeWWzCd_AeRruy03dhJCl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hole_2859952.gbx</file>
+		<ident>3diLK7uoQOU5LprujBRluUmNOB1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\All-Inclusive Resort_9323443.gbx</file>
+		<ident>aKSNqhJUw5SZFCiGu63yx43sGa6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\a.short #2_10863540.gbx</file>
+		<ident>mKaDmrKRoUgOygpPqO_qyNEcc1i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner_1_893879.gbx</file>
+		<ident>p8CRzmNAreSrIK2POlMHf_YZw62</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Collapse v2_10863544.gbx</file>
+		<ident>FBw7_AoMx5lUacRKVA_xvpGJMVd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Little Fast DIRTY_25534.gbx</file>
+		<ident>TNxGER_bE3fN1Py54RMAS_xACYg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\eYe  Beginners_2253767.gbx</file>
+		<ident>NOUUiWj_e2Vm3wHlUBnVf7_qNVb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[4]_2696138.gbx</file>
+		<ident>o79W82JeZgjE3rPf2iAbBL1AXt0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BAD Beginner Map - Switchback_10388428.gbx</file>
+		<ident>wIKFhoBzM7XoLoc56_gC4coycAi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fast 1/a_6775767.gbx</file>
+		<ident>eyLmxbWdWlZ52mOlrThYpJgNaf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini For Beginners .!_1958871.gbx</file>
+		<ident>NTxweyAFmboWCw03dYX5lVGubx7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 7_74716.gbx</file>
+		<ident>8Xwm5dPYgykboY6Il2lil0LTgxc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Schizobrine's herophrenia #2_10519519.gbx</file>
+		<ident>vxRMZ58Z5lQPQf0WcTZMUg0qLr7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\United Arrvialists_10806240.gbx</file>
+		<ident>Njk61BLGbJILT3pbU2xZQ2T4T0c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #39_312301.gbx</file>
+		<ident>SeIWAUDvACgEl8vFVoBCZ6fHCOe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #40_312308.gbx</file>
+		<ident>GF_qx2R62z0xPWLaSaaJjviZxk1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Epilogue_11068417.gbx</file>
+		<ident>QN8VwY17hOD8O4x5qGzgEZYhDQ</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\=IC=Beginner03_230403.gbx</file>
+		<ident>g2XaHqFdgRN9zaRsrN8HuKud8U5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #6_6423558.gbx</file>
+		<ident>_2au5ca1l3tLm_N4LnCVcLqbz_a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #4_11125770.gbx</file>
+		<ident>c9uH1i5xxEZz8PSQfMFgF4EEpB8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short .16_967699.gbx</file>
+		<ident>sXpUy31fD785fbnIufYecXDuDV</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Grip 2_8725526.gbx</file>
+		<ident>AXztRbCD3pCYCm8sDkIkGWpk36</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ETC #50 - FS Trajectory_7447582.gbx</file>
+		<ident>FjHEqdEVafAv5LIbtr_URjNRsSd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mal wieder eine beginner_3294273.gbx</file>
+		<ident>v_Q30X3Tsgk3D3fSHq8uGySGKoj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\eYe  Beginners 2_2253889.gbx</file>
+		<ident>DqDXlf2f6spGz2vjZV3pUbQorw8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\arc rider_25674.gbx</file>
+		<ident>13b2o5IS9TuBeJ3VYq8lLJeub7b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Arka Campaign: A01_11707469.gbx</file>
+		<ident>Dyy7aR88dC3xRIMtrdVVesAHzl9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[14]_2729040.gbx</file>
+		<ident>z_IKVDi0iraYXdFLFvv0Kitt7q6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShortSand_17489.gbx</file>
+		<ident>y9raaduJ45TwLwzKnU6gajThEGm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.28_11150421.gbx</file>
+		<ident>OMWxqhkFNtusPmZ2cMXOD6ZayNa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 16_9610327.gbx</file>
+		<ident>5uih9N9zqMB64Pz8_qP429RaKHi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[somethink] LOL 20_7701593.gbx</file>
+		<ident>2phrpwd18znTZi9p6oXGFlpomI4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Arka Campaign: A04_11707492.gbx</file>
+		<ident>JwYZMkzos5_NTWwhOzmFuSeXCWm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner dirt_10339452.gbx</file>
+		<ident>z6rLC0NfJHOWy8nxY6nRTYNW3ba</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners_1049726.gbx</file>
+		<ident>rvMYvIp6ePrPB9rPOVtKyLSTmAk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AGE+ Short Tech#1_8660095.gbx</file>
+		<ident>F5QqTI2J9PsBi9mrpPbqb3Gtmoi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Run around the clock_10683541.gbx</file>
+		<ident>qegSnbxBdL2YKMrE22NlOIZGTb6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AMD  TECH   c  (30)_7349397.gbx</file>
+		<ident>shM6OgvCcCldOJApJcviTyBjmg6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[20]R_2745497.gbx</file>
+		<ident>hG3G0XxwkKBxzztemEr1TlqVob4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\????h-LoL  04_6710428.gbx</file>
+		<ident>99iRFE9c5i_NQKYM1X5vcnErao</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short 1_8201377.gbx</file>
+		<ident>g_X2stvoe6eLKSpkqEyQpjc_i80</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\«ｲｱ» Recruit map - TECH#3_8225956.gbx</file>
+		<ident>P3SixdHscX3g8tJ3sNidJFqrnnc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\cut map #02_10863792.gbx</file>
+		<ident>zlN35rY98V28HIHUzH09djPJb7f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[FullSpeed]...just Beginners_4441297.gbx</file>
+		<ident>m14PEe585wEF7dp4g8HkLRgZVjj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision #37q_10241251.gbx</file>
+		<ident>KOmWptDLppAOHbhWjOfCuqoTFdc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ St. Vitus' dance #3_10347760.gbx</file>
+		<ident>tcgxw9r2vaxwSrwGtfmCVXJ4rfh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pr Beginner Mini 3 /offroad_2368755.gbx</file>
+		<ident>X1gNhN3Oz1NKMqA24Vxufhjqoo6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pr Beginner Mini 4_2368764.gbx</file>
+		<ident>BH1mzzzH0prDOmFrcSy5XgmvHrl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Map 1_7488769.gbx</file>
+		<ident>1kZfYQviaVZfSWEdhAySiLYXCob</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#002_7546126.gbx</file>
+		<ident>P7dAucPMFuFQ7ylX7ol9ogRYOj4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Blewberry .O'_13165840.gbx</file>
+		<ident>vqsQOnnbYIt2_ZbMsKMHasDAaek</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FS Nightmare_10020122.gbx</file>
+		<ident>SCGGEjeXxsS3m7kTX7durb55sXi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\russian tech 1_8291633.gbx</file>
+		<ident>zCw6mMHUNYVcKMKvPCZwGhuCa2k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Povu_3450163.gbx</file>
+		<ident>OD0CZX0KI9t8vUY1C3potBQQnoj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\!EnVy gt; gt; BeginnerFun 4!_8209730.gbx</file>
+		<ident>f0WJhNqDIeuZT7ndDDtF3bFNey6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #16_238929.gbx</file>
+		<ident>_5oqhudCpaJfpMXX9AdsdLlDH0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Scuffed_10085715.gbx</file>
+		<ident>SfyrqFGnIBn3OUNE7HzxkytMoRe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ St. Vitus' dance #2_10339672.gbx</file>
+		<ident>z_i8CcUGr8o1lYXyYNxUZdtqMe3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\P1-Tech_8250750.gbx</file>
+		<ident>91GqaevPqA68JKhMXFYGvjmSW0i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demonLOL$f6050_10085760.gbx</file>
+		<ident>6tk64ZhoB2mYLjUTwIQCj5YQMc1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demonLOL$fcf46_10085776.gbx</file>
+		<ident>HjcNGIXzd9uHxli5eTnuaurA_Nk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short 043_5924245.gbx</file>
+		<ident>N1TUE2gS1JFWdLk_l81LBifdMT0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\This isn apos;t a beginner_2631069.gbx</file>
+		<ident>L98hgXx2sEC2anYDYLoUB0tMnEc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Track! 3_3458464.gbx</file>
+		<ident>fivHtVFAd5JRulN1cwPUwryA629</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\your move #9_13223335.gbx</file>
+		<ident>Or_tmE7tJcPKo84oAA2knNh3kjf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#4_10503591.gbx</file>
+		<ident>zAWZpK1NtfMgbr0GzRUcKByB1L</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\F = ma_10855856.gbx</file>
+		<ident>J1zqqZ7zmmsgDOqjfoQ0Xsf8raa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\long  mini  for  beginners  #4_1172926.gbx</file>
+		<ident>_AZH86Fu8sHghg8ERYwbvUoLSvd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Back to «Ðee? A.»Beginner 1_2467263.gbx</file>
+		<ident>ENi6xfx4MJHYnKNAjy4ppVayfT5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\shorty #11_6686151.gbx</file>
+		<ident>ztT8zmphUt_uQUXxF8BpDPusg13</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pokemon 80 - Slowbro_1148360.gbx</file>
+		<ident>t1YTdTvCsH0tFEqKEDR2drrubfc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech 3_99783.gbx</file>
+		<ident>sXgqEPdFgbFWQzglLZ7aMO918cg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Schizobrine's herophrenia #3_11027918.gbx</file>
+		<ident>z_byMG2X1XtyZ2DWBr4VLiMfCW3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dirta_11044306.gbx</file>
+		<ident>i7v90fR7awNNPJ4sZMjrjhVBppf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\©ª??? 17_4269543.gbx</file>
+		<ident>FYM3LlqY_GDrL9LbE1yzSdDUoyc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[Fruity] Drag_1025517.gbx</file>
+		<ident>so4q4_Lk0dizUlGtJ2ePiQnDEAg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Grass_10683890.gbx</file>
+		<ident>sOLvi0UMje_jkM21N2Vmy56_19c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Airtrick_10831358.gbx</file>
+		<ident>pG8CBLvNb9_rcIGM_DLoGEql3s0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lool_26114.gbx</file>
+		<ident>3ihmhb3ChCEecynDLD3AD3m97Ej</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\III Hollandse Grasslide III 1st Exit Practice_12019212.gbx</file>
+		<ident>xizYV6TQIwK9WN_JtzSUEX1W0Ib</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trivial Tech #6_10061326.gbx</file>
+		<ident>8Z9CL4SrV07Jcy4DsQhb5SAKY50</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ApoRiS  [TECH]_7505426.gbx</file>
+		<ident>JWWc8ikmFwgbu3NqzEt75six3Jh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Minispeed004_26135.gbx</file>
+		<ident>k7pj6pTAZuPXZTWv67pfm506dZe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech #11_116258.gbx</file>
+		<ident>jNSUpgR98hwW4dbm6NfY_WYyk8e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech 4_99880.gbx</file>
+		<ident>PRQlIl1m5WkqDgyNZcRoSgs6x26</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short 89_2229809.gbx</file>
+		<ident>GeePWWOafR_nhCmnmLOAbki0GEk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\$123GBR - $678The  wallride_18010.gbx</file>
+		<ident>BACd3OPcUTbVlO7VB409QslP_t5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini GS Thing_8603228.gbx</file>
+		<ident>STduI8X1gXhyf00TeLH_QufbsN</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\minibyturtle''e5_10085992.gbx</file>
+		<ident>ayqydJsx9b_eczBPHR5VTYQfjj1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 3_26229.gbx</file>
+		<ident>5HkWqJ_DLHhddYXU0QUkov5IEC3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MTC 9-23 "TheGr8Divide"_10806903.gbx</file>
+		<ident>nH9P7wNrdAtyxc59sfFqotzmVP0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 4_26231.gbx</file>
+		<ident>vz4KsKJKjmuDYmqmUAilvKHXMI5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 5_26233.gbx</file>
+		<ident>_U167mE062OnZVYld4QXsXK1Ho1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Map 1_10339963.gbx</file>
+		<ident>P0nCJKjHUqBEG8ROs9KXUceRwBe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 6_26236.gbx</file>
+		<ident>XjNX4Cf8ptWa2PR3bPSTZUXKN_5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[FS] Beginner Course_5392003.gbx</file>
+		<ident>0YTsXX4AsHWf4Th_kq4CS5SuZ3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 8_26245.gbx</file>
+		<ident>yj5SxeNskOnO7VhVx6FziGExnq2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 10_26249.gbx</file>
+		<ident>h0SY8NXqhMaou983_tGaF8hyX23</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 11_26251.gbx</file>
+		<ident>Pr98cxUFzUUROUZ6O3ffxjyZ6w1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#G_11855500.gbx</file>
+		<ident>NXjozQBrZ9cAlb0VzY3IjACmxke</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 12_26254.gbx</file>
+		<ident>XGdEZtWRHBhkaIPBTpuV2BuOCfa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech ? #1_9135761.gbx</file>
+		<ident>fM0Xsfb1tqWWK8evFq7ERaFieMb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AMD  SHORT  (9 )_7341714.gbx</file>
+		<ident>vudssFOKotW5FCS5jTITDs07_F7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner #4_4613782.gbx</file>
+		<ident>LF_jvfBe9WygGmMRSuQUKv24mLj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech #1_10086039.gbx</file>
+		<ident>xGiK5W5l9K9vhpEV7istudxxq11</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST  TECH  +++_7661238.gbx</file>
+		<ident>2H0wvPIJajl7YuqO95Jle0dOA9i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 05_3385026.gbx</file>
+		<ident>P9l3k98Bn_tn57UO2JG_atgaGK7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\skyfall*_10757830.gbx</file>
+		<ident>oyQ7ddDBf4d9oAKuj4oUxPodj14</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner's Map  #1_288455.gbx</file>
+		<ident>Uc2YCLSiZNwyS23lSiOHsa6e_Td</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[7]_2713288.gbx</file>
+		<ident>2lRdsW4Rc20GynnecUOOpUj0ii4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST   TECH  LIVORNO_7620309.gbx</file>
+		<ident>NtgNJ3Uf7ehejuYEZc_U8qUoHe9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Basic Short 11_7997150.gbx</file>
+		<ident>Oga1qftUA9Aw_NBUX5o7Kx66Zrk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 06_3385078.gbx</file>
+		<ident>2qfx1dtbsh0utylyGSaqrWQLTD6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#005_7546615.gbx</file>
+		<ident>YLu4EkjsLeLe42ghhemGW1yYkRi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\shortflathopping_10831609.gbx</file>
+		<ident>IqehMenmT0ce8OEkMKTeTOSf9i9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#006_7546617.gbx</file>
+		<ident>nEPmhBr3w2wb91wDF2Fx_mq0pBe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini tech_50939.gbx</file>
+		<ident>CWkNBP81QhKJ72QbYkhVkLYnJMi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wedneday1_10798845.gbx</file>
+		<ident>_M8qvMHuryFlTyPehOwgxQHTbb0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wedneday2_10798851.gbx</file>
+		<ident>qGasilK5NCOztKx_Ztca8ZGZ_Rl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\omeqmania40_13059854.gbx</file>
+		<ident>rR6zwRHqmIOBV_joYisBhe1LxGl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[4]no cut_2696981.gbx</file>
+		<ident>AzZ0u2miVmsAiZ4cjbbekNF9rta</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\High School all over again_9266967.gbx</file>
+		<ident>lD69GujrbHncehFfWaYJexsKbQi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.izi TECH series_1_7702306.gbx</file>
+		<ident>jouqspucE3koZ_GvAIGZn1mOyF2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fun run (Part I)_10725158.gbx</file>
+		<ident>eeSeoptLxBzFHXXfmnA4Jnl92qg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.izi TECH series_5_7702315.gbx</file>
+		<ident>7buPN1QEhTP2KCH5NVv6SSjs4c8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 17_9611068.gbx</file>
+		<ident>QHPoRnxrezr4_6W4iAF06_1WWSm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ 4AllPplTakePartOnMTC _10807102.gbx</file>
+		<ident>_mxsF_p_bRl8cctA_TKf0rr3hQ5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ map for courage #1_10340160.gbx</file>
+		<ident>_OrBGNvrm21b3LPwpvr_vw2LA59</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FAST track #1_10045256.gbx</file>
+		<ident>yPyz6p8UpOHUOUh61dlnhUteHx3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 04_3385161.gbx</file>
+		<ident>UNp9GwFCcRV6KD1dRwqc4xfNY0k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FAST track #2_10045259.gbx</file>
+		<ident>qJnu2AmRcx6qtLr2dgpaZIe5uh6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bleckomania!_10446668.gbx</file>
+		<ident>p6S59VJVEcbTsEenIQJ3dJOXHAc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\use your head_4589396.gbx</file>
+		<ident>Px28YnHzhXUP3hT9N7rqssrFPI</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maps 4 Humans 45_10725205.gbx</file>
+		<ident>54w7uFxW5D4emrkshrEp3Oj88Xm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\The Ultimate Drift_10725208.gbx</file>
+		<ident>YRZuOOsdfoTaULbaPzeTfJtCsWf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Idk #2_12773220.gbx</file>
+		<ident>3GuUN8gE7UmuXisfycSj3b8wKo8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST  TECH  4_7587694.gbx</file>
+		<ident>oNG4XaprDkHDemplP5BtFOBr9Kc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport A400_6662016.gbx</file>
+		<ident>5mWNEGZ8AoseCTNAPWwRorF81Qh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Szozs Said So 4_10807165.gbx</file>
+		<ident>NNIJzRBZE8Ft6l4_aB30EmbXK1e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #96_10094463.gbx</file>
+		<ident>0OzFZQmJGgWrlFkTPq48EIg4kK2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maps 4 Humans 47_10807168.gbx</file>
+		<ident>HzaDMI5PopUbtyZPhLzPo4aVCy6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech#7_690082.gbx</file>
+		<ident>H0I8wmBdjsH3f6ZhqEog1zQ5dJa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sala's Pro Beginner_10389439.gbx</file>
+		<ident>YazoXmqAhcoF83m337weLPAAJl1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MudNoob_26564.gbx</file>
+		<ident>Nbzg4u9fTTZqJCr3ZVsSo6tUju1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bocchi The Rock_10053582.gbx</file>
+		<ident>IAiInt4mWKOaYk2pXt1bMNINAs7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map26_10053599.gbx</file>
+		<ident>Vjyrec2NLEvAwQzZZZQftterGGb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw? Things #15_10102752.gbx</file>
+		<ident>p4XrzVqmfikVOsSyGhD7_T4yNql</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MERCURY SPEED - TECH_7604193.gbx</file>
+		<ident>jpmYuWhK3M6iom4uW8OwfvGzKb0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\impossible author time 368_12019684.gbx</file>
+		<ident>JsWxW3uDjG4Ivl1YN3F11DVek42</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pokémon 056 - Mankey_10725358.gbx</file>
+		<ident>SO0jydCQLKa8Dfu4AJHRJXfBhDi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Barbora_12208123.gbx</file>
+		<ident>_eZJojzPnHp3I6ijfae3PNBwLX9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\useless tech map thing_8849416.gbx</file>
+		<ident>3mW9dUjlhen21sRsQ11e2Y2TwPk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TC CUP #23_6957066.gbx</file>
+		<ident>JJttDWiN3G0CZo5V071tJ1Gs4H3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FullSpeed for beginners_7112718.gbx</file>
+		<ident>CTz7q8a9FsQDHEp7S1ghOtS63ci</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Skrub_6105118.gbx</file>
+		<ident>jC9Vntdqnnl961BskFKe1r0_d9e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners|Hunter!_2467876.gbx</file>
+		<ident>JpYUwefcI8iw1RmurklaFO_EMfa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#B(ver.C)_10856488.gbx</file>
+		<ident>RDBp9a8UKt6Wibo83wdY2F8WLYj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lucky Jump LoL Map ExGwen #1_5834805.gbx</file>
+		<ident>ts2DAddTUPHKe2cmCe_bOsF6WQ0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fun run (Part III)_10725437.gbx</file>
+		<ident>WxR93xxl7epFwZwdI6ANBh7uNrd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision #37d_10184765.gbx</file>
+		<ident>rmForv3nH2XAthVnwO24PXlwnsf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TigerLoL  Tech+Lol #8_7612480.gbx</file>
+		<ident>Zx8TOEgDZiC7qgBAvsY6EO_Edw0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech #2 - 2020 - without cut_8030273.gbx</file>
+		<ident>_Ybx9AZWrQMNg08kTOiGxdsBQck</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\N.e.t.w.o.r.k._5613637.gbx</file>
+		<ident>yvrbA55gBv5RwCl2PvLWXG9t1Hd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tiny Tech_141387.gbx</file>
+		<ident>xyh1RnuA8CUod6HmYirgGjjBwz2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EisSprint_26712.gbx</file>
+		<ident>IrVFIWRCJ0EoeeDpXuaSYYKEYpb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini 1_18558.gbx</file>
+		<ident>0ohvKQyWVgabHvwuyzxw20z_1Ad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Simple Tech_10102916.gbx</file>
+		<ident>9YiILBzjBCnsr1FxPaTqxZGKRnd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 5_2173080.gbx</file>
+		<ident>XFO197YxbbptCQ3cPIdWCwu9iCd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\|6u40| Tech 1_149656.gbx</file>
+		<ident>S0xQHdcPNNwBkLB6fFmwtdALIWj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 3_2173082.gbx</file>
+		<ident>0uLEBuejvQf6mIpAVotVW8QJa7a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 4_2173084.gbx</file>
+		<ident>r0p6mhgMLc3JxOQcpEXCJ2ISmcl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech-Subject v1.0_8636576.gbx</file>
+		<ident>VPJ8UKoIzGp3qZy90xMoj0Gy2vg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Funny 13 (Beginner)_1730725.gbx</file>
+		<ident>NwsBtTggmDR0LlzbljXTwvDBOf7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4a Ðagð´s beginner 1_2984115.gbx</file>
+		<ident>ulRLbviqm8aK2qvQ2nY0nRsrdm2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Berrymap80_10807476.gbx</file>
+		<ident>xftovynd26zXLUyISdEdbWdmfv9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Tech 01_3623098.gbx</file>
+		<ident>G4MjcldrvT9pOzOe8KorUTqlhY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dropdown Grass slide_10471622.gbx</file>
+		<ident>1IQECn4R5Xhl0Y53WbbHuhIR7xl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FS easy 01_8571108.gbx</file>
+		<ident>JI56nq4N6nbem7cORfVvtQiX7a6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WS|Map #6_12249320.gbx</file>
+		<ident>j1WOGJSa0A9aniBQjqSpnCLrb4n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ccgyiuibyi_10725610.gbx</file>
+		<ident>F4MvZMpLPSvl1iqgDDatDE1EJK0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\speed_limiter_26872.gbx</file>
+		<ident>yHmAXMmy8IoJdzAsENpMJywz_9a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Shortspeed-LOL-loops_3279107.gbx</file>
+		<ident>reY1m_jpZPuAt0OvJySbLd5Ei_h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 01_12437766.gbx</file>
+		<ident>ixYhptA4GmmnmN68TQV2NvZddn7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Black Hole_10053899.gbx</file>
+		<ident>BED5JxZgQwog5cqG5JMhiIiMYO9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\all2_10783001.gbx</file>
+		<ident>_zLXfbmtUraspm6JlZQW4X8nQqh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dirt Raceway_10053914.gbx</file>
+		<ident>1zRUF8L7kf3c9XADVuXpwaB6RM9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Orange Heart_10783018.gbx</file>
+		<ident>VymQcC4A5Nm0pMAPF75iTC_LEch</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TECH  BEER  !!!_7686443.gbx</file>
+		<ident>itSOSEg8w0fIbwp4hJGhdDYH0Y7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Mini #1_6981932.gbx</file>
+		<ident>FkZQxTPPjJZMuro4NksUx9Crirh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ÐE??@ Maybe  FuN   F S  12-2-20_7711023.gbx</file>
+		<ident>NZ9hJdXeFceU8KXK9smiafLUsyd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\VARTA  TECH  1_7579969.gbx</file>
+		<ident>7nJPFE1KUKa2DrTC_JuWeuBHHz6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\GO!!!!_67916.gbx</file>
+		<ident>ojqJv9bKSVP4lnxQS1N4Q2Cusfk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ÐĘЯЯ@ KoRtA  26-6-20_8227150.gbx</file>
+		<ident>uhsTh39zAt7N13XAs5MJVF3B789</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BeginneR_2533712.gbx</file>
+		<ident>RYY0m2Hgy7l9GsWvE88buJpfK07</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Fast Drive_5564754.gbx</file>
+		<ident>CuyDaASSlf2JO34QLRNtjAd2d72</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\rancom_10783062.gbx</file>
+		<ident>LP7JQrK9tHG4_WElGpc6v_wem7g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\YanHua煙花ツ_11069802.gbx</file>
+		<ident>32XFbzlACXXafQGohGHMRNgsVul</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Puzo-Tech#6_8145261.gbx</file>
+		<ident>bbbkmGBPaRd_UW6IEW0ToBB5KH2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Up down and around the pool_10045808.gbx</file>
+		<ident>lhGgv0q75BAn_wqqS7cP6D7yFWe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demon tech $a0053_10094961.gbx</file>
+		<ident>9WVZo2s00hP1s67zNP8ANzmUhz3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*42_5638519.gbx</file>
+		<ident>sJwmSjHGgd1CRrQMzc7sPdmjZFa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #12_231801.gbx</file>
+		<ident>erBwj7_gwknrKLS8wNukaoHu7W8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 02_3598714.gbx</file>
+		<ident>OAynwjjkMFGYh1ctr2S6Y3f043h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*46_5638527.gbx</file>
+		<ident>Z5a3Vc9h3It1LTfMJPmgj1TVwV0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Uncanny_10045824.gbx</file>
+		<ident>_ANADMREfWQTRRMtv7pEys0y3y9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*47_5638529.gbx</file>
+		<ident>zci_G726DEqPyJkkGOWhdsGq004</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*48_5638531.gbx</file>
+		<ident>czMKWf_vexOtDls0VWMWmnFEF_h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*49_5638533.gbx</file>
+		<ident>ibwAc6tapguIK2AktyW4B32x8v7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#1_67992.gbx</file>
+		<ident>6YO6CYTStNYI6WMpy_qf0mDAx58</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿à¤¿Î±à¹Â² IX Â¹Î¹lÎ³_12020125.gbx</file>
+		<ident>U2jahkQXnUhrVKKD3PvS3IOC_Ta</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#2_68003.gbx</file>
+		<ident>G6ZeeBwBJY0aH_oC95ONKOsG3U</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #203_12364199.gbx</file>
+		<ident>vaBEEefHl2vOAteC14M4EuVVJxh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#3_68007.gbx</file>
+		<ident>6R8SvAl4ZEQzyIrKE_3_90Izb6j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A3(budget)_11831728.gbx</file>
+		<ident>SRkeoHJGSvR6RYi8AzkapNyf0O8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#4_68017.gbx</file>
+		<ident>Px3ZIskRHHXqzWaPufkhznc3c8d</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\»Small Adventure #3_10095026.gbx</file>
+		<ident>wuAdhk4FCNoiaNrHJ2rsrvNRpTl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#5_68023.gbx</file>
+		<ident>DHvWDLhtBawRhYKx3slh7UunLS0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Shorty *20*_7571901.gbx</file>
+		<ident>RsljHpa4Krx2XuY4jIddlOhaQ29</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#7_68034.gbx</file>
+		<ident>__GZ_G6kKQWVcawt1p8OJCvEcLa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Every Style #1 - Tech_8538564.gbx</file>
+		<ident>Z2XHCuZYoAHMpZcLMTXqlPTsn5g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\very short shuriken 3_10144204.gbx</file>
+		<ident>1jWzyncU4CeI1yMeZCRF6EQh6ud</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#8_68052.gbx</file>
+		<ident>vY3fC_fW3tdg7PvzNJb0OCjCZl8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\klindra13 Jan. 2 23 Simple_10054104.gbx</file>
+		<ident>antGA47iqdFL66aJolS_yJ2lTt</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\easy short_95_10004956.gbx</file>
+		<ident>okWryJo2yKozJhBChIgV4OmfZP9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#9_68062.gbx</file>
+		<ident>zHqTrnTfA4cMup5C9hGvl_nfnRb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 1_68071.gbx</file>
+		<ident>aCXBH974kgUnjUdD_B5SCRHHmSf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MiniMania_1772010.gbx</file>
+		<ident>HwUfjqwEQF1QVBtbBaxCG3oLrq</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 2_68075.gbx</file>
+		<ident>FwKm6YomKSGIGsGyw0ZbK3Z6al0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 4_68088.gbx</file>
+		<ident>XREgLEkzPrhKkPkWCDm6vgwkch5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 5_68091.gbx</file>
+		<ident>wS5JDOQM6aFZCopzEosNU5ILai0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\i dont have time to build something good_10848769.gbx</file>
+		<ident>b3AiT_Q6vNBQH30qGeALYYV_P5k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\water-tech lol 03_7629314.gbx</file>
+		<ident>Eanz_v8gTgE_ISbKhNrSd82uot5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[12]_2722305.gbx</file>
+		<ident>MUfopeSrtoOOvqwaJ1YJ4IyvyBk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner#10_68097.gbx</file>
+		<ident>0TTKt9RGc5lXGlGt43JAO1EU6hi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TigerLoL  Tech+Lol #9_7612933.gbx</file>
+		<ident>sYxpC1yYiyI77iz9yxisveTTPM3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\028 Micro_3238411.gbx</file>
+		<ident>lRHuxGJXuX_WblaEn688QCket66</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#6 by taktischer_10848785.gbx</file>
+		<ident>aMnRoCUpQqpyUpYQ18Ebb3ilOC6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ideal path_10144274.gbx</file>
+		<ident>AX7RbymAt0VIP5Iw7ozbtrPlsP0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#3_10488342.gbx</file>
+		<ident>lCTC5xnVF5gkjpCvxg_TwFWZyF9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LG  (TECH) 6_7424544.gbx</file>
+		<ident>EJmDDOzriDMTnGN_6DAkBesKd9f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Darkness Network (beginner 4)_3394082.gbx</file>
+		<ident>OiKpbVlx26JIUT0cDi_t2OeCg3e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw? Things #18 _10119720.gbx</file>
+		<ident>EkuGTGBnH62_MICL0M5lHBFofAe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Tronio - This is LOL #016_9472575.gbx</file>
+		<ident>Z15OTc1Jbm8rCinGWcZA4Zpsy0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\KbR Cup Map #4_8268365.gbx</file>
+		<ident>zFbhyWgnuTIwlrpPBSwYlDeMZod</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision #37a_10168912.gbx</file>
+		<ident>5JAwjXrOuuMmOJ6pzfpqAuwfLu9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short #53_10119766.gbx</file>
+		<ident>eNyKM2HCuyeDkZH9KtYe4kuFhng</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner »!«_2042454.gbx</file>
+		<ident>yOxVmqNrAKAXj35y3cQce2weEv5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500ccm]Mini|Beginners_2689625.gbx</file>
+		<ident>b944qcPR92GTpbAocwoL8aiRSq9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Smokolol #2_12733044.gbx</file>
+		<ident>y60BWXKVK8fV9C0F_3oBZSTlGd1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 02_10078838.gbx</file>
+		<ident>RQCSVOyKd42MOJLwOhW3cAHPp98</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 03_10078841.gbx</file>
+		<ident>PzkD2GCPONJgaA1_mGZiLpPzAN9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 04_10078844.gbx</file>
+		<ident>Vst9C9QLeUDTJ8VRko64IL01Fe9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 05_10078847.gbx</file>
+		<ident>uLjO1SStiQBIOdJ_T8WhejbnCK4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 07_10078853.gbx</file>
+		<ident>dBo9BvOE2e0ZTuUH0vVdWcQGLPd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\the mini lol beginners track_1895046.gbx</file>
+		<ident>sMXDfotyHx_wjIQz_INkBLc7U2f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 08_10078856.gbx</file>
+		<ident>QbIT9mQJDngK5QM4sPy_0arEEHj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Skiing_5319305.gbx</file>
+		<ident>E_OOm7ps22jGVd9N4nkf_8JwN4g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 09_10078859.gbx</file>
+		<ident>X0Y_PRuADOUV_m78xUnVwvyCa6l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 10_10078862.gbx</file>
+		<ident>Pnk9kOFBfleEnrhj3Y0ocyxVaD</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 11_10078865.gbx</file>
+		<ident>9B3FpL8Ge4yrau1Zl2co1tOYhz1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fullspeed Mini Tech_7637650.gbx</file>
+		<ident>nCO5HMqReCKGJviteTvsuKgSsE1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 12_10078868.gbx</file>
+		<ident>rmxtpuPMOK7g5_UYcyeSbmdbpqc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #7_6425237.gbx</file>
+		<ident>R9gUHXt9PjE7cFMa5r1jSTfHMZ4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #8_6425238.gbx</file>
+		<ident>qHAy1K1IFkehuvDcWM_LnR8y8T</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #9_6425240.gbx</file>
+		<ident>_J4w1SvPpaBAHikX3MvKG7Q4EUd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 14_10078874.gbx</file>
+		<ident>9ns2LKSvODfmA5zkPBZWK_oLFTm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Winter Campaign - 15_10078877.gbx</file>
+		<ident>kwHTiM4yIp04QHGpTswELLjZ4Se</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kattack Cup (no cp) -20_9046693.gbx</file>
+		<ident>RgICmNPzo1wQZGsFf9LDCd5nqwg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Simple Map (My First Map For Test)_10169002.gbx</file>
+		<ident>UCMyCh6tKp6dS4P2BU0KyQzUGLe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short tech 3_101034.gbx</file>
+		<ident>1ARU8zakch4QYttiOqYXmNNKoEg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\veryshort gs :)_7195314.gbx</file>
+		<ident>S_pb9kCqVM_s01CjWRL1wKF9Nt0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Teryo apos;s Simplemap1_4860600.gbx</file>
+		<ident>lm5iizpn7WvSELtqjtyOjvOJrz7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tzigotrash 001_11668158.gbx</file>
+		<ident>7wHhELMtkwT2z0p40oqYSgO9S6b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini_Tech#3_8686300.gbx</file>
+		<ident>LMoaGxmvOb2LjGzvjK0MMf99Pd5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very good Tech_8563422.gbx</file>
+		<ident>UEcY_HGEWL5FXfntpsbzM3Cwr_m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-FS#2_7277278.gbx</file>
+		<ident>6RTz9vSLE30Ikr_6LNBNtWVncR1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Speed Mini Tech #1_183007.gbx</file>
+		<ident>SisaIsApbKxTUqELyxz5v1sZ9kl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini For Those Beginners!!!_944885.gbx</file>
+		<ident>VgHEseUP6gmNxWtrb1w_gFzqeT3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium A4_10824439.gbx</file>
+		<ident>eC6BlKs1Vd889cCpfWVlvnCHJu8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Medvi-Tech #3_7711481.gbx</file>
+		<ident>5WN5vS5epSwQr1vY_oG69YUNyw5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tm Turbo DS Stadium A5_10824442.gbx</file>
+		<ident>f0lxDflCgCWDsQF2rqWw6n9dtOd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short - Beginners like_1215237.gbx</file>
+		<ident>EC3lGdOB4P8M1rE0n2_wT4jZitd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿~WorldCup1#ByRonã€†_10857230.gbx</file>
+		<ident>XgMV1LRc5DAOj7andEEAZqeRA8b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drifts_1362716.gbx</file>
+		<ident>56SvAvp9hCJamLWeHyGfiSJSRL3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Nex»CepTiK...8_6212386.gbx</file>
+		<ident>e5vob1uqZ6NF1wUjcW2OKGn2Km2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WS | Map #8_12266289.gbx</file>
+		<ident>E3LjlqtyHKwiR8Zve088oq1Srx8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Nex»CepTiK...9_6212401.gbx</file>
+		<ident>oP7R4wgOYwe0F05H3I1UCoJmu13</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #84_10029881.gbx</file>
+		<ident>inqbgR7QVWRi5EynNOxpU2cKBmd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Forever 1_19259.gbx</file>
+		<ident>s7GNq85MjY11gRwMaLl8nmJsG3m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FS-Mania reloaded_19314.gbx</file>
+		<ident>JbGz0jMxKvx7HIYaUOeiTWVjlN3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Find the Cut 1_9571194.gbx</file>
+		<ident>RcrKBwnjNPpgOOVWELPBjdpqva</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LH-015_10079105.gbx</file>
+		<ident>g4M8eiWnOFELe1AwxqoHTbGljh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Dirt_10685321.gbx</file>
+		<ident>GXXaVttd78LMIXl_enMp3xsHmzi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Smokolol #3_12733325.gbx</file>
+		<ident>qgpI569jDW5GSVRja6a2jccfHc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Area 51.1_19353.gbx</file>
+		<ident>hrVfYgXhkIy5B6gQCPpkuEZs6m2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Tech 3_5622689.gbx</file>
+		<ident>iwRRFEFW3SeLfhmG2SG3HohFVPe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_19364.gbx</file>
+		<ident>THRegnV1t6Kji9vTumBhfVAan0h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\First track_10079146.gbx</file>
+		<ident>BW_WBepRx3U4ZtTNSZVJwxn0xe1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Subutech_10521539.gbx</file>
+		<ident>bDKxp5I5bV_Wo5V_DwzcLvKt_j1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HD TECH SEASON 14 CHAPTER 2_11692997.gbx</file>
+		<ident>SUZqnTIKCW8TxIWd6CEovwMeKtm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\???»1_6056908.gbx</file>
+		<ident>tcuxvcu9yZRPQ2dZuwJz6SVI2Zh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[6]_2706388.gbx</file>
+		<ident>cv60NXkRdXxKHOweamTd5UvANAb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift-4_1010664.gbx</file>
+		<ident>QgsJSZGX_sPyiV4ysNLQaFcnQdm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Idk #7_12831725.gbx</file>
+		<ident>VAeK_E1tytLpWb3nBsIoPIVieR</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 07_3755002.gbx</file>
+		<ident>iLy9_W5k9GIT9Mat7FblExILBO0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift-7_1010692.gbx</file>
+		<ident>VNqVKf016OXXAfQvZQSXcT8WTB4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift-8_1010697.gbx</file>
+		<ident>9LaVqS307yp8wzGUzuUnWkdNMj2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Turbo Raceway_12012564.gbx</file>
+		<ident>epsvKCnliG8i_9sukaenbdUD5Yb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MoonShadow - 15_8473633.gbx</file>
+		<ident>86Jh3gDFYO5cwuomAFDwwHDdSZ3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\378 precision-loop 05_6523939.gbx</file>
+		<ident>KY3j6pGSF_fjSAeR7cBKR3VAUf9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 11_3451949.gbx</file>
+		<ident>p2ikPqHg4GMg9YkqJxlcZmrAX69</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 1_5516339.gbx</file>
+		<ident>z4T7r5_X70bxSigyWwSDm1pYeU4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift-9_1010740.gbx</file>
+		<ident>2T4aFtdiXvJxZl8P8yNIbb8t83a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-FS#5_7367734.gbx</file>
+		<ident>sfb7zjLmeKl6FZGyCLSEf8zKIYj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 2_5516342.gbx</file>
+		<ident>sJw4gVZCwlMEVJn5hGTvym7hue5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 3_5516344.gbx</file>
+		<ident>grEmR3HtFkreQUNG0v4rOBGJ3p2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision Drift_1125434.gbx</file>
+		<ident>6SowwdJIfnEUL4F1TolGQMvFtWc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 4_5516348.gbx</file>
+		<ident>unTDGhvfFeLhsVXWofJ2BmRLOS9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Towers (no trees)_10726470.gbx</file>
+		<ident>t6B_77gh6hQKaKLVJW5tKDpFcBe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech tech luka_2493531.gbx</file>
+		<ident>M7VXDQuy8yQxpAPobnp5A_C1iu4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_27744.gbx</file>
+		<ident>Fv5Pd5MxYvsTW8ikHqc1BRTmuTg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track lol1_27746.gbx</file>
+		<ident>ZQgI9kPzjPIjg7qcC_rUejxCYqh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Top-Beginner °1°_1461347.gbx</file>
+		<ident>Ac9OGSNPpei25q8XYiElLk8bTE6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShortLol#1_10841189.gbx</file>
+		<ident>7y2hrN1nKApkfJTMewRatoW_XRg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Indoor track 1_27751.gbx</file>
+		<ident>ALPQfFEy5vBP4nEKemU8qVTJLxl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Island #2_2468973.gbx</file>
+		<ident>bKTClRYqsacnm9giJOrPCKAqKH6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Box Tech 1_11021430.gbx</file>
+		<ident>8dOrnavIgkEHcOk3VC2YRpHS2O3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Medium LoL 13_7154819.gbx</file>
+		<ident>ZicOQArmrbY2cSmfIvLGZDcXXG2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Jump lol #18_10677405.gbx</file>
+		<ident>WHPdvMgUBNzs4RBHVSJjIDVJcHm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.23_11127980.gbx</file>
+		<ident>RkZwK5uzLAEghx8ujSFeOtpzImi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.24_11127983.gbx</file>
+		<ident>_LIAVmRYOCr3C9BvvXJ4jh8Q7Rk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\a new LOL series #1_10685615.gbx</file>
+		<ident>NsLkjn6z9jR5ZOJrRPEP_M2zpTd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.25_11127986.gbx</file>
+		<ident>qK5Kccz3wwJCf02F5wc4tVWYxT8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginner #1 - dirt and tech_9473207.gbx</file>
+		<ident>JysnmO9UkgDvDceriBpJSV4vyW0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 08_5934264.gbx</file>
+		<ident>58UBmosazHG96n0Fe6vtfNnkAnk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.27_11127992.gbx</file>
+		<ident>8znlzuBxg_6GoAj4Uh9r5KkHD3b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 09_5934266.gbx</file>
+		<ident>_LkjTmtqoJEsI91zUjV5F8ASVNb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech LoL Long #003_7351485.gbx</file>
+		<ident>wyAFIykoAeMiKnGYkpLoOqNe0G6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 11_5934270.gbx</file>
+		<ident>VuS5cMmgkfUn9RRRJ_F09Mc21am</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mixingblock for the beginner 004_3992759.gbx</file>
+		<ident>s_I9bryC7XlQuNn7fZPkQwQJXh4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 12_5934272.gbx</file>
+		<ident>gKqxYBxOcK_gPzi8sDjrkdLdaw0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift_1092799.gbx</file>
+		<ident>Ol8S16CRHXUmC9U7VMwT8073HJ7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 13_5934276.gbx</file>
+		<ident>ZHvFE9yQqQn_8yth4jZ3zAvZ4Gf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\gameNight #95_9964743.gbx</file>
+		<ident>9egPz1hVDR0HzAGx33vDyuekw5c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 14_5934280.gbx</file>
+		<ident>CJIZ_1xX2ZpS55LfXfISuhInrS8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 15_5934281.gbx</file>
+		<ident>0e9HcuqfqgWTSOGWfwtDqXUSOTi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Slide race :) vol. 2_5844174.gbx</file>
+		<ident>wuufHLoBjdUQ4BYzsvVZwxON6Jh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Fun 1.1 !_8383699.gbx</file>
+		<ident>4f2RapRf6PHzEJKGASfn4q4PqDf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#21 BEGINNERS' COURSE_5180629.gbx</file>
+		<ident>TWhqZBcAQqWxH0TeNWiP57NKwzm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\not political correct 28_7310565.gbx</file>
+		<ident>o6gj2E_8I0RvuiSqmBfgaNBXeBb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Aleluja 14_13044966.gbx</file>
+		<ident>_Ac8Lx1IHyq2fVc3_u_batkSrQ8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\PugO-Tech-3_8637671.gbx</file>
+		<ident>VpMViJi47PStFUe1bMHdRqPzqbk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\For Beginner #01_1428708.gbx</file>
+		<ident>i1ocqish4FI8CONRdCB392S498h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #156_10783985.gbx</file>
+		<ident>4bRubbXA5TSkuszqPAFK2PFibB4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\impossible AT 6_10783999.gbx</file>
+		<ident>Ru25mxg26lLraa1dNojJUYhZ4c5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trivial Tech #7_10063103.gbx</file>
+		<ident>vEo8o6zmMLMD3WstCqvNejMsqba</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech short 011_8539404.gbx</file>
+		<ident>UA6UiVyl_xfviCpPl3VWJaO5Sa1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Early 2023 Race_10063121.gbx</file>
+		<ident>imeev_acWCCnkHqgaCK1Uri7Wu5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map for courage #2_10341652.gbx</file>
+		<ident>Ev75NUxZR7McJ88PgBGxlZ1OJHk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short 01_27924.gbx</file>
+		<ident>2WDMFtp9ICs9RLN7WQ98AZJ2Ocj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Indoor Track 3_27927.gbx</file>
+		<ident>rWxtdKZJkFktTX9wiHM8xAP2wh5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mtc / sunstorm_7351583.gbx</file>
+		<ident>Qctg5ac2R9S0H3FrxKX6vc8JPQ</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\G?? Recruit map - Tech 2_7556388.gbx</file>
+		<ident>3bdVUnEE6CmxuZqdD9oaGedbqA0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trafl_10079525.gbx</file>
+		<ident>Jm18h6MJpC98wje_B3o26ON3LY4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dino Mini #2 | TMF Edition_8940844.gbx</file>
+		<ident>sF_LAraYghsx7TrTafwEtIfe21i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMN - Beginner #2_5844271.gbx</file>
+		<ident>bqx_9WGekwfiI9Mz2Z3tN1bdsa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short 09_13069617.gbx</file>
+		<ident>V44rPr3riISaOgdB9m7VwPEHfTk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.izi TECH series_10_7925043.gbx</file>
+		<ident>TfzWFTBBIlbZ0qULWv7ReeKioEc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LBC - Perfected_12365111.gbx</file>
+		<ident>fJvJfnq7dVgLoBu3RO843L5s8S7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\PR Beginner Mini 1_2231608.gbx</file>
+		<ident>g5MU5SFIeggbnKeBh6AaK18gPlj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HR GrassInsanity_10759488.gbx</file>
+		<ident>FtIjnUlCXwc2zoDWA4y7uDTTIE8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\PR Beginner Mini 2_2231627.gbx</file>
+		<ident>Wd1QlCtFCDn2YciPdU2SwSppM55</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\5oo Cc Repos_5352786.gbx</file>
+		<ident>kmaBKltrYcL7eBp6wHUOAOnEwdj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#Short 002_6679895.gbx</file>
+		<ident>CEkp5_fvYA9bpafK6gfRH65pH23</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Speedmapping - Greener on the other side_12733791.gbx</file>
+		<ident>SdFuLzULRZqBUFNiu5gAyb_9Tm9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HELL  1  ( TECH )_7417186.gbx</file>
+		<ident>yIhUHWsj1EcyhEOu2vTkIPkiZAd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Now and FOREVER_11629.gbx</file>
+		<ident>m8kHwttNRgPnC9zzaqUzJ9PUTS0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LaughterMatters_10866033.gbx</file>
+		<ident>Yqciy2Mjb6LxrjblOFwk3t3ybzc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #92_10063233.gbx</file>
+		<ident>DNEwakV0j6AsHpry83xMLySOWk5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Fun 3.1!_8367496.gbx</file>
+		<ident>ntbqiCXQAN_bxKPDTiSwVRZvID8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 02_12463502.gbx</file>
+		<ident>ZeFMKGidzHo_DAcRQG5Ya1BKiJ7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport F082_7105940.gbx</file>
+		<ident>0AuiFWRr9KUdJF0Z75OJpUzf2y3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Take Control_4894110.gbx</file>
+		<ident>yYPIC47i0RnyNJy6pCptqhHv5sk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dirty Vacation_11693476.gbx</file>
+		<ident>DhVDjxYnOG0pMOgRF4xVULvmzN2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World of Tech #1_5819816.gbx</file>
+		<ident>sJF4eNVImJFVZ1Fdq8FlO0kXlc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[19]_2739627.gbx</file>
+		<ident>kxhAG2vxKUIx1QrHtRv3C_viQQ5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\nano tech #3_3321263.gbx</file>
+		<ident>9kTX1F1AHkSSPGyYFywwyQKb_Zi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World of Tech #2_5819827.gbx</file>
+		<ident>eajABCECpJtYcoaMjaj5VxDjgS3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Arka Campaign: C01_11742646.gbx</file>
+		<ident>ceNCOfn0KptcFqw8IhEAC0DUpgd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World of Tech #3_5819831.gbx</file>
+		<ident>m99HwUYwtgHFvJMwQ9J8nRivsh5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A Rose In Egypt_4894137.gbx</file>
+		<ident>Sg2j0MqUmJQAgMNVJLLy7yvPZji</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MINI for beginners_3509694.gbx</file>
+		<ident>OHRmrvqm25BdCfKvc2TD0FXF80i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginner Test[22]_3468737.gbx</file>
+		<ident>uni1FRSCfdQ67lcgKwsl34E8L9f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[HrT]BeginnerTrack#1_699842.gbx</file>
+		<ident>5bjmNHA26NTAf90CxSfEKZF3vi8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Crapple LoL #02_11185608.gbx</file>
+		<ident>sRMjG12d6nW4TmPUmi9qdhM_L99</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fuun LoL *3_7196107.gbx</file>
+		<ident>4FHVLoto1wIr5v4FEpzk3ubTxea</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\skop's Lab 4 - Rooftop parkour_12013005.gbx</file>
+		<ident>ODxvBIELU5wGs5YerVLVYODOKp7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Turns_10382798.gbx</file>
+		<ident>5ytJhbbBm3yVvhWQUm0KENePqx7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Vio Style II_7146963.gbx</file>
+		<ident>jghrNWVVMZrFf6TXOb7u7SYttJ8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\JailBreak COS-Version_2993637.gbx</file>
+		<ident>SGe_QKjnhw4Pbh_2xqkwzeEOaqg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\NTLOL°_5484010.gbx</file>
+		<ident>Vl4NXF6PI3Qd0M96MNa5oQxIXh0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Funny 10 (Beginner)_1723888.gbx</file>
+		<ident>UP4LAhx4UZSkfTgy9x2tvyJfwtg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WS - Tourn!quet.._12594680.gbx</file>
+		<ident>jT4rtEyGbSjWnExplb1KeDq4mp7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Stadium Beginner /A/_5926396.gbx</file>
+		<ident>vNjhCjI4T2iqqFxdFh0fcQsaRO2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Stadium Beginner /B/_5926403.gbx</file>
+		<ident>TS2L7_vXkIqEoBhvzYw3V81wEC3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Stadium Beginner /C/_5926414.gbx</file>
+		<ident>HoyC2jQb9OVlWbWVPadywgg_L13</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShortPlat I_19993.gbx</file>
+		<ident>6_9Yhc20nKPjM58MjrVNKm3xI36</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short Beginner 01_3124764.gbx</file>
+		<ident>PDd5hxyTkvLr7wdUB5tkBsmawLj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short Beginner 02_3124767.gbx</file>
+		<ident>pkGrMYriwIoICCyfwO5paGLVr4l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HR sunsetsunrise_10759712.gbx</file>
+		<ident>JCOfCL0Aeb70c0B100uqohykKxf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Motherboard_10759719.gbx</file>
+		<ident>LyVAUuHcp_HdYptt1MbWynXEhem</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ibra noob short#1_6049329.gbx</file>
+		<ident>KeuRl1iVDKpE1R326kw8G8v3rpk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Swiftly Shorty 1_6884914.gbx</file>
+		<ident>6y3TNdn56WI36bY7RnBnLa8mRi0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #09_3272242.gbx</file>
+		<ident>LbElcst5XQGN0THslaWp4I93zrl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\YinyaBeginnerッ_10325562.gbx</file>
+		<ident>OUptXuRxuSse75Eth_WCevAE1fa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ρнא¬VShort 09_12734015.gbx</file>
+		<ident>7enRgPauUaqM2NK7HcYPYWhjc5k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Tech #1_1560139.gbx</file>
+		<ident>qB5dtjq8SV7x0nZ3hCzBfT47xJ0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Owl's flight 5_12365398.gbx</file>
+		<ident>9fclAGEJ_f8jLXYeKnyzkX9Hnu5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner5_4271705.gbx</file>
+		<ident>uG2nMNEcmQymuWRHXEA7dIkPMXk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sprint_20060.gbx</file>
+		<ident>PjrKyIDmxm1ls4w3rCtmRJ4YIz6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MiniParty*3_10030711.gbx</file>
+		<ident>TqgSrm26SGoabTLCMoDna1KXrA2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\The Snake_12758659.gbx</file>
+		<ident>UarrbrjLtFXxa2GUoD9mVjMXHpm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\just pure tech_9416327.gbx</file>
+		<ident>ya5b4pCcgpq3HaQpKCsY8k3RbVh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Turtle map 3_10407570.gbx</file>
+		<ident>F64Gdnjpj2Y0O6ZU3Bea8ZOVUy7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\impossible author time 29_11759252.gbx</file>
+		<ident>ca0lt3mRPtlv70f3sZkXTURXUj2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner  Tricks  Guide!_5992085.gbx</file>
+		<ident>qdsBYm4497j2NLa3XvhqhiCHm_i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\B-7_10686108.gbx</file>
+		<ident>jrpcF0mJlMkEsljm0KF2NT40vYg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\B-8_10686111.gbx</file>
+		<ident>xGgXyrCH7a0WrVaztmOSMCAW_N4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A-01 Race reverse_28336.gbx</file>
+		<ident>LAyCbpZFCwwZhT3BDHnOO5s85wg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\yesno my mouse is broken_10776243.gbx</file>
+		<ident>PkOVxkSissOSj2eeio_mXas21aa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\For Beginner's # 1_77492.gbx</file>
+		<ident>pmGcuCKG0HoofG5buel01ig7Cua</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech#5_8531637.gbx</file>
+		<ident>1ZIMdZF0sxtcCbCQeP9aRogGMj7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini-A-Beginners_1920695.gbx</file>
+		<ident>uEPqPWhQ3wLgownmBSNW4z4vHUa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#7 BEGINNERS' COURSE_4067054.gbx</file>
+		<ident>ZjVZIWktwVJPIy8yi7e23aW2Jqc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginners mini #1_823021.gbx</file>
+		<ident>Z2WhdCUPdWCFw1LQI9I6rksVHQl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Lol #10_7122673.gbx</file>
+		<ident>wGpO7elNoLkegEFT2jhuT0UGU_8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 01 Air_1208052.gbx</file>
+		<ident>DkthdxZRGVeRxC4PAzyC9Z4fZf3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Just Beginners_798455.gbx</file>
+		<ident>YNIMSBkdyKYzhiawQ8W17RBOLn5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Track!_3452668.gbx</file>
+		<ident>OiTJef57c4vIOD0rWIZc_Ql0Ik8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 10_4026110.gbx</file>
+		<ident>zVrwZrGHeeNatE2VvCWdf4lb8h8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#12 BEGINNERS' COURSE_4239109.gbx</file>
+		<ident>QpvDYiqH12mta5N2__H8Wzam6X1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners Ride #1_3043096.gbx</file>
+		<ident>WGGdxsia94oOHLt2VYh6s9wCbIm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini-Map Tech_118560.gbx</file>
+		<ident>z7KmHNTsA1h_Lp4LUaKaGoC9Trm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[] Mixed Tech []_9129762.gbx</file>
+		<ident>xaKCXvimiCKb_NLaBC1gMvHUZA8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very hexa Short 1_3772198.gbx</file>
+		<ident>Lgy48JiIKM2BbqE7d1EaPNG54Vd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test_2690858.gbx</file>
+		<ident>PEqNob5Q3DtfU3Oa4MBCeg1px71</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners #2_28470.gbx</file>
+		<ident>i9GHpgGZHoXNsTNs3oa8sOsUZT1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Engineslide_09_10850134.gbx</file>
+		<ident>_yYp_njUVwSZyqLcEuPLqTMt2n4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\IntoTheWall_10866530.gbx</file>
+		<ident>pcuuGGoz6ksIY2B2omyvZj8b8Qh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ [ Rs ] [ Sport ] [ 36 ]_12021612.gbx</file>
+		<ident>LPHvZD5hUlaKv2gB9zwkQ4OwkMh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4a Beginner by Rooper #1_339831.gbx</file>
+		<ident>IRsGeHolpHcIAYfyfNh3iYdGFeg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners LoL 01_3624825.gbx</file>
+		<ident>FFvW_7LWhw13XoOSkVCDE7IHAI4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\For Beginner #02_1429375.gbx</file>
+		<ident>CWjYDdYSR9AtsFLJrg928FksVjc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\|ChaSan|_9875331.gbx</file>
+		<ident>ymlnraUqKNTuXloJTYMXOwGyA27</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LUNIC beginner_1101699.gbx</file>
+		<ident>yo7XpXSmkF7yo9wjkyKQenXtk2k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #22_257928.gbx</file>
+		<ident>bOaJCjv7dpVAsm7Sd_WNq361nW6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Night Party #1_20360.gbx</file>
+		<ident>6V7ym5oPkPfwCu0qT5G4LJK4Ugc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fast and LoL#2_1560462.gbx</file>
+		<ident>n4xk2iMeP62mWdTmxqvJ1djE4Jd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HR SpeedCheck_10760098.gbx</file>
+		<ident>oNGxIj0Gnk_dh6zfW0PRqv_AEOm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demonmix$aa070_10211237.gbx</file>
+		<ident>QDHKrSUbYEHmrwa4qu670RkY1He</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Eat Dat 2nd Short_5894054.gbx</file>
+		<ident>ZDloVLKrp4wCpEZD9iEwiOI0cMa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Champion's Tech_8138680.gbx</file>
+		<ident>ejzDUqUA2kz1n12Zq1aAKG9NVch</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Stadium Beginner /D/_5926851.gbx</file>
+		<ident>2rJA0ODIZuWQO_CYHkrF9f421s0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner_001_1519565.gbx</file>
+		<ident>dw3IUryeTYdIGAoYcdjioqFLOW7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short tech #11_10727376.gbx</file>
+		<ident>nZZ9hhOp1_Yszqf0m2sV1nxzREd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw? Things #08_10080208.gbx</file>
+		<ident>F4bopnVba6bBTp3lwDMCdxNDxR6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\OnlineFun 17_5656539.gbx</file>
+		<ident>EIxlpkynDFQXOpnXUHtydX2RRLi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\For Beginner's # 2_85986.gbx</file>
+		<ident>QskHe9rPgmDRsCIpqhl6TPRzzHf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A15-Speed-Checkpointless_10768368.gbx</file>
+		<ident>Li90_32QqZzewG4XbrNdJCZvdm3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #24_266241.gbx</file>
+		<ident>yZvmv1edWnE535VvgwacZXKrSx2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A02-Reverse_10760202.gbx</file>
+		<ident>sUvPaknBImbMyIpBO8IQ60_3oMh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mix-Hunting_3010580.gbx</file>
+		<ident>QHxMXYmqBUWA3PX7wAiJ5k2UQCd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #85_10039320.gbx</file>
+		<ident>zOdh8DoFBh8p6jtiaALdnMVswQf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Rezolution Of Madness [TECH]_8122407.gbx</file>
+		<ident>b0MzT4PnWc2rEvX6Hl_888p8Y7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech #1 (Trash Author Time)_9179189.gbx</file>
+		<ident>E6zAlfjRwxTclwQm97bq7_aash3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Funny 9 (Beginner)_1708108.gbx</file>
+		<ident>_283I639AQlxT50MgfPvNnYxQCb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\So Simple_10162259.gbx</file>
+		<ident>6MqvOz2fh78mzQvvyCIYI4daEpb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\»S7?Beginner Tech #2_7131222.gbx</file>
+		<ident>vZTmQP1Tn3fDNOZuxii5Oe81ZA2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\C-1_10768483.gbx</file>
+		<ident>UsdasmIrcbf8Ys0mBX7mvZUR2R</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-Speed_3723375.gbx</file>
+		<ident>iixImKQmf7PEC8oMZi1cKCXQ8U3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HR Short &amp; Wild_10768514.gbx</file>
+		<ident>TLyMHFD21eMBfabcUkYQonBTjad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\New LoL Series #10_9433220.gbx</file>
+		<ident>e_mCqxd9iQlsEHC4aTEaHI_dbKl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Avant-garde_10096775.gbx</file>
+		<ident>7schr9xdh_88o04fPpMW4H3ZHp8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hillclimb2_10080391.gbx</file>
+		<ident>lKUTU48_7V3ZE6_06pbylhh3Juh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech short 004_8482951.gbx</file>
+		<ident>1F05yGiPKw11gpOlzuh56dlh4ih</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Best-Tech-#1_2912393.gbx</file>
+		<ident>KxJ_cVlMHFnrNj5oguUbBJeDMqe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dedicate to ALEXA_28809.gbx</file>
+		<ident>9z4p8ha1R0i3nOgfJD_u6MFzfJh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Manual CAM_10080397.gbx</file>
+		<ident>oYx13SfXx0WD6Hj37fbzqKR1tXk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[15]_2732174.gbx</file>
+		<ident>VcmyhkzDURuvWRAClrCKBIhAHXa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lord Of Tech_7516307.gbx</file>
+		<ident>t0we1_PkOSiAyQ5jkTqWGoqIS59</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport R199_9572525.gbx</file>
+		<ident>ocTYZR1TKIj3n7NpdaB57uOqAn6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[FS] Not For Beginners_4804786.gbx</file>
+		<ident>JzN7OrTF3yLXv2aubBciyg1NnTc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Moon - Short #1_10096819.gbx</file>
+		<ident>iDy8JQ9stBZTZ40wuCIovqJ_Mk7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech #1_4141243.gbx</file>
+		<ident>hHyKMIdbH5bC92YPDGMAByjKRa8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sunny day_2683067.gbx</file>
+		<ident>bs1tYGBK0wnLtuapqZuwi6wORpd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 03_3600574.gbx</file>
+		<ident>FyUD1gCn4ABl3Ch7oDBGJqeiOda</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿à¹à¸à¸£ãShort # 06_9982144.gbx</file>
+		<ident>IYJqMMfdLO0gNbf5gH2CYgbBvFh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\!EnVy gt; gt; BeginnerFun 5!_8220864.gbx</file>
+		<ident>f7_cQUmWR_P1IRal6hAv5zRMyI1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Where Is The Cut? (Beginner)_6623473.gbx</file>
+		<ident>VrZW12ThA0pMT2Pk8CxQtQOTH6h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoL Beginners [5]+includes cut_2789617.gbx</file>
+		<ident>BL9M3jBwHARWDM4A8tUqsoN6t2c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dirty Dust #09_10760435.gbx</file>
+		<ident>RL7gIdaVintrLin8YM6kTJdDI2h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Magic lol 913_8319220.gbx</file>
+		<ident>SVcRk8P25nMAxOLC4Q1lQoNV0W0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoL For Beginners_2789620.gbx</file>
+		<ident>n8OyDF0fcDr7oVl8HzO_zyOfBdd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\UnD3R 10 Secs  24-6-19_7475447.gbx</file>
+		<ident>xlJbzmcdZT9MwwzyVULu1qzgsDe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HIE Cup - Precision_10105106.gbx</file>
+		<ident>rm3r00X1YmG_tmJQPQWv3zImUQ2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\no idea LMAO #2_12611860.gbx</file>
+		<ident>nadNieZaye5u5vaBirnZLL7IE8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HIE Cup - Nascar_10105109.gbx</file>
+		<ident>1mzGKa8hJtHm6K3eQ0tAarOKFc6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tr45ghbf_10014997.gbx</file>
+		<ident>9wpg08CueVRNMZjPsXq8bEkNpx2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Eferover 1_12566.gbx</file>
+		<ident>Bu0gwMV__iwXcllC6XSL3v5ilMl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#F_11850009.gbx</file>
+		<ident>oL0o75MXbaHFcdVE9cEaJz2DpE2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AGE+ Short Tech#2_8663321.gbx</file>
+		<ident>TKmg1IAHKd7pdHM8dcf_hm_u9ki</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Accelarate-4-Beginners_9269550.gbx</file>
+		<ident>AeAAKnTTXN18_0EGLn2Utuuprw2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Acrobatic beginner_577841.gbx</file>
+		<ident>rgn6gCESPKc2bmMlN5bcGYFnOvi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginner #2 - fs_9474357.gbx</file>
+		<ident>yy939F12dViVu5g5hFO8utg8wK2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#H_12267833.gbx</file>
+		<ident>c6fxV6QQk5WsUJPpDgwkMKsHhh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ V/Short 52_12718399.gbx</file>
+		<ident>jbkwmiHyDCiEGDBfjgbQwGACL8j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini *3_29001.gbx</file>
+		<ident>JHE7lSxOf6T0cdXisBwsXznzbTf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\owl short tech 7_10195309.gbx</file>
+		<ident>8ndz_gWgREvTzIf8fiXRQnm09ha</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Easy Mini 01_373102.gbx</file>
+		<ident>dyOoA2I88vnH8CzgLjYzvjEbOem</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners Fun #1_7188855.gbx</file>
+		<ident>xXp0ioc5YWVtyZSGVJXs5RkgyJ2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TNF A-10 variant_20860.gbx</file>
+		<ident>Wax_bwQ9Mcq_071Kd5B6RT3fQqj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner track_1298813.gbx</file>
+		<ident>Bpd9PzKtEWZQJMmhtRbCtwP94Nf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Catch.Beginner 1_1175979.gbx</file>
+		<ident>DFwoAd9pDA6ARLp1cBfZZAe9hfb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\elephant short tech map 13_8360365.gbx</file>
+		<ident>Sd0nPtc7QQUNFiu6OKuew4fgRf5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\¬furiøus.Very Short 01_3527097.gbx</file>
+		<ident>X7Q42Y5Z9EcIaVxe1g5321_53e5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short15_10039740.gbx</file>
+		<ident>kbZfvn4gAhNo9YYjZeSbHIgwgH8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\3x0t1c Dreams XS...!_5788092.gbx</file>
+		<ident>OAj16vzLNo4hLGmJ6qWet5m_JGg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\JumpMini_2888130.gbx</file>
+		<ident>Z9IvRGjj6WOvki0oXbe2g8DDsjl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\GaLV ani_13029837.gbx</file>
+		<ident>_CmuBMnxQNpAZ1_i1wSxhhNPF17</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #151_10760658.gbx</file>
+		<ident>I5X2b7xaNQdCRPdYbuQIqyLPeDi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Super-Short #4_5870037.gbx</file>
+		<ident>MxO3lAdOs_wMNN4tIKyQKYZDRTk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Do You have a problem with this?_10007000.gbx</file>
+		<ident>h2JtAf6LCgS3FxwS_ULW70FpD_f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A - Short Tech #1_8360409.gbx</file>
+		<ident>bEQ3hOzUrnnIRP3OdMJSm946smj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bad tech_209370.gbx</file>
+		<ident>4tjKBEKHsBTSfNX9rkcgZ0TOw35</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Quick Curves_10039772.gbx</file>
+		<ident>bmaKYpMaekdBJsayyIdKvmQON</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#Banana-Tech#_9155036.gbx</file>
+		<ident>FqoIKlf_BguZ5W71pVqr6fMGb13</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\electro-tech_209406.gbx</file>
+		<ident>81f_gtxxEtBcPVqlSUg9cw_BsM7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hunt Tech #1_8163840.gbx</file>
+		<ident>SKg1r0ugousmpAQMhg98trk2rNc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HighSpeedJump_12805.gbx</file>
+		<ident>36hfL10R1TGfNhtjde7Cb6IG94g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Harder could it be?_10023443.gbx</file>
+		<ident>bSzvl1JKWr_P5XR0xFE9g2J4G4c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Eur LOL 1_9302558.gbx</file>
+		<ident>WMw9YrcrgERg1dtUCcUE3KNqzO6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini tech!_7942718.gbx</file>
+		<ident>qZx4nHKhnlDgKjt7wjseo1d645a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\L?ŠZKÏ ??? 5_2863686.gbx</file>
+		<ident>O9K0fldnNDliSoc9eLxdMCMryrl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\next5_29255.gbx</file>
+		<ident>7_f8iEDF04dEVD5hzhGoTU9VBVg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Shorty *40*_9933389.gbx</file>
+		<ident>nB6mkRdGwxrIvdmpJwXm8THQK6g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[18]_2740825.gbx</file>
+		<ident>QhI1cpoua4loAhfDePTx9SikiFi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\discount tech_8811099.gbx</file>
+		<ident>biMqxOHHlmJ770Vv_b2KcY6jM7m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner_Short#1_234076.gbx</file>
+		<ident>A6GVz_ZdjVl0S5CFm09vTMsNuGl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[8_2708063.gbx</file>
+		<ident>M24MHhyr_AeUWiHnHuody1rwhY3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech 01_209512.gbx</file>
+		<ident>G1ec661OrolPJF4aNauvbbhFCo0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\veryshort tech skills_7557743.gbx</file>
+		<ident>wKzv2OfGlvLpcBqlsNv4f75PJ54</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\dirty diana 2_3404400.gbx</file>
+		<ident>WHVY5SvJGKhrs7sUXjlHQq5vxXf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\»S7?Beginner Tech #3_7131779.gbx</file>
+		<ident>RfounRnf1xvRsK6h12Lwo82qs8a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 5_5550725.gbx</file>
+		<ident>8lRBgupvJfNnwV8CrLz22FLC6Ic</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bobenchal-20_10080918.gbx</file>
+		<ident>6uA4h1EuzkbdIfWmR0KiSg6H9w7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bobenchal-21_10080924.gbx</file>
+		<ident>CA4Mq7z1QeYR6b0S7PrHEzv9YA6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bobenchal-22_10080927.gbx</file>
+		<ident>jpDTFR0Gqtf82CMTYFkm_G6Gjpe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short ESL 50_5927589.gbx</file>
+		<ident>J6Ji7SmuFDDmkdFydRWn_Va78f3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\King Of Tha Hill_10203814.gbx</file>
+		<ident>0z8MQE2aIQy8VRx2Nw61vRnHJQ</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\*@*_9048745.gbx</file>
+		<ident>v2Hy6zvYK9g_Nhjt604TRlq3Xi2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BeginnerShort_5042861.gbx</file>
+		<ident>MVstUR75QfwAZYPobOhS7vlCtx9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sandy Shores_10867378.gbx</file>
+		<ident>PvTKIN4bFfedUF_goYu0GBJ9wp1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\500cc Mini 11_10130098.gbx</file>
+		<ident>NFpoPEXTzGCIiMEalg7s0NvSS0j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\OUT OF CONTROL_29362.gbx</file>
+		<ident>wOXevqhNNiP1A_lk3e87Deqi75g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LOL Plattform tech 40_6836917.gbx</file>
+		<ident>WsxxTwfOeNOqxoUnSFjWa9FtAIl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Jussels Lan Tech 3_10056380.gbx</file>
+		<ident>KBPOzBqYOxvjVcCrFj4UZI6SwTi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[Platform] *Beginner*_111310.gbx</file>
+		<ident>GmukW84NXcTTA_yNpmTtBZx85Mi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A-10 variant 2_21206.gbx</file>
+		<ident>gvntjAzopAZZqSG6bBsCkezbKJ9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\S09 - Tech #1_11350748.gbx</file>
+		<ident>J2lZ3t9TRebboYnNHCu3KSBfJC8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BeginnerSpeedy 1.0_512745.gbx</file>
+		<ident>8nkTDhtSXpM_oGXwXYFUviNi6V0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Leos Viereck_29423.gbx</file>
+		<ident>_g1Bt2hyQ3gle4zf4RFotDbuWkk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Rush cup - Catch the flow._8311546.gbx</file>
+		<ident>aQEm_YmLhpJxaXNLi6sHn6vVuNc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#1_10367739.gbx</file>
+		<ident>9LTpxqVaSOXxpo_FRAZGSKIOBy</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Melody_7246594.gbx</file>
+		<ident>mO_PMcU436EM__LAs4zWPUf_SC3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#2_10367748.gbx</file>
+		<ident>pPv5cJ_cLVsiLqvdNBLBJJF0mP</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini #1 [Beginner]_234259.gbx</file>
+		<ident>UQElsHT4sYyejG3goOKOcQ3Y13l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Not To Beginners_1422108.gbx</file>
+		<ident>OlGqeV9h188_K_u3bo5DCpReSW2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tails' Short-Tech # 6_70444.gbx</file>
+		<ident>G_XtiKtFKytcX9KZz6Y0QLB5NB</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Unlimited 023_3511129.gbx</file>
+		<ident>oYBY97c5vycrnFpxRf_fAiYDUg5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500cc] Courage_4494181.gbx</file>
+		<ident>85P8ynutaVb1ibuZuPldXgECOEk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Eur LOL 1 nocut_10933104.gbx</file>
+		<ident>lkFXHyucxYyciisQSC2Ow7dbz7f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Paw Mini 002_3330931.gbx</file>
+		<ident>1cVZbMootMLSDvlW476pDWjgXFg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\phx intern cup tomb 3_12735357.gbx</file>
+		<ident>fH876LtgIassMygoJGZHjOwSbF1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cactiland_11711364.gbx</file>
+		<ident>BIiyAT0Y2AE4pF2StD_J0maO3Nb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners #3_29572.gbx</file>
+		<ident>nrxTwQZEe6XpDOuLcwTRlewk660</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\¬Michu lol 10»_6460294.gbx</file>
+		<ident>VgYpfWNtO5Ifjv0PDQSVSAabJW4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\One or two, maybe more..._10015642.gbx</file>
+		<ident>kQCkt5nnEGR7fZymGKHRv_aR7B3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini  for  beginners  #5_1176480.gbx</file>
+		<ident>DeCTWhi7YUzBsgn_1wF3KnrPmx7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AMD  TECH  ( 14  )_7345057.gbx</file>
+		<ident>TyPHJ1lErDh3bfRVRf8P9dNL2xd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 18_9614252.gbx</file>
+		<ident>JDyhYKWei8Aa2B8bR7XniXUuW6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ON_B01_10064834.gbx</file>
+		<ident>oIhPBNgBxTUqtcRWEMpAzPtzaLb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ON_B02_10064837.gbx</file>
+		<ident>RKztSpsGbVZk7EcmWIdbOECBXU0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ON_B03_10064840.gbx</file>
+		<ident>WAuqgcFwSbOk5yPnG945mAv5sEm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ON_B04_10064843.gbx</file>
+		<ident>M1j9erbU_XCRmg3cH396rQ8cO9c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ON_B05_10064846.gbx</file>
+		<ident>A4xHVZG46IgoPqKlHfwT5coWkVi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #1_6403060.gbx</file>
+		<ident>23FaFrbbSFw9zslrPSZFLDDzMA6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Stunts For Beginners_9311236.gbx</file>
+		<ident>DiP8CKxSPrQsLjKGZ8aoMuA2yy4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\»???«?????? ?ec?_5125125.gbx</file>
+		<ident>cUgaUmKdvO_FXpT21TSlouj3Tt6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Insignia [LOL-TECH]_8139782.gbx</file>
+		<ident>9YylxN9kCRJI6xbnKA7kRYv_d_3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Simple beginner track_9180169.gbx</file>
+		<ident>hGcMIrIsg5qKzlvDLsRVw5TGDPe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini For Those Beginners!!_939025.gbx</file>
+		<ident>OVzHLf2pmSdMgYv0ijp_xfroksi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Xeros #06_4895762.gbx</file>
+		<ident>2M7UHtznyyXzBre6Xh1fXvuUP7j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 6_10163219.gbx</file>
+		<ident>dB7bHpfjvZEvMKVsuoq23ZpI2C8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Idk #1_12760089.gbx</file>
+		<ident>4Vrdfvul4FUh5Yzyo3Q6JzY7MVd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\map 7_10163228.gbx</file>
+		<ident>9DN0FeSdVylvi4c845aUilYqiie</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bad short track #1_10097706.gbx</file>
+		<ident>ih2leMDpt94bEFhmalVP3mzVusg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner #3_8639530.gbx</file>
+		<ident>TdZ_SaGtBiKHQ5zUv0RiiC_XPR8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium B2_10851378.gbx</file>
+		<ident>E5Zx6g8RnbI2RIrGZ8ykjdhDvHg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hide_4928563.gbx</file>
+		<ident>jTbBr9g9MKR0FiJ04F_7tguAQS</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #2_6403132.gbx</file>
+		<ident>I9PnZgcG7LCDHaMF9AJWlD9kLPh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner_7156798.gbx</file>
+		<ident>Eg35MQlWRkgNEgAffQhXfL6_J_n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini For Those Beginners!_939084.gbx</file>
+		<ident>Xejr6DziEXQZyO2PnX8eFomgV6j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech_10040400.gbx</file>
+		<ident>48kSr0lHz_NIIHqG6lrwhQCFLd8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Blue Mini #57_8762448.gbx</file>
+		<ident>q9qCDeGSdY9G6MMw7QMzS3mm1Si</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoL 3_5203.gbx</file>
+		<ident>N5C037uDMilWjpPFNXtHTRuvew2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\auau.03_10105948.gbx</file>
+		<ident>ah6ERrvuHnqcnxXVXl6lqfdNDE1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner practise_6173797.gbx</file>
+		<ident>d9Q2V8dnKPLSTzG_W5ZiePy4_6g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ArtysGuru423_5764215.gbx</file>
+		<ident>aukc6yrnY4DkOI7RVNWchsl7gZh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\The Mansion(For Beginners)_5313691.gbx</file>
+		<ident>Cz_TQ8uXUtm3xJGpAuzrYyt05X7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-FS#4_7328933.gbx</file>
+		<ident>yUP5HorFEsQppazhzKHLdN3_QD7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Quick Race #28_2340007.gbx</file>
+		<ident>QtCGU2XnU_FCvwiCfVjttyV0i7h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\annoying lol :3 #1_12047533.gbx</file>
+		<ident>h46HzapLCck9NtzoKKPXHMZI8z6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[LOL] xomep - Are you all good?_6395054.gbx</file>
+		<ident>_EJEO5RIxOn9AbbHDJE7dY5ytFf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Schizobrine's herophrenia_10515648.gbx</file>
+		<ident>4Y5ZaLdc6RUtRts4bRU73YwA_ec</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Rubber-4-Beginners_9270475.gbx</file>
+		<ident>AueO2uklVZAfHnjbwgGTRL_iPie</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#010_7550159.gbx</file>
+		<ident>5KYz82NRpc1ZSPipYu1StyONON0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#009_7550161.gbx</file>
+		<ident>pG865gWQg3sgdw6f_FlXptU3_vd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\-Lucky-Tech-#008_7550163.gbx</file>
+		<ident>BcqEayUca3n2XFml7F4OzJEtGEd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision 7_10130644.gbx</file>
+		<ident>LUFYXz2Lx26PujvilXJXLXdiRwa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner map_333015.gbx</file>
+		<ident>6pDc1Z1BDs4JCTjCedjGSfoxjx</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Council has decided_10646756.gbx</file>
+		<ident>S1mniXqtWssXyO7iPxrTDY8K1xc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fonq's LOL #01_10802405.gbx</file>
+		<ident>R_ZdziQw27WKVdOT2lpMUl0IR0h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fonq's LOL #02_10802408.gbx</file>
+		<ident>J0zoMh3XusF7dekS6pgxAdNLPTc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 04_12473579.gbx</file>
+		<ident>E__OBefw8idePIU5fK9NrIjtK14</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Grass90 slide_5461229.gbx</file>
+		<ident>zKBXUsn_zBjfXc6729kTGi4GeFa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision 10_10130671.gbx</file>
+		<ident>Sr5vkzJjtZSzGfSInTvNkbfANw7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech 2019 #1_7517425.gbx</file>
+		<ident>YelYQZ5eDOg2DLYSdEIP1vfL1td</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech 2019 #2_7517427.gbx</file>
+		<ident>eclWME27GdGQkgmf2KpZFZ1Huf0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners #8_201972.gbx</file>
+		<ident>RhZzcWOzZ5yGjHLUtHYCgQ_7eMk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[FS] Beginner Lessons_6477056.gbx</file>
+		<ident>0m5E1W_Ez6nr4jMovFcInnGYLKa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*12_5633286.gbx</file>
+		<ident>u3dV8A0QlNeS0Xt_gIK2J_caiui</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*14_5633290.gbx</file>
+		<ident>cjROHoZsJ11ACrx8wgBkPbBQHFm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech*15_5633292.gbx</file>
+		<ident>xh10e0ITXXOfG_SfdPwbzRR8tz4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 08_9606437.gbx</file>
+		<ident>HBsfzb32jqxuRhtkz8M4rHIygd3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginner course_3700006.gbx</file>
+		<ident>cP758rCrgRxrkP96MTb5S_Cb0Zj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Extended version_10040628.gbx</file>
+		<ident>LQxMwcCjuwOBXvFOKt3G5ryPdS4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision Tech_9033019.gbx</file>
+		<ident>5GtxTI0FE83DUHxrtJQaU0hEnG0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner tech_1930561.gbx</file>
+		<ident>s5ySyKYS717_083PYGLXEocxmvd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cut map_10687810.gbx</file>
+		<ident>OE9Prc18cjeldhsqWvOKzRnduP8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ali-LoL ~19_9680198.gbx</file>
+		<ident>MmWPapXXPWGNpm6IAXtS_9aPIJ8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MTC - Lunar Highway_11105607.gbx</file>
+		<ident>jzHuFXPg99FNT2ykS7mIY5W47Lb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech 2019 #3_7517510.gbx</file>
+		<ident>LyAfzbp_OiWP_ZYPXcvpi3O0sSc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\eYe  Beginners 3_2258250.gbx</file>
+		<ident>4NoCJIm3LkeLwXoRCWXpsSYaWSj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech for you #03_7615843.gbx</file>
+		<ident>HfWJUrNkeqFQhJKQY1IKnjJGOKm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Track for Beginners #2_6952290.gbx</file>
+		<ident>8MVLMQxvvLA_Xawvy5DE7yKS3Ca</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Absolute Beginners_7648624.gbx</file>
+		<ident>tGOsxn6XceNziRw9_zlBiPTt7g3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\shortline 12_11105656.gbx</file>
+		<ident>cDZSdaSL3YMb72Oj1e3nfcjbX1j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Right Forward_10802552.gbx</file>
+		<ident>ZrjatpKm_viDN5K5AXqQ0I2TTWb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short #57_10163583.gbx</file>
+		<ident>RgQ4KczLQTKlnJDWk0IRXlDJ7_0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Project VS#33_1766788.gbx</file>
+		<ident>6KqELlLH7k_B9VP8VAHq4pvs4If</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\`Beginnerz.. #01 by kau7z_4617639.gbx</file>
+		<ident>5zlB0DurvUQii5fgkEnguRz7Ap7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\`Beginnerz.. #02 by kau7z_4617643.gbx</file>
+		<ident>DXJo85HMtslW9IPYu8oS9fLCCni</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\`Beginnerz.. #03 by kau7z_4617647.gbx</file>
+		<ident>1Fnp92fE3CkMTIKyAmlnxLdCVyb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LOL kraken short 027_4281777.gbx</file>
+		<ident>V05L8OYJj7xwmphzW60oybDHjxb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini*tech*//01_226744.gbx</file>
+		<ident>yG96jrest4ofGf4TNMskhzJ7jqe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\DATS 24_12760505.gbx</file>
+		<ident>VqDTrlMt3LPPWeuzUntZwwycZUf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\gravel hell  classic_9762239.gbx</file>
+		<ident>CZ9JGzi5lKNYziYjy9pOixDDovl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_13765.gbx</file>
+		<ident>y_Y07g3rJU1tMMyUBIFA6SnFlw3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_13772.gbx</file>
+		<ident>hhKw2NY8eeSOznDsHw58pHnYTc7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\C04 but its simplistic_10122701.gbx</file>
+		<ident>5XgGr5OZI2ju2DbJLs9SS3BHD16</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_13775.gbx</file>
+		<ident>pDLD4Kc3hmQkzCn8aVJ4YDZCC18</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_13777.gbx</file>
+		<ident>ZFqLZoEjwqt6Ok8rdnQk9_2VRF7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[11]_2725332.gbx</file>
+		<ident>jiSqCjPuwxkc11Ys8GrP36uWUB4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 04_3610071.gbx</file>
+		<ident>nvUV6UgAYJq3I96UNM67axYa_9e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Pizzapunt Track_13786.gbx</file>
+		<ident>4pLy1JKBBemYi7YoS1WJHqqMFEb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sala's Noob Beginner_10499549.gbx</file>
+		<ident>t0wr7sVWr_8t_XNbrF1eRewz3Om</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\» Mini Tech|Beginner 8 «_7132640.gbx</file>
+		<ident>FXsXwvwpPgtiROsAqzDPMspoea</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LOL FUN #4_13795.gbx</file>
+		<ident>WmZG_YvHaE39o6oCuHTn3Nw04F4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\kinda Fullspeed-Tech_8967655.gbx</file>
+		<ident>zJiUhlgS3aO1KOrq9bYGP_IKA47</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\» Mini Tech|Beginner 10 «_7132648.gbx</file>
+		<ident>8nQdkOzhDJxo04ZVrZGOavHVikc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trivial Tech #5_10057198.gbx</file>
+		<ident>Yf3cT8Uyx2k9ypXEta9ln4XJwok</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Micro tech!_7697908.gbx</file>
+		<ident>MDoZ9xWni5usGWLziAEiyUw3Xeb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BB - 400cc Lol #1_9631232.gbx</file>
+		<ident>DBi0UculxyVh2kEZxsADk1wkHv1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cuts Everywhere #05_6616588.gbx</file>
+		<ident>Vuf44WLwui2b_zf81svAO3YKmA8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.:๏ғ Mini 8_10827283.gbx</file>
+		<ident>Rn0HRu7s0qnKKZSMPZIQnap4YMd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini*tech*//02_226845.gbx</file>
+		<ident>FJoNbh0sHtrP9i7sPlZTQrZanJ9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\You will hate me after this_10024479.gbx</file>
+		<ident>WxWIv0FW3NZ0WraqGSY5TYtQfD9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner's Luck beta_1390112.gbx</file>
+		<ident>f__cft0zjtz7Q_dk77mKm9rjeHf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\msi #42_10851875.gbx</file>
+		<ident>M5H4CWFBklbJRz4JlmRalv89t73</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trivial Tech #2_10024487.gbx</file>
+		<ident>uXEM8GDLxazPfEJmVnj_vcAHoGl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Trivial Tech #3_10024493.gbx</file>
+		<ident>1pAMursd03QA0VKJcghB3sxs8zk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech city v2_10827338.gbx</file>
+		<ident>wyX4G4wJforp61GgpfHWJnRetgc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\demon Tech 41 _10065485.gbx</file>
+		<ident>0GVnN7YCkNZVoWYhu3ptxcy_xy6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Begginer-Tech.01_9451097.gbx</file>
+		<ident>pTBVoyTwH9aIAR8wuRrvz4E7YXh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[2]_2692718.gbx</file>
+		<ident>2EePFw7ktcvi_yrvCNn7jRYDWgi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[9]_2709110.gbx</file>
+		<ident>YhIITnn0P1IOiloWW79u_a3J8Ce</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\kratka 001_10532489.gbx</file>
+		<ident>jhax_XOPAYaPJtMdkNWJP8WLoWi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Yes, I'm still running_7681673.gbx</file>
+		<ident>EX1vJhWuD51OxDKsbaQABoQ5vza</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿Ä´ Â»  Sesenta y ocho_10851981.gbx</file>
+		<ident>50tuaJuBZ8C8K3rYgwLrbeMO_fj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿Ä´ Â»  Sesenta y ocho_10851984.gbx</file>
+		<ident>HVfdInx5uPNN7GYGEnCh0M7X2Xg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿Ä´ Â»  Sesenta y ocho_10851987.gbx</file>
+		<ident>0vnRLriy2YJHhahsvP2iU2vJkdl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\74_10851995.gbx</file>
+		<ident>j70KFTzL7y3jKTVFCWy_906VkNj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\System  Pook #1_11695772.gbx</file>
+		<ident>s5A6mPbpKlESr1Pwu9zG7ZEgdga</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AGE+ Short Tech#4_8664735.gbx</file>
+		<ident>CQmLxOrwr8ptkIv9sH8QfiNMm_n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Screwed lightness (25.06.2025)_12760737.gbx</file>
+		<ident>kcYgg0JatqGsKEo6Q3SmonRZ3a2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\simple 1 mini hunter 1 of 10_4232867.gbx</file>
+		<ident>ImkkqUK_IMz8NCvzmm2YND43Kog</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ez challenge_10131109.gbx</file>
+		<ident>lzw1zcmfMQV9ZSowTmJwJJ0pGwk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #11_3298988.gbx</file>
+		<ident>WIz84j8WzN_zIfekA2vY6hA8oC5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #12_3298990.gbx</file>
+		<ident>UjrMu5OjYqSMLCzY_ea_1JFsFzd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ยltгคร preci %3_10057392.gbx</file>
+		<ident>MdFqiGkeA09EZNtgCE3apw5k3Hb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World Cup Round 4_10852017.gbx</file>
+		<ident>uZrnvAYZQfhgNnc2cyZIEsn8fX5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EasyFlatMirroredMini_11089593.gbx</file>
+		<ident>xq5rasfWyPfO3yELQNLhsLFo9Wd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\iron Forest_10802881.gbx</file>
+		<ident>_NlefJNmgDdggYqIWsVRQm5D_lc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini-1017_2045637.gbx</file>
+		<ident>o4C0Dfr1Glc9Vtruqx78lfZF9Rd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\E-LOOPY_10802897.gbx</file>
+		<ident>m6QE4YJlforSo0irIf1lacu3JQh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\msi #25_10794721.gbx</file>
+		<ident>Q6YQhTStSRoh9uDlOKU5W1czJs9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner TM Player_3045091.gbx</file>
+		<ident>fn8l36rJBshgTYq58IaPGKAphl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners #5_63215.gbx</file>
+		<ident>T6DHGLtMm0BJeYxIiQJHZmy3an3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[SR]Beginner-Tech-Speed_1529602.gbx</file>
+		<ident>997VFJSZTtKYzGxvxshf7gGFog1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\RoofTop_10827528.gbx</file>
+		<ident>or0jzPtj2XBda041M1IwyiFNYJ3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4F_lol 194_7665428.gbx</file>
+		<ident>ti0EO2bOHu4IuHiJ5UltUVD_a2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\CosmiX_14103.gbx</file>
+		<ident>VRX32XbQ0a0iP0e2ROGY84x5NNb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\vaLidOL #01_7550744.gbx</file>
+		<ident>YLM_IkYmx7c8MEJCr_Jp7MwUgZm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#9_10852128.gbx</file>
+		<ident>XFM8uHO4WluwRx4KID0X1YJ_ba1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 05_3610411.gbx</file>
+		<ident>9cpIEkeVlGGBcrXAJsWOh7cc6P9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Short 06_3610413.gbx</file>
+		<ident>KeAP_4QoMZB26xNBqStOkJal4c2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport U166_10794802.gbx</file>
+		<ident>0i1hc3ApAp0IRAcYs2nE4EET855</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\6 Ways~Mini for Beginners_1300277.gbx</file>
+		<ident>diEBc5sOv1tK1dj1A339Qep7iuk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech short 010_8484684.gbx</file>
+		<ident>bA1_izZH47IU2geUnXWRNoSONaf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#6_10622812.gbx</file>
+		<ident>xPxouq2Eophu6mQwOsH9KlbN3il</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#7_10622817.gbx</file>
+		<ident>atNe14kIBPH2pCVZZQcUgaknr9k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\SpeedingUp4Beginners_7247733.gbx</file>
+		<ident>62Cwsm84a6AqtDH4RUwkavluhM4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners #7_145271.gbx</file>
+		<ident>f4MCQQoq5Exp9jbci336cecMj5i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Speed #2_6829955.gbx</file>
+		<ident>C_ZHmpSaPPh8m79_3_DFOprhqPg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hunter [085]_13088650.gbx</file>
+		<ident>Pi9on1xdTzJehGXHS6Qcg_0gKz9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\SCT - Tirana_5683083.gbx</file>
+		<ident>QWo2nrQ34cPYzxWt729cvtS7iRe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\chill.tech_9590673.gbx</file>
+		<ident>6c6rsxRvdVSSxXPbmk9d9RLNXam</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\very short #001_2381713.gbx</file>
+		<ident>wrJGp5mHauyY3RGEdfB38m7OUx1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4a Dago´s beginner 3_4257697.gbx</file>
+		<ident>ng2IurAAgPwTOTnDrLG9l7F_HSj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lolly #01_7329699.gbx</file>
+		<ident>n6WZ5wFKos8grwB05mgrETh7aq7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMN - Beginner #1_5838758.gbx</file>
+		<ident>ngD1_Mfee9YjEsgdAZBb9o9zLni</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fall 2023 02_10868651.gbx</file>
+		<ident>NuDA_eDFAsx96MAEbpRsFdVDYa1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Drift Season_10336172.gbx</file>
+		<ident>nopyOkgDZ_pfQnfhtB6jhEQBtR1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[ ?tS ]  Beginners #1_7149483.gbx</file>
+		<ident>lRCXvRbMJIkzZpyYwViYOa64asf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\M01-Race_10131380.gbx</file>
+		<ident>eV6pJpp2EMHh4_79uUIeKVn93Jb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\G? »Fullspeed Beginner ver 2_5355446.gbx</file>
+		<ident>rH7t4nh3PHNwmHmev8bp1qPKDH</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#20 BEGINNERS' COURSE_4896700.gbx</file>
+		<ident>ExYMBXMXvd3OFBvz6tbk3Xazc5b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium B1_10844102.gbx</file>
+		<ident>79SL4lbUZ8_tvEMgnBhrBUcJ6De</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lukas-Morning.Tech_9500620.gbx</file>
+		<ident>Tf3kwy15z81IYegoFqjRtUUw__c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lukas-short.tech_9500623.gbx</file>
+		<ident>dQipW43rCzGcDqeqf4bpzO8Qi3e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\In a line_10131410.gbx</file>
+		<ident>LA9L3t7sJUBl82rgMEy98P9nqz5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.izi TECH series_7_7706581.gbx</file>
+		<ident>LU7580WgUEsEwhshj78ygGWF_n8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #86_10041302.gbx</file>
+		<ident>iDl25YulqJvzqJr3WFq8OQHLN6i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Good4  Hunt#17_13088728.gbx</file>
+		<ident>T3gvg85b3xN52sulT6b0iIlbpIj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\¦SFt« MixMapS 163_6469600.gbx</file>
+		<ident>7hkzR4isylRMIUzdngPaBMGBtj7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-001_3807205.gbx</file>
+		<ident>mNijHxNWPQkyW6_Ngka0uOhOLm9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fun Track #2_10794988.gbx</file>
+		<ident>03RoZI4oazppKo7K3bMXal78_z1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[fs]  mini apos;s  1_2856943.gbx</file>
+		<ident>cwAAPQ0k8upcf9GV1zfoFLHkxJ4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\very short shuriken_10131452.gbx</file>
+		<ident>auM1GfM78MeWsMshmILFaPDTL11</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner #4_9394173.gbx</file>
+		<ident>GlUnOS5pCXImF63ySuqrRYjJ687</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\shOrt.002_5658623.gbx</file>
+		<ident>eHUUdHkPUxuIglB6Bm1L150cOPd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\some weird shit_10860545.gbx</file>
+		<ident>UdfccVrpkdXAVtXlvjP0U4PpN96</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mix LOL 14_9934852.gbx</file>
+		<ident>6KRHAXvEc8pks0RHcezoIceIAl8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ProCutter 01_22532.gbx</file>
+		<ident>XG5namk4YCwFpEZqRR7uj3Q6Qfj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\r.short.19_9451538.gbx</file>
+		<ident>7MhT_WxLcoM7jWyTitXEVsWrBKi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\I'm not sure_10713113.gbx</file>
+		<ident>RqzXOfSgmRcJVfo9e00rjIaoDq</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Big or Bad ?_22553.gbx</file>
+		<ident>C_QT0oHBYE2bc5vFCrsY8r2T2fl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\biggsvs3_694304.gbx</file>
+		<ident>YPhv5FO2LgJljgP7xJ5Db0E6S1f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\a new LOL series #3_10688549.gbx</file>
+		<ident>shn4cdddMNG5cGHY__PPh2ROvYm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\SilentShort #2_10795046.gbx</file>
+		<ident>HixpZmd2Uedg_pfSNDw91EckUim</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #19_243767.gbx</file>
+		<ident>LiLFzrg0c0CinqXi_OQOpb5xNv2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #10_12458048.gbx</file>
+		<ident>pDfJwIs1bdWBb17See2d5JH0d9m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\for beginner #6_79947.gbx</file>
+		<ident>C79OiLAya9kcBpzlmy_HHo5oi_5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#8_10803283.gbx</file>
+		<ident>MDTAFByGuNsM2Jrz6YKssFENh8j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 02 Air_1210459.gbx</file>
+		<ident>c1GihLg_SSC9iCJt7yy3ZM_tlM5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LOL #9_6264929.gbx</file>
+		<ident>GJqsLuI6LGgvEXswLr_Nxkj60h5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A09-Race but it's only road_10713186.gbx</file>
+		<ident>D7RESThwRAMgrGrIJUeLOKZr7sg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Turtle Fart 1#_10532963.gbx</file>
+		<ident>6tgscuFLcnc1utYsT9d4IOQxUce</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EZ 12_6789222.gbx</file>
+		<ident>Kvj78IuuWC1mLUnYMBsqM6rU41k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #5_11892839.gbx</file>
+		<ident>Qx8B9sOgDA1W57Q6kMy1Zh2uvg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\v!bes tech » 006_8919162.gbx</file>
+		<ident>YrAkTGM6SCc3elacy88Rly8IlJm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A12-Speed but it's only road_10713212.gbx</file>
+		<ident>cDb2a87otxg_TOVSTR3XtAQwWW9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\RollOver_10811521.gbx</file>
+		<ident>IIG3YhVccTKJvWCUWqKGzS43aad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sala_Drifting_10442889.gbx</file>
+		<ident>t9b4SFozfZUTwe8SH8Iv7ULNYEe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 12_9607315.gbx</file>
+		<ident>4aBWsKZ_U4dWlxWf0Zhprpquy_8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Hessens Beginner Map #01_170153.gbx</file>
+		<ident>y96tMGmnlfBQuSwzpfBvGrYKw32</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Nightlight!_11794606.gbx</file>
+		<ident>zduLQuXr2OIb7R1s5dHu64tuf0c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 07_12605623.gbx</file>
+		<ident>jL8lUcLEny42ao4_Un8TJOkttz7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\elephant short tech map 14_10713275.gbx</file>
+		<ident>vlOQXISk4MBCF9KTABq2anrI6M</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\short #13_9476289.gbx</file>
+		<ident>wzY93ppXrWD0kCZyFKk5NEnckw6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mitchshorty #1_10803394.gbx</file>
+		<ident>y74Wv3XvSwZH6vAW7MTEQHDQZe7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\bryeh ooo_10688718.gbx</file>
+		<ident>o9Ho9FK8NJzyqjbQgKMK7f2ECge</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\simple 6 mini hunter 6 of 10_4233422.gbx</file>
+		<ident>bzbqxbypcSERPlv3io4VQMHOZOk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mitchshorty #1 (NOCUT)_10803409.gbx</file>
+		<ident>skdEsX8_4pPJJOPh6ewJBlgTwSe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport tech A01_9451730.gbx</file>
+		<ident>5S3V76_csG7_6p2MGMA2nRqhK8g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\=IC=Beginner04_497888.gbx</file>
+		<ident>yehZClWzqdleUDmSKZInEFtkxx4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 13_9607401.gbx</file>
+		<ident>y4H8iIKUrDt_QwowM5GZrIUJgoe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\=IC=Beginner05_497896.gbx</file>
+		<ident>OBMk42ohraXP3i9C02l_2_ahvEf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Track #1_2701547.gbx</file>
+		<ident>J968ChEivS8syps4RKb1pT30yAm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\catafalque_10860780.gbx</file>
+		<ident>uU3NqheZ69X0SaJYl87tseFCO6g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech#2_8526061.gbx</file>
+		<ident>0Flv9qYgPgU4rE18i0ILD5dAHBf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Basic Short 16_8214768.gbx</file>
+		<ident>7ON96EYynhXVdzTiZaKcvSZrvq3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ï»¿ÃÄ˜Ð¯Ð¯@  Maybe f fun NO BLUR_10803446.gbx</file>
+		<ident>gOIDprLukE3mKpBaxaCnkwab6Si</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini beginner tech_702732.gbx</file>
+		<ident>CrYOhZtoH1TNRJYFNizC5mEpkT1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Absolut Tech 4_3037453.gbx</file>
+		<ident>5m9EVR87O_U1BG8973PlLO4mSZb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dragon Lol Héxa_1046798.gbx</file>
+		<ident>PXCY76ERx_IpCJsuRwI9yWNbSZ7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A14-Race but it's only road_10713363.gbx</file>
+		<ident>uzyMPdw5tmBS1nv638IRJOWV_Zm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\White LoL_10770722.gbx</file>
+		<ident>XmVV8HVoE5PoCqIMchLayopUDfh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\GOING UP?_11737390.gbx</file>
+		<ident>OrAVwj1x3z4mg9QZbxMaU1zHwX0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\brick map 4_10017077.gbx</file>
+		<ident>goRnIsEYTR9II0CozH5eQIxyXt9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners Track 001_4061499.gbx</file>
+		<ident>Gtok5vSplX35W1tf3QB2AO8cBae</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short Tech  /  Techno_1390907.gbx</file>
+		<ident>VA6kRVPRpdwXM5uzDOXQy_Dm3om</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\RACE - 1_22845.gbx</file>
+		<ident>IMkpa_Ybl_KXhrfD7clmGvkjSm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BadTechMap#0015_10017091.gbx</file>
+		<ident>S3KZRBTFD926QiBjQASGQLCUy1d</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 14_9607492.gbx</file>
+		<ident>4F0yTeVPF88V_4Xoh2I66gbcqug</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[ ?tS ] Beginners #2_7149895.gbx</file>
+		<ident>PAMV2kU7EK9OdIBEWSCXciSlBa4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners Track #1.5_268618.gbx</file>
+		<ident>pB2oCes0vPgIXq_udyCIlLdnRsb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MTC The Great Wanderer_10803533.gbx</file>
+		<ident>qEmvRLqSsF9c1SRJ_ogu_k8wUv1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech 7_104787.gbx</file>
+		<ident>oV_E0BLM7_aXNNerfjyTi0d5XCg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tr@ining for Beginner #4_6404439.gbx</file>
+		<ident>hcWGB7O1bUen9SXTOjnHjjnPivk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\New Beginning_13179238.gbx</file>
+		<ident>9VkZLIKJTQ6UCQkz1wvewRYFfwa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\slimetime # 176_8501623.gbx</file>
+		<ident>ty5KHtGue9eRx_v3S4iHlLZL6F</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 19_9623955.gbx</file>
+		<ident>AOa4s3tNyl3hoLmbYStF7NyQWse</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Beginner LOL 15_9607576.gbx</file>
+		<ident>blXIUEvMhoMjRiC_4hfpo45jSn6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fall 2023 04_10869146.gbx</file>
+		<ident>4H2PXpc5FZn_bIjj71LP2z8Yg1d</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A03 - Spiral_10852770.gbx</file>
+		<ident>b_6jy3FvdSIzNG2oHfjSNrMynce</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech 2019 #5_7543202.gbx</file>
+		<ident>y8IbTMV2EIUFs6OYwgERazw4ead</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A04 - Short Multistyle_10852773.gbx</file>
+		<ident>KODE2e4uD1IfOMYZMf2F_geohq4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mini  for  beginners #1_1161640.gbx</file>
+		<ident>vPZ6ZkNaLEs6kCV8X0xiGz5X_hi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\»S7?LiLoL #2_7117226.gbx</file>
+		<ident>W_Ty5Mw0n5KzseohqAK9wchwZ_b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A06 - Race_10852781.gbx</file>
+		<ident>dWwFVUxctnmdBe7nt2Ra2BgtzO5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners Drift_4037042.gbx</file>
+		<ident>OH948QqJDgSAcN4gALLhpicyEH2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A07 - Stunt_10852788.gbx</file>
+		<ident>Jp5x4vO79TpknNMfcCNs8iK6xS3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A09 - Grass Short_10852794.gbx</file>
+		<ident>cmX9Fs9O6YEdvrpE4UKxPpDh9dk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A12 - Race_10852805.gbx</file>
+		<ident>WOPhANTOGZHb7_xZsjTPXabPnF7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A13 - Speed_10852808.gbx</file>
+		<ident>r7JmhhIlfr6ZlsI_PeD7EAPoIAa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cherries Time_588232.gbx</file>
+		<ident>ta1AEUakvfBdM1vryeXr0HK5sgk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Viking duo Tech_129483.gbx</file>
+		<ident>rBAXzUMC_eKjGzjJWoMRTtVQOQm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Easy_22997.gbx</file>
+		<ident>_U7fN2yJcVA00ojrDWMMuHm2Gd3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Track_9091542.gbx</file>
+		<ident>1zUbdXvesDukHrVHwnr2MQljd4n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #35_301540.gbx</file>
+		<ident>9lrBGEhOyR_xbD6RgZYXa034Y0b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\SPORT  15  TECH_7379439.gbx</file>
+		<ident>ActV4ZZ9CRlpggn4sf2FaX_vSf9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\do you rember?_10844663.gbx</file>
+		<ident>AAMfd1NWwF5I7YuCMXRg5hxemd3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST   TECH  434_7641601.gbx</file>
+		<ident>RHQNiDxzDNRPy99idLVeg1B7vya</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners_2701838.gbx</file>
+		<ident>ncPjFa6cxvKfmjGF9yqY2p4U6m1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\DTC11 -  electric evergreen _10902043.gbx</file>
+		<ident>IG0RRPkKcOVwJoW4AEQv2_PaS0j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[TEAM] TEAM*isFAST_-MONKEE:-D_10828330.gbx</file>
+		<ident>QhYZ5lkLyQvI6yoBt9NwQ0tm7A5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM2 Stadium A02 (Hide N' Seek)_10041914.gbx</file>
+		<ident>oz103MqbQhIHB0XywPEuIugvdw3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A1-Warmup_10107463.gbx</file>
+		<ident>qceEgQu6pb4wogj9POStEHb2T2n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\похуй_11057736.gbx</file>
+		<ident>cr1yTDQCmKDRCxH85XgjmUS8XGd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Another Name :)_10803784.gbx</file>
+		<ident>JF2hV5WQrQNqiwnlZw2mKZ1HzH2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\.izi TECH series_9_7707214.gbx</file>
+		<ident>9adX1tbDWmSF4tjWyj0O8yB6rq4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\hoe's burp #3_10672721.gbx</file>
+		<ident>daXvvxw2lbJDVmzI4rW8I5HUeem</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cutzy #1_10689106.gbx</file>
+		<ident>MEgb0ed1e5yO0MXLt996wV80LWl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Funny 12 (Beginner)_1727068.gbx</file>
+		<ident>oGdJp2Zbq7YyBKAf7xlTZjK9Gif</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\find the shortcut (level easy)_10828387.gbx</file>
+		<ident>w_NqRq2qFFiqP8JnMMPv5Wuveob</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\grass turn_1710721.gbx</file>
+		<ident>mK1kq8yfHkaUvxH4yjIJnxT51q6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\arena007_7428746.gbx</file>
+		<ident>4uwD2CjHDLrqwygRwhwAVpwAzCc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bond's Tech. 15_31373.gbx</file>
+		<ident>aH0hRY4Ssu8CCqR1nwVIMaUNMY2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech4Beginners_326288.gbx</file>
+		<ident>fveN8B3spuCbPdhwUom07IrPDc5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner apos;s Hunting_2488997.gbx</file>
+		<ident>FiEbEmLdIkNzMmhtTcA92_qzxEe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #02_3209919.gbx</file>
+		<ident>6s6SO_az3ef0Gw3YoL5z4Katdt7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #03_3209922.gbx</file>
+		<ident>H5rul34XFz_XHLUKiD_wot9TnBa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[TEAM] TEAM #3 For the HBBoy simo_900_10828488.gbx</file>
+		<ident>l5Q8f7_D0OWFoI55YG4o9cWPz6b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Turn Back to Stadium_580312.gbx</file>
+		<ident>NDESqb6S16h9GPH62OtBCJkSNjf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[TEAM] refrigerator map?_10828512.gbx</file>
+		<ident>ZktYwR2iYBcWie3beitInmVJhV9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Apwalstorm #23_10083050.gbx</file>
+		<ident>9GsA7BBUNLEQe_TM_lxohSYVgh3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\micro 440_5634801.gbx</file>
+		<ident>Dyy_7N3IBv9oRCgC521kLv8ogD1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #10_3357427.gbx</file>
+		<ident>AEBq2DsmXhIwK4gz6cpo5ZxFEK5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Sorry, but it's impossible!!_10042100.gbx</file>
+		<ident>8X7Qhgw689VPXSkc50iEghsB5zf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[HrT]BeginnerTrack#2_1186547.gbx</file>
+		<ident>H1yqFLePplZ9c6wp5NQI2BMt4k8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[HrT]BeginnerTrack#3_1186552.gbx</file>
+		<ident>o7ZGeAolJnheH8t2nL8bLBf1i1i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner mini_735995.gbx</file>
+		<ident>qreZtGiMLL_UE5QXOs7cAGFyjvk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner-002_3808003.gbx</file>
+		<ident>b8SEFYZcs4mJZNnehcnrSoAsToi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Crazy Jump_10795792.gbx</file>
+		<ident>x6YgSA2WVcUnyAa5F5gDqIH52Sm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShortLol#2_10844946.gbx</file>
+		<ident>ocM93K6aKND_eTYLqRPXY31W9h6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 03_12466963.gbx</file>
+		<ident>NAgLUWii3gOYNA9AZHJ3yBtLNBf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AMD  TECH  ( 17 )_7346968.gbx</file>
+		<ident>T10k0PTz3WObFrzoGgyqvCuVFqg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\my first (non joke) map :)_10803993.gbx</file>
+		<ident>50_s0p76eMqEKhkTahgcsH2xhO9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoL TraXxX v.1.0 TMNF_6942.gbx</file>
+		<ident>7cvKjEBoXYtyDeQcWS4lqiED6Bm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tunnel of Speed 2_5217075.gbx</file>
+		<ident>nh4HUVxJIBiNnIfVD5xigYkLEzh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EToY_LoL_012_1833795.gbx</file>
+		<ident>ZwtskjqT70Z7gs79qp67MDMOV73</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Guns Short #03_3529543.gbx</file>
+		<ident>hFckBWdAvkZER6ufM54BLu5dq_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Simi's Short - A04_7453516.gbx</file>
+		<ident>PrdeZSLTp1kAVk0GntGNW1caX5g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech Rush cup - Komprex.'_8313684.gbx</file>
+		<ident>HEC_eWiVveaJALnLgs1tTkX5H3j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Lƒs Tech_8616789.gbx</file>
+		<ident>q1bMHT1A5h5p3TgsNUoib_ut0t0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\River Jump_8469344.gbx</file>
+		<ident>41q20MglxQgxu6JgOVEkgEoDMx8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\easy short_93_10001255.gbx</file>
+		<ident>UjFCu8IkLPM9wCxE3MjFWykyWG6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\kratka 002_10533741.gbx</file>
+		<ident>j32IWw_OQWosQx2hjrJsIvqRqNg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\A03 - DDTv66_11574139.gbx</file>
+		<ident>QhlEwgwGrGvD8KTA2aEfHm9zrIi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bitter Lol_7404411.gbx</file>
+		<ident>SFllfkm8TjOEyuBvTh0FM6Jy5e3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\?.Ð.®.for beginners!_2423683.gbx</file>
+		<ident>nuazoxqv3kxfEx4_XVOUsNT5mp3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\2 jump twist_10689413.gbx</file>
+		<ident>uV_a_C4Jirn1xuKsQshmi5Mmxr0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\The Easy Map_10132360.gbx</file>
+		<ident>jE5CZv5WfeRIk3aJR4X_ccqlPF8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Slightly Speedy Speedmapping #4_11582351.gbx</file>
+		<ident>i0w_wAYQW4cBY6nRZDvi4JedpG3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\cut map #1_10689429.gbx</file>
+		<ident>gySYS5j_Eku6ImhCiRKkf4kv6s0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 05_12499864.gbx</file>
+		<ident>YANwfTgy6y2V9ykXbVnUEX_kk6f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Niakos'd_11107232.gbx</file>
+		<ident>emj1gHc3s8DWp4FtvUcD83iewj7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Blue Mini #33_8936354.gbx</file>
+		<ident>POY3wQu9FvwmTt9t5QB7tXoQy35</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#B(ver.NC)_10869672.gbx</file>
+		<ident>2gygq4yBlC9ZrQmBdGEMyj0JV1m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\going.fast_10165170.gbx</file>
+		<ident>ffBOAPTqx7hlWB5pT3OrJOGRzJ5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ डんo尺ィ- 438_10779578.gbx</file>
+		<ident>QINbrTpbIRSO1823DhPz83iz_G5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\zylan lol voor beginners 1_2063295.gbx</file>
+		<ident>wzlT_KJ9_J6gkWBksUBRsYH0AKd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\zylan lol voor beginners 2_2063299.gbx</file>
+		<ident>0Ld3pKPAuGHMuQzFD7UgK3bkL_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\R4a Beginner by Flarestar_3005394.gbx</file>
+		<ident>52zV1fyUSFnhZJwcC992p8OMKa7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\pV = nRT_10861527.gbx</file>
+		<ident>xlMeela2VWNAkxhw_cmEb15D0K0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short 019_10107865.gbx</file>
+		<ident>t1h0TZ1qFX1zYAmIRTabKMD5Wpb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short ~#The Dome._6093791.gbx</file>
+		<ident>cnJYPhWPvr0MZOx9Uo0jp6gp5I1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Survival Mode_10017760.gbx</file>
+		<ident>MqsKiCcfNgK6hGCYb7iNMvxddEe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\None of that! 003_10001377.gbx</file>
+		<ident>CENNsWPABRFHZind2NieXKvJiid</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Tech 4_5635042.gbx</file>
+		<ident>Ubrnna14vpHLBXlr9psFKzMUhug</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Sh0rt_ 13_10001387.gbx</file>
+		<ident>J0ON0WDYNQ9MgobqRuCr9fRJQ8k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginner map^^_2628594.gbx</file>
+		<ident>Yft7BZh9RVQRj785awduFf1tmj5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short tech #1_8690682.gbx</file>
+		<ident>ykkGMjDeyzjsfU1Q73aWv9ivEAg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\weeds Tech...2_7707645.gbx</file>
+		<ident>VLrck8Znkutnjl4xBPHGzWoIngh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LG ' Shorties # 10_5135379.gbx</file>
+		<ident>eP24jkIF8i21oerfilBO3m5c2Ue</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech..MiNi_8150036.gbx</file>
+		<ident>h0rQOoKUGUP3ci8sJFrXGPWP8id</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\=IC=Beginner01_228379.gbx</file>
+		<ident>Be5puaKKHBtLKB5pze2UkZ0_Ctc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Good_10689577.gbx</file>
+		<ident>5MiXqVWr9WD1zpGVt2YoT3T0XL9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport V372_12893227.gbx</file>
+		<ident>HzZJttsc7YE0o816QfWqhSLn5vf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Very Short-145_1678384.gbx</file>
+		<ident>CsKA8Sc6LetPflGpXzotsyZEFW4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Baas Beginner 2.8_2325559.gbx</file>
+		<ident>jdXFl0pBrsD2sfkm8czVYpqLFX2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\~]ÐÐ[~ Beginner1_80971.gbx</file>
+		<ident>sx95a3Kd_NgxOjFr0itxd8qdIpl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\happy tech_8240211.gbx</file>
+		<ident>c3KG9zaf5K0q2Bav4tnv8gZsX3m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Days 4 lol #17_7175257.gbx</file>
+		<ident>S5LtXM0vPdLZiqaVyahLmWzaNae</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_1_1449048.gbx</file>
+		<ident>UdozgV4jtdD6WuDfwKjN69P5f7h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\paraDoxis_6102108.gbx</file>
+		<ident>Sdc5XsgqwxYpOGVRIY3AsfrP8p1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Temp Short 053_8723550.gbx</file>
+		<ident>xoH_fnJSoaJiLCCw40PVXli0DQ0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_2_1449054.gbx</file>
+		<ident>ml8gl5A8iususSve5RTH7Feq8B7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_2_V2_1449058.gbx</file>
+		<ident>wjz_gLttbvesxUvPIrsfTstAsA6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ilmago63_7264.gbx</file>
+		<ident>D3k4WhG5dhNsmAyEJE0TRe62FGa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_3_1449060.gbx</file>
+		<ident>ix0eZN2RFd0i_EhFV6iNFfSLs74</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_4_1449066.gbx</file>
+		<ident>nmVLU8bppRmV7HXCHnSB0CRKAR2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_5_1449070.gbx</file>
+		<ident>1kcTXKJ_wuXo3RYFZRdbfKXz_Kl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_6_1449075.gbx</file>
+		<ident>LPtO1QBSzH1o1up7R_oqnOxmOad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_7_1449080.gbx</file>
+		<ident>PtJ_7Ppmmx8iRRmoBfDZc1nsSq9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Precision #37_10165369.gbx</file>
+		<ident>eOTda0bAuPRhN1rrbumBjFDDXw5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_8_1449082.gbx</file>
+		<ident>gPrum80FOgWC9Q0xchO_luJM5z7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_9_1449084.gbx</file>
+		<ident>J4HCM491QqJvEly4UcBuxrLt2Ll</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Simple Cornering (beginners 1)_3103869.gbx</file>
+		<ident>N17ILzF9S1msbC4N1totS3sBhp6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_10_1449086.gbx</file>
+		<ident>EwC0NNydbmtStsD6mKeFfPbZME5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Apwalstorm #25_10099840.gbx</file>
+		<ident>swk7j_y3rYzh_wJwRC66dPUbjbc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_11_1449088.gbx</file>
+		<ident>yJMIObhUZpLNVovhNV_w7AXtdnc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_12_1449090.gbx</file>
+		<ident>uvw_fiWBJ5aBBb_jUGnh7zWftM4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_13_1449096.gbx</file>
+		<ident>YnTjg3rPSaDi9ufZmwCYo8vC7ll</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_14_1449098.gbx</file>
+		<ident>3QAO01WygcZqtBKS_SBSjg13aih</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShortLife#1_10017932.gbx</file>
+		<ident>LZvJGPz2f1tLowjZDetVk1mqbY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\roki mix 01_10534029.gbx</file>
+		<ident>13RBgVY9icaLUhyv45SLSj3MsMi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_15_1449102.gbx</file>
+		<ident>PlEjicajApAkzkyksWhcaE7irgk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LeCube_6405263.gbx</file>
+		<ident>TkaUB6j5qUqDL0iuNfD7N6qcog7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_16_1449106.gbx</file>
+		<ident>i8aRADwC9n5QAWtvrzbUSA2EcY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner FS Hunt_5938324.gbx</file>
+		<ident>7Ax5KY8qYNHcJhzdbZlbU0zxHc9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_Beginner_17_1449108.gbx</file>
+		<ident>rTIduIoIz7n05XgIDNXO4poQQu7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Try Cut #2_10771608.gbx</file>
+		<ident>fRypXoBWseAio06EI8ROR2oNMka</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Up &amp; Over_10001564.gbx</file>
+		<ident>8AmH_q4ztm26wT35Chvn_vyxXz9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\turbo_PAULE_fun_15_1449123.gbx</file>
+		<ident>B73dAcNp_ZoHgwzsQnttrEjreF3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\lolsport S405_10255525.gbx</file>
+		<ident>w3Jj8s2KDM_GkSzyva6MNXF55lj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FS] Beginner apos;s_2137258.gbx</file>
+		<ident>Ci8RiYs1fRiPD2uvHtXYbhoNBwh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Bal.Tazar. # 891_11787436.gbx</file>
+		<ident>ko1AJs6kke8uxtxzE1utd1YoCym</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner´s Dirt_1539247.gbx</file>
+		<ident>bbS3sluYtUUzR1H_7BCFOsBSqN0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kattack Cup (no cp) -6_9026755.gbx</file>
+		<ident>hLiKGs1szWocq2hVc83E4g2t7zi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Kattack Cup (no cp) -7_9026758.gbx</file>
+		<ident>9Ml0rr3IvYlFkUaVKCJj_aWu0w0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fast Track_9665735.gbx</file>
+		<ident>cXboeNDB1Mn7SVrXQZ_CEW9IHUf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\FBI Brawl_23760.gbx</file>
+		<ident>VRNvPyf_WwOCJ9ldFICueyNElZ8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\not bad jonathan_10681557.gbx</file>
+		<ident>K4pl2oFezBFLoAWemwLE9cIKBR9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner Boulevard #2_2866392.gbx</file>
+		<ident>EbLdeyeviex9RftUHN_67ovPji2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\loop de loop_15584.gbx</file>
+		<ident>qmV2pbyQjTofouS_fW3RjB1umxm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HekuMini#027_8158449.gbx</file>
+		<ident>nNgd49LqEEzzTyVU8le5TXbmOu6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Cwaniakowy LOL #31_7003380.gbx</file>
+		<ident>1xG3ot39WQ65cia6Nd9358_S_B1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\The Urge_9796860.gbx</file>
+		<ident>LrNicL81f_bTI5lrNjJlCSAMIG1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech (simple editor)_10059013.gbx</file>
+		<ident>PRPRH1uVwjQLPGdffjgmxjYH1sb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\No Border Tech 1_8797445.gbx</file>
+		<ident>8RHgbrKXK90V7EPuYGTqg_Gf9n9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Eat My Very Short 5_867590.gbx</file>
+		<ident>1klJpaWzXkPeWXAxM04vZdCGs3k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner: Sky Track_1424653.gbx</file>
+		<ident>CZSf0FFDPTu2EusspIOwOZp56E8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\¬Very.Short 03_3554592.gbx</file>
+		<ident>pAZl3qsPORxyc1JURxNE4kgK4Uj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\=IC=Beginner02_228642.gbx</file>
+		<ident>aeNf6V0F0VMD3TDV9BdzIgEmWc4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\frogrun_15652.gbx</file>
+		<ident>8ReQQdqiGCPOxOpaFa_oiSC3Bi1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HR Loops_10771757.gbx</file>
+		<ident>2zrB68Ot5V73ZBjKVx2cYzC0ks4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\playable lol 2_10722608.gbx</file>
+		<ident>DsaHYBBOkpw2M7wiVhyVPEm8edk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[17]_2735415.gbx</file>
+		<ident>a0XGMsuA5k7rLnLrKdlH1YT3mDf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ASS Mapping 09_13122877.gbx</file>
+		<ident>rxSuMArz1UUmmfR3QbGIhz_9nM4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Abstract_10001725.gbx</file>
+		<ident>FKIwXO3tyQt7o6aMhcXJ2O8Ugn</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Buffeting_10001733.gbx</file>
+		<ident>lWyhyb5YT1E8O7GFfMOX0UWng9m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Buildups_10001736.gbx</file>
+		<ident>HWMsGpbNu3MxxA0hIjXJ9hQri2a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\08 - 80h_11828554.gbx</file>
+		<ident>8DMvaytirIqGNNJMfMH55GlnlB3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LoCo-Short #1_10796394.gbx</file>
+		<ident>eL9T0V4cEMxACjyc8M0EEVGQgpc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\5AM_10861938.gbx</file>
+		<ident>yjYfhv8JkJoPdd6Ja4N1SP67Y_f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Impossible?....sure...._10075524.gbx</file>
+		<ident>93tQ0Mcu9cMHm36yqwTXUYPal7d</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\beginner track_1523088.gbx</file>
+		<ident>C9hv79CzyZuWIarTOXHQcdhsWme</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\onlyfans paradise_10689942.gbx</file>
+		<ident>ck3K6r_Sz2Kps0yYDizZ8N0IXe2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #2_245144.gbx</file>
+		<ident>iv5QBxSeUqwkn4vupOXt7PWT9ok</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\some overwalls_10689949.gbx</file>
+		<ident>T96AY24TfonLWcLbil9RKYZCTZ</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Tech #4 panpan_10812830.gbx</file>
+		<ident>tMqfQxSpA77dBSAMhDnF2lfz3Ol</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\JumpTrack #4_11697569.gbx</file>
+		<ident>V0y4DZNg6SlyuoK5IVj0QNrvzFi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short v1_10083751.gbx</file>
+		<ident>y0fo3QCjWj7sWxEWEhDx9JgjCa3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\®® Beginners Tech 02_3710391.gbx</file>
+		<ident>gGkUUHy30saEVLlqLstShDV0DId</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini Dirt for beginners_228796.gbx</file>
+		<ident>Rji6HSmLRNXt5T1OrtGj8ByFbub</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\enjoyable map_11501021.gbx</file>
+		<ident>pn3gQPu91dVVtP3XvZJOT5p0yY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Tech short 001_8478178.gbx</file>
+		<ident>8QgirqOdWBqqqzz8uVxaDHt46Al</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LG  (TECH )  31_7437807.gbx</file>
+		<ident>5xTuMukuG04OHpkzF1zG9mUC1uj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\MiniLOL'cut? #2_7331317.gbx</file>
+		<ident>SslQOwPIIX5EC3U6An1ryIBgro6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\micro fs 35_12361221.gbx</file>
+		<ident>j3H7bY8GrrY0BHoyTEnybgHOpM8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ Micro Short Lol 25_10173960.gbx</file>
+		<ident>uBDCBCDt2J69KtrGHqBVdcHHhr</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #04_3210763.gbx</file>
+		<ident>paWxSNjh3B8iJ4865_TvSM5kFA1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #05_3210765.gbx</file>
+		<ident>h5SgkmCENQpbUEGaBhPkLoY1B_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\fresh dirt shizzle 02_7101968.gbx</file>
+		<ident>uXPg1hnoTmrxQA6qipzQy_VzVhj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #06_3210768.gbx</file>
+		<ident>GitEpZqXgnDlBLBmgmgvuuByhqk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\pobij to &lt;3_10165778.gbx</file>
+		<ident>61VSKxiLFiOMAPGkEijtqg9MLza</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #07_3210773.gbx</file>
+		<ident>w8fvma4KNVKF3vZ2OMWOhaphyc6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Dream apos;T Beginner #08_3210775.gbx</file>
+		<ident>evKVlM2F55b2C3HCBEcnztNspB0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini-Speed-Tech#3_204313.gbx</file>
+		<ident>HPtSpCbWHSYSNDnGiuJLrESmOui</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\kastke bjanc_10845724.gbx</file>
+		<ident>o_oaDSg_LzFNstn7cI55xcYRVS5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Minitrax.02_5512734.gbx</file>
+		<ident>nggLzKSSYxeTiO4M8_x2gudJy1e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mix LOL 21_10690082.gbx</file>
+		<ident>y9JdR3iDTL_N7tO4UCMaGM4Z0Gd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mix LOL 22_10690085.gbx</file>
+		<ident>URzFSf5guK3FMZVG0sjwGuAQlu6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Basic LOL map #8_9199142.gbx</file>
+		<ident>mDlmQAMXHAbdd4yAoJPVPk7QTca</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mix LOL 23_10690088.gbx</file>
+		<ident>eT3qiZUly9TktGPb_zSR5HapPwg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AxiLoL #4_10395180.gbx</file>
+		<ident>4P1ZAOqzUwzdQhh6bx5hhcRAyKa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\ShB22_Precise_line_04_10067508.gbx</file>
+		<ident>sFsWxVeIH6nfd7pwnVOW0563i3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\#13 BEGINNERS' COURSE_4267573.gbx</file>
+		<ident>nN9y4m613ELsEsWcnil3WTL4NPf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\BAD Beginner Map - All-Terrain_10755644.gbx</file>
+		<ident>tufsNpvnZEyRkiQpdJjAE_W5zEc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tmhu Short 24_10264124.gbx</file>
+		<ident>Twt9MRnxWLy8PsRHmLk1EiAV91g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\EWWY SHORT 14_10624578.gbx</file>
+		<ident>zEhvKNk9qImD_hG85evkWdwh6zm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\oLBeginner map_2793027.gbx</file>
+		<ident>taCRaVwcBzGxI_xFN4peL01hR34</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium A1 _10813016.gbx</file>
+		<ident>gy4ljxr71G8aZQMLy2gQRdBCz_m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\LNight #023 INF_9698916.gbx</file>
+		<ident>VGQ_79godBcBCkPVQUNzE10yJ0h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short #7_228978.gbx</file>
+		<ident>lVQvWWyu21uVyTbXIiNe7eL1xEj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\trasa do upalania bolidu na maksymalnych obrotach2_10526351.gbx</file>
+		<ident>NqiZ6gO8pip7TWGYvb4qyZuWzt2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #2_10616470.gbx</file>
+		<ident>iwaiVijyCJ2lGYRVIRopwbWV_Lj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Map #3_10616473.gbx</file>
+		<ident>qFZRgRPL22boKvJFoBmHH84uGH1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Daily Tech Hunt #001_8109730.gbx</file>
+		<ident>Hv1eudCRZz3zzomriGqqQpkNDYk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium A2_10813104.gbx</file>
+		<ident>e_UGhwkboPkpmtdNm1rfp1j1gQk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Fast into the loop_10165937.gbx</file>
+		<ident>IOPon4dTNznLzovv4rrFRsPlwCl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[FS] 4 Beginners_3931833.gbx</file>
+		<ident>nPohn2JaM_uqRuEDsvLY3XXrr7k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\short #5_9461438.gbx</file>
+		<ident>m_ThAY8Q_AKiwl4aBdWwmyIx_Yl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\habe u seen an alien please?_11108053.gbx</file>
+		<ident>7koHJPGq7hSb54rOuJMlaMlOdz4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\wAmpWamP!#5_10518242.gbx</file>
+		<ident>8DOtjurpXrPti0T1DN2d6BgfSAb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\WEST  CLOUD  -- TECH_7634661.gbx</file>
+		<ident>FD9cFleHcL5RKv2EnWQQcfqHLkj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Overgrown_11837160.gbx</file>
+		<ident>z7mLeNljzOVshrQjDVtucFD1K6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\похуй #2_11067120.gbx</file>
+		<ident>utczI6vJiIlQklNrs1WbGtkd0F3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\похуй #3_11067123.gbx</file>
+		<ident>hfgZvrdK4ff0Ctsp5yYrJg9Qini</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginner 02_5889794.gbx</file>
+		<ident>2U456NbvFh6I4XMYA5bmKZ7auE9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\1# %/&amp; Turtle_10526467.gbx</file>
+		<ident>iuMROavj0rn6o4sY6d8XDPxQdQ0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\fly between the skyscraper_24329.gbx</file>
+		<ident>aUVOtHWbGua7V52e61IuTQ48Lxa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HuNteR 01_10067726.gbx</file>
+		<ident>qPubxHDSP_2KqfrVmV6dKTt7Shb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\simple tech 2_9314070.gbx</file>
+		<ident>pHcrmWTl9pXwpTsOuxNG6ZuFeM5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[5]_2703127.gbx</file>
+		<ident>LWm__5LT0zXpoYl15bjHrVNzE75</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\just fantastic 05_12017432.gbx</file>
+		<ident>4wrZu_QJOGc0BEPvSGdyhqb9qFh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #95_10084121.gbx</file>
+		<ident>4mr7i8BJcrht5fL4TiJGP8X4Vid</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\simple tech 3_9314072.gbx</file>
+		<ident>s6GKQIWZJb4hcgKzkF5HA605ZA8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\masterpiece for flynn 4_10780443.gbx</file>
+		<ident>V6cNVBUUNrmmPKaacucoUWxV283</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TM Turbo DS Stadium A3_10813215.gbx</file>
+		<ident>LSASOY2kqbbEashU42FXjpBUT92</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Short tech #14_10755883.gbx</file>
+		<ident>3jqW52BuVlRbfU3rgjRMz5SVYS0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\GNE.Rpg for beginners_6094642.gbx</file>
+		<ident>8VIElf9Wwi7LPg8vB5iPCxM5iPl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Popo Short #10_6299456.gbx</file>
+		<ident>yyjo9nloP1hBupJwRVREtHLsNH7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\StadiumShort5_11329354.gbx</file>
+		<ident>Zsj_AHlEpRLVneevuezIZgSoPb8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\small tech #2_9158482.gbx</file>
+		<ident>UAlsLNVea83mwFc0nzKSYqErQVa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\World Cup Round 9_10862419.gbx</file>
+		<ident>noyCOlpaarTbFIB5buXulNFEUVc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\TMNUF (DS &amp; PC) A06-Speed_8658772.gbx</file>
+		<ident>CgC6SmyLaMiqIPAyX25AuUsNj_7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\[500]Beginners Test[3]_2695014.gbx</file>
+		<ident>oAX8FG5KMz5NnCbc0Gvbw4V_K5m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Green Beginner-B1_Para_958309.gbx</file>
+		<ident>3WR7aW0mULf2NrNozMAjuTBCnBh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Ultimate Survival_10051456.gbx</file>
+		<ident>yP4Ubzw296U15h9yJHl9csbE472</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Maw! Things #141_10682251.gbx</file>
+		<ident>sfbUhi1RucB6UPoaAvjV7FlNE9m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\rotx.recruit tech_7471007.gbx</file>
+		<ident>4wI9KTYi3Ws3Mq_5ky0rDabzXX8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Elite Beginner 02_3391400.gbx</file>
+		<ident>omy3Up3y2egM082dRO4IuNlL3Pe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\???V-Short 001_5857201.gbx</file>
+		<ident>i3hodJczOJve0qAl0E8s9ZC3ux</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\tech 2_98226.gbx</file>
+		<ident>EHE5pGPXTR9vX_8oW9lNONI1LK5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\GTX mini tech 1_40880.gbx</file>
+		<ident>cp3yKUdqzUudfXt4lyjBJNZS5k5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Zorscy« Wrong Answer_6930380.gbx</file>
+		<ident>4jtTKXCzg6mZvQZ6G9KprSeZJWg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Level 1 (Beginner)_3768268.gbx</file>
+		<ident>BGBNlob7oiVkva2qtohCeVXYfm3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Gtx mini-tech 2_40908.gbx</file>
+		<ident>7ZZfSsjRXEz5R215RWEWdR2prg3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\DardasMini 90 (Beginners Only?)_5054415.gbx</file>
+		<ident>Ml9TWZcaHvqzawHPPMslOAg3DQm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\looolipop#5_7593937.gbx</file>
+		<ident>C9lXmYMGPPTJQf4ohHD2cHPYR59</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners #1_6692822.gbx</file>
+		<ident>LdmL3HyT7q3Tkz7aEaiUDQzcxx</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Level 4 (Beginner)_3768278.gbx</file>
+		<ident>tHeN531vUVHiqNSwFarOinyeM8j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Level 5 (Beginner)_3768280.gbx</file>
+		<ident>lHO7xcqsNrJ7siLPdLVHinjIAA3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Beginners #2_6692825.gbx</file>
+		<ident>LQJFwMiUc8aRsOXVX9m_jZT1rFc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\Mini for beginners the final_294873.gbx</file>
+		<ident>wdGHa4kbiMgIosWIw3xofM74pqc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\mik cut 02_9838560.gbx</file>
+		<ident>UrAY3SdyJ8iksUpSdJDXtrxi7Ul</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\AMD  TECH  ( 18 )_7348193.gbx</file>
+		<ident>s7UmuVEk2y27ohzi69uwWb1m9v5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\HuntMania¬ Space Jam_6782955.gbx</file>
+		<ident>ahc1IWYNv9XxdiYP9aZ7c28R11f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\TMX\||| GUCCI ||| ~ 6_7258109.gbx</file>
+		<ident>2LqOM0ct3t1eBOI7yDCfqK8iGc4</ident>
 	</challenge>
 </playlist>

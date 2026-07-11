@@ -11,7 +11,7 @@ sed -i "s|<password_server></password>|<password>$(./get_secret.sh $server-secre
 
 cat GameData/Config/new_cfg
 
-./TrackmaniaServer /game_settings=MatchSettings/CustomSettings/cswh.txt /dedicated_cfg=new_cfg > logs
+./TrackmaniaServer /game_settings=/tm-server/GameData/Tracks/MatchSettings/tracklist.txt /dedicated_cfg=new_cfg > logs
 
 sleep 1
 

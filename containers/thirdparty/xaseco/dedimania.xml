@@ -9,13 +9,13 @@
 		<!-- Log Dedimania news in logfile? -->
 		<log_news>True</log_news>
 		<!-- Show welcome message in chat?  -->
-		<show_welcome>True</show_welcome>
+		<show_welcome>False</show_welcome>
 		<!-- Minimum number of records you'd always like to see at -->
 		<!-- the start and end of tracks, and with /dedilive (-2)  -->
 		<show_min_recs>8</show_min_recs>
 		<!-- Display existing records at start of a new track?     -->
 		<!-- 2 = in message window, 1 = in chat, 0 = none          -->
-		<show_recs_before>1</show_recs_before>
+		<show_recs_before>0</show_recs_before>
 		<!-- Display (possibly) updated records at end of a track? -->
 		<!-- 2 = in message window, 1 = in chat, 0 = none          -->
 		<show_recs_after>1</show_recs_after>
@@ -39,9 +39,9 @@
 	<!-- For the nation, please use the 3-character abbreviation from -->
 	<!-- http://en.wikipedia.org/wiki/List_of_IOC_country_codes       -->
 	<masterserver_account>
-		<login></login>  <!-- Edit this^^ -->
-		<password_server></password> <!-- Edit this -->
-		<nation>UZB</nation> <!-- TODO: Edit this -->
+		<login></login>
+		<password_server></password>
+		<nation>UZB</nation>
 	</masterserver_account>
 
 	<messages>

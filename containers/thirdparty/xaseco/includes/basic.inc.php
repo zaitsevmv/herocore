@@ -653,11 +653,25 @@ function findTMXdata($uid, $envir, $exever, $records = false) {
 
 	// determine likely search order
 	if ($envir == 'Stadium') {
+
+	//Start change ---
+
+		$sections = array('TMN', 'TMNF', 'TMU');
+
+	} elseif ($envir == 'Bay' || $envir == 'Coast' || $envir == 'Island') {
+
+		$sections = array('TMS', 'TMU');
+
+	} else { // $envir == 'Alpine' || 'Snow' || 'Desert' || 'Speed' || 'Rally'
+
+		$sections = array('TMO', 'TMU');
+	}
+		/*
 		// check for old TMN
 		if (strcmp($exever, '0.1.8.0') < 0)
 			$sections = array('TMN', 'TMNF', 'TMU');
 		// check for new TMF
-		elseif (strcmp($exever, '2.11.0') >= 0)
+		elseif (strcmp($exever, '2.11.26') >= 0)
 			$sections = array('TMNF', 'TMU');
 		else
 			$sections = array('TMU');  // TMNF section opened after TMF beta
@@ -674,6 +688,10 @@ function findTMXdata($uid, $envir, $exever, $records = false) {
 		else
 			$sections = array('TMU');  // TMO section closed after TMU release
 	}
+	*/
+
+	//End change ---
+
 
 	// search TMX for track
 	foreach ($sections as $section) {

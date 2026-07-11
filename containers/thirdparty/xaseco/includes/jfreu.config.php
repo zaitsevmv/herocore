@@ -56,7 +56,7 @@
 	$player_left  = '{#server}>> {#highlite}{1}$z$s{#message} has left the game. Played: {#highlite}{2}';
 
 	//-> random info messages at the end of the race (0 = OFF, 1 = in chat, 2 = in TMF message window)
-	$infomessages = 1;
+	$infomessages = 0;
 	//-> prefix for info messages
 	$message_start = '$z$s$ff0>> [$f00INFO$ff0] $fff';
 

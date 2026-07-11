@@ -18,11 +18,11 @@ $feature_stats = true;
 //Set to true to always show PB at track start
 //If false and <show_recs_before> is 2 or 6 AND player has ranked record, OR
 // player uses the records panel, then PB message is not shown at track start
-$always_show_pb = true;
+$always_show_pb = false;
 
 //Set to true ONLY if you use the karma feature.
 //If you set this to true when you are not, it will produce errors
-$feature_karma = true;
+$feature_karma = false;
 //Set to true if you allow ++ & -- votes as well as /++ & /--
 $allow_public_karma = true;
 //Set to true if you want to show the karma message at the start of each track
@@ -49,20 +49,20 @@ $jukebox_skipleft = true;
 //(any tier) that left (and $jukebox_skipleft is true)
 $jukebox_adminnoskip = false;
 //Set to true if you want /add to permanently add tracks to the server
-$jukebox_permadd = false;
+$jukebox_permadd = true;
 //Set to true if you want /admin add to automatically jukebox the downloaded track (just like a passed /add vote)
 $jukebox_adminadd = true;
 //Set to true if you want jukebox messages diverted to TMF message window
 $jukebox_in_window = false;
 
 //Set to true to reset the challenges list cache at the start of each map
-$reset_cache_start = true;
+$reset_cache_start = false;
 
 //Set to contact (email, ICQ, etc) to show in /server command, leave empty to skip entry
-$admin_contact = 'YOUR@EMAIL.COM';
+$admin_contact = 'thebigg@afo-tm.org';
 
 //Set to filename to enable autosaving matchsettings upon every track switch
-$autosave_matchsettings = '';  // e.g. 'autosave.txt'
+$autosave_matchsettings = 'tracklist.txt';  // e.g. 'autosave.txt'
 
 //Set to true if you want start-up to prune records/rs_times for players and
 // challenges deleted from database, and for tracks deleted from the server
@@ -70,7 +70,7 @@ $autosave_matchsettings = '';  // e.g. 'autosave.txt'
 $prune_records_times = false;
 
 //Set to true if you want to disable normal CallVotes & enable chat-based votes
-$feature_votes = false;
+$feature_votes = true;
 
 //Set to true to perform XASECO version check at start-up & MasterAdmin connect
 $uptodate_check = true;
@@ -97,11 +97,11 @@ $globalbl_url = '';
 
 //Sets the maximum number of records stored per track
 // Lower = Faster
-$maxrecs = 50;
+$maxrecs = 1000;
 
 //Sets the minimum amount of records required for a player to be ranked
 // Higher = Faster
-$minrank = 3;
+$minrank = 1;
 
 //Sets the number of times used to calculate a player's average
 // Lower = Faster

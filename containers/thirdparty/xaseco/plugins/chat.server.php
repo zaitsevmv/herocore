@@ -43,6 +43,27 @@ function chat_server($aseco, $command) {
 	$updays = floor($aseco->server->uptime / (24 * 3600));
 	$uptime = $aseco->server->uptime - ($updays * 24 * 3600);
 
+	// get CPU usage
+	$exec_loads = sys_getloadavg();
+	$exec_cores = trim(shell_exec("grep -P '^processor' /proc/cpuinfo|wc -l"));
+	$cpu = round($exec_loads[1]/($exec_cores + 1)*100, 0) . '%';
+ 
+	// get Memory usage
+	$exec_free = explode("\n", trim(shell_exec('free')));
+	$get_mem = preg_split("/[\s]+/", $exec_free[1]);
+	$mem = number_format(round($get_mem[2]/1024/1024, 2), 2) . ' GB / ' . number_format(round($get_mem[1]/1024/1024, 2), 2).' GB';
+ 
+	$exec_free_two = explode("\n", trim(shell_exec('free')));
+	$get_mem_two = preg_split("/[\s]+/", $exec_free[1]);
+	$mem_two = round($get_mem[2]/$get_mem[1]*100, 0) . '%';
+ 
+	$file = file('/proc/cpuinfo');
+	$proc_details = $file[4];
+	$proc_details = substr($proc_details, 13);
+ 
+	$tester = 100-$cpu;
+	$tester_two = 100-$mem_two;
+
 	// showing info for TMN
 	if ($aseco->server->getGame() == 'TMN') {
 
@@ -104,11 +125,13 @@ function chat_server($aseco, $command) {
 		$stats = array();
 		$stats[] = array('Server Date', '{#black}' . date('M d, Y'));
 		$stats[] = array('Server Time', '{#black}' . date('H:i:s T'));
+		$stats[] = array('PHP version', '{#black}' . substr(PHP_VERSION, 0, 6));
+		//$stats[] = array('MySQL version', '{#black}' . substr(mysql_get_server_info(), 0, 6));
 		$stats[] = array('Zone', '{#black}' . $aseco->server->zone);
 		$field = 'Comment';
 
 		// break up long line into chunks with continuation strings
-		$multicmt = explode(LF, wordwrap($comment, 35, LF . '...'));
+		$multicmt = explode(LF, wordwrap($comment, 250, LF . ''));
 		foreach ($multicmt as $line) {
 			$stats[] = array($field, '{#black}' . $line);
 			$field = '';
@@ -160,10 +183,28 @@ function chat_server($aseco, $command) {
 	}
 		$stats[] = array('Ladder Limits', '{#black}' . $aseco->server->laddermin .
 		                  '$g - {#black}' . $aseco->server->laddermax);
-	if ($admin_contact) {
-		$stats[] = array('Admin Contact', '{#black}' . $admin_contact);
-	}
+
+		if ($tester > '20') {
+		    $tester = '$0c0'.$tester.'%{#black}';
+		} else {
+		    $tester = '$f00'.$tester.'%{#black}';
+		}
+ 
+		if ($tester_two > '20') {
+		    $tester_two = '$0c0'.$tester_two.'%{#black}';
+		} else {
+		    $tester_two = '$f00'.$tester_two.'%{#black}';
+		}
+		//Server Info
+		$stats[] = array('Server Info:', '{#black}' . $proc_details);
+		$stats[] = array('', '{#black}CPU: (usage) ' . $cpu.' (Free: '.$tester.')');
+		$stats[] = array('', '{#black}RAM: (usage) ' . $mem.' (Free: '.$tester_two.')');
+ 
+		if ($admin_contact) {
+   		$stats[] = array('Admin Contact', '{#black}' . $admin_contact);
+		}
 		$stats[] = array();
+
 		$stats[] = array('Visited by $f80' . $players . ' $gPlayers from $f40' . $nations . ' $gNations');
 		$stats[] = array('who together played: {#black}' . $playdays . ' day' . ($playdays == 1 ? ' ' : 's ') . formatTimeH($playtime * 1000, false) . ' $g!');
 

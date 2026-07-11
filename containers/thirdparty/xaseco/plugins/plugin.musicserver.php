@@ -12,6 +12,7 @@
 Aseco::registerEvent('onSync', 'music_loadsettings');
 Aseco::registerEvent('onShutdown', 'music_shutdown');
 Aseco::registerEvent('onEndRace', 'music_nextsong');
+Aseco::registerEvent('onNewChallenge', 'test_fix');
 
 // handles action id's "-2101"-"-4000" for selecting from max. 1900 songs
 Aseco::registerEvent('onPlayerManialinkPageAnswer', 'event_music');
@@ -19,6 +20,15 @@ Aseco::registerEvent('onPlayerManialinkPageAnswer', 'event_music');
 Aseco::addChatCommand('music', 'Handles server music (see: /music help)');
 
 require_once('includes/ogg_comments.inc.php');  // provides .OGG comments
+
+function test_fix($aseco) {
+	global $music_server;
+
+    if ($music_server->cachetags) {
+    	refresh_tags($aseco, $music_server);
+        $aseco->releaseEvent('onMusicboxReloaded', null);
+	}
+}
 
 class Music {
 	var $server;

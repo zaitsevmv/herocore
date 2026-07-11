@@ -4829,7 +4829,7 @@ function chat_admin($aseco, $command) {
 						if (++$lines > 14) {
 							$admin->msgs[] = $msg;
 							$lines = 0;
-							$msg = '';
+							$msg = array();
 						}
 					}
 				}

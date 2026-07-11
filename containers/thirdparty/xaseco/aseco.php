@@ -32,6 +32,7 @@
 /**
  * Include required classes
  */
+#require_once('includes/modernizer.inc.php'); // PHP7.1 compatibility
 require_once('includes/types.inc.php');  // contains classes to store information
 require_once('includes/basic.inc.php');  // contains standard functions
 require_once('includes/GbxRemote.inc.php');  // needed for dedicated server connections
@@ -247,9 +248,9 @@ class Aseco {
 			// set minimum number of records to be displayed
 			$this->settings['show_min_recs'] = $aseco['SHOW_MIN_RECS'][0];
 			// show records before start of track?
-			$this->settings['show_recs_before'] = $aseco['SHOW_RECS_BEFORE'][0];
+			$this->settings['show_recs_before'] = intval($aseco['SHOW_RECS_BEFORE'][0]);
 			// show records after end of track?
-			$this->settings['show_recs_after'] = $aseco['SHOW_RECS_AFTER'][0];
+			$this->settings['show_recs_after'] = intval($aseco['SHOW_RECS_AFTER'][0]);
 			// show TMX world record?
 			$this->settings['show_tmxrec'] = $aseco['SHOW_TMXREC'][0];
 			// show played time at end of track?
@@ -2552,8 +2553,8 @@ disabled */
 if (function_exists('date_default_timezone_get') && function_exists('date_default_timezone_set'))
 	date_default_timezone_set(@date_default_timezone_get());
 $limit = ini_get('memory_limit');
-if (shorthand2bytes($limit) < 128 * 1048576)
-	ini_set('memory_limit', '128M');
+if (shorthand2bytes($limit) < 8192 * 1048576)
+	ini_set('memory_limit', '8192M');
 setlocale(LC_NUMERIC, 'C');
 
 // create an instance of XASECO and run it

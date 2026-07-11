@@ -2,15 +2,15 @@
 <settings>
 	<!-- MySQL Server Settings -->
 	<mysql_server></mysql_server>
-	<mysql_login>root</mysql_login>  		<!-- edit this -->
-	<mysql_password></mysql_password>  <!-- edit this -->
+	<mysql_login>root</mysql_login>
+	<mysql_password></mysql_password>
 	<mysql_database>aseco</mysql_database>
 	<!-- Do you want XASECO to display newly driven records? -->
 	<display>true</display>
 	<!-- Limit the highest record that will be displayed to all? -->
 	<!-- If lower than $maxrecs, records above this limit will -->
 	<!-- only be displayed to the pertaining player -->
-	<limit>50</limit>
+	<limit>100</limit>
 
 	<messages>
 		<!-- record messages -->

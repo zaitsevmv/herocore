@@ -4,6 +4,7 @@
 #include <coroutine>
 #include <liburing/io_uring.h>
 #include <memory>
+#include <shared_mutex>
 #include <span>
 #include <stop_token>
 
@@ -13,6 +14,7 @@ struct TReactorCtx {
     std::span<char> Data = std::span<char>();
     sockaddr* Addr = nullptr;
     size_t AddrLen = 0;
+    uint64_t Offset = 0ull;
 };
 
 class TReactor {
@@ -23,16 +25,16 @@ public:
     };
     using TUserDataPtr = std::shared_ptr<TUserData>;
 
-    enum class EOperation {
-        Read, Write, Accept, Connect
+    enum class EOperation: short {
+        Read, ReadFile, Write, Accept, Connect
     };
 
     TReactor();
 
     TReactor(const TReactor&) = delete;
     TReactor& operator=(const TReactor&) = delete;
-    TReactor(TReactor&&) = default;
-    TReactor& operator=(TReactor&&) = default;
+    TReactor(TReactor&&) = delete;
+    TReactor& operator=(TReactor&&) = delete;
 
     void Run(std::stop_token stoken);
 
@@ -44,6 +46,9 @@ private:
 private:
     io_uring Ring_;
     io_uring_params RingParams_;
+
+    std::atomic<ssize_t> PendingOps_ = 0u;
+    std::mutex UringMutex_;
 };
 
 using TReactorPtr = std::shared_ptr<TReactor>;

@@ -1,3 +1,5 @@
 add_subdirectory(logger)
 add_subdirectory(async)
-add_subdirectory(tcp)
+add_subdirectory(network)
+add_subdirectory(messages)
+add_subdirectory(files)

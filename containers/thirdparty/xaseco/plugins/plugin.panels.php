@@ -21,6 +21,7 @@ Aseco::registerEvent('onPlayerConnect', 'load_admpanel');
 Aseco::registerEvent('onPlayerConnect', 'load_donpanel');
 Aseco::registerEvent('onPlayerConnect', 'load_recpanel');
 Aseco::registerEvent('onPlayerFinish', 'finish_recpanel');
+Aseco::registerEvent('onPlayerInfoChanged', 'recspanel_spec');
 
 // handles action id's "-100"-"-49" for selecting from max. 50 record panel templates
 // handles action id's "-48"-"-7" for selecting from max. 40 admin panel templates
@@ -546,6 +547,17 @@ function update_recpanel($aseco, $player, $pb) {
 	}
 }  // update_recpanel
 
+function recspanel_spec ($aseco, $info) {
+	if ($aseco->server->gamestate != Server::SCORE) {
+		$player = $aseco->server->players->getPlayer($info['Login']);
+		if ($info['SpectatorStatus'] > 0) {
+			$xml = '<manialink id="4"></manialink>';
+			$aseco->client->query('SendDisplayManialinkPageToLogin', $player->login, $xml, 0, false);
+		} else {
+			update_recpanel($aseco, $player, $player->panels['pb']);
+		}
+	}
+} // hide records panel in spectator view
 
 function chat_votepanel($aseco, $command) {
 

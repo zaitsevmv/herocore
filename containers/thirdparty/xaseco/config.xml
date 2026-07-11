@@ -5,9 +5,7 @@
       <!-- /ip:port in tmlogin only needed when joining server over LAN -->
       <!-- ipaddress can be specified to guard each login against       -->
       <!-- unauthorized use of admin commands from other IP addresses   -->
-<!-- format: -->
-<!-- edit this if you want to add MasterAdmins -->
-      <!-- TODO: update that also -->
+
       <tmlogin>herobrine1337</tmlogin> <ipaddress></ipaddress>
 
     </masteradmins>
@@ -39,8 +37,9 @@
 
     <messages>
       <!-- init messages -->
-      <startup>{#server}*** XASECO {#highlite}v{1}{#server} running on {#highlite}{2}{#server}:{#highlite}{3}{#server} ***</startup>
-      <welcome>{#welcome}Welcome {#highlite}{1}{#welcome} to {#highlite}{2}$z$s{br}{#welcome}This server uses {#highlite}XASECO v{3}{#welcome} to manage your records.</welcome>
+      <!-- <startup>{#server}*** XASECO {#highlite}v{1}{#server} running on {#highlite}{2}{#server}:{#highlite}{3}{#server} ***</startup> -->
+	  <startup>{#server}*** XASECO {#highlite}v{1}{#server} ***</startup>
+      <welcome>{#welcome}Welcome {#highlite}{1}{#welcome} to {#highlite}{2}</welcome>
       <warning>$s{#welcome}This is an administrative warning.{br}{br}$gWhatever you wrote is against our server's{br}policy. Not respecting other players, or{br}using offensive language might result in a{br}{#welcome}kick, or ban {#message}the next time.{br}{br}$gThe server administrators.</warning>
 
       <!-- record messages -->
@@ -151,16 +150,16 @@
     <!-- 2 = full report, 1 = only track record, 0 = none -->
     <!-- add 4 to show the report in the TMF message      -->
     <!-- window instead of the main chat window           -->
-    <show_recs_before>2</show_recs_before>
+    <show_recs_before>0</show_recs_before>
     <!-- 2 = full report, 1 = only top-5, 0 = none        -->
     <!-- add 4 to show the report in the TMF message      -->
     <!-- window instead of the main chat window           -->
-    <show_recs_after>2</show_recs_after>
-    <show_recs_range>True</show_recs_range>
+    <show_recs_after>0</show_recs_after>
+    <show_recs_range>False</show_recs_range>
     <!-- 2 = in TMF message window, 1 = in chat, 0 = none -->
-    <show_tmxrec>1</show_tmxrec>
+    <show_tmxrec>0</show_tmxrec>
     <!-- 2 = in TMF message window, 1 = in chat, 0 = none -->
-    <show_playtime>1</show_playtime>
+    <show_playtime>0</show_playtime>
     <!-- 2 = in TMF message window, 1 = in chat, 0 = none -->
     <show_curtrack>0</show_curtrack>
 
@@ -170,12 +169,12 @@
     <lists_colornicks>True</lists_colornicks>
     <lists_colortracks>True</lists_colortracks>
     <topclans_minplayers>2</topclans_minplayers>
-    <global_win_multiple>50</global_win_multiple>
+    <global_win_multiple>10</global_win_multiple>
     <display_checkpoints>True</display_checkpoints>
-    <enable_cpsspec>False</enable_cpsspec>
+    <enable_cpsspec>True</enable_cpsspec>
     <auto_enable_cps>True</auto_enable_cps>
-    <auto_enable_dedicps>False</auto_enable_dedicps>
-    <auto_admin_addip>True</auto_admin_addip>
+    <auto_enable_dedicps>True</auto_enable_dedicps>
+    <auto_admin_addip>False</auto_admin_addip>
     <adminops_file>adminops.xml</adminops_file>
     <bannedips_file>bannedips.xml</bannedips_file>
     <blacklist_file>blacklist.txt</blacklist_file>
@@ -183,7 +182,7 @@
     <trackhist_file>trackhist.txt</trackhist_file>
 
     <!-- the remaining settings are for TMF only          -->
-    <admin_client_version>2.11.19</admin_client_version>
+    <admin_client_version></admin_client_version>
     <player_client_version></player_client_version>
     <default_rpoints></default_rpoints>
     <afk_force_spec>True</afk_force_spec>
@@ -198,7 +197,7 @@
     <!-- True = display individual stats panels for each  -->
     <!-- player during the scoreboard & disable the rank  -->
     <!-- chat messages, False = show only rank messages   -->
-    <sb_stats_panels>False</sb_stats_panels>
+    <sb_stats_panels>True</sb_stats_panels>
 
     <!-- default windows style: none for old TMN-like, or -->
     <!-- filename that should be at styles/<filename>.xml -->
@@ -212,8 +211,8 @@
   </aseco>
 
   <tmserver>
-    <login>SuperAdmin</login> 				
-    <password_sa></password> 	<!-- edit this -->
+    <login>SuperAdmin</login>
+    <password_sa></password>
     <ip>127.0.0.1</ip>
     <port>5000</port>
     <timeout>180</timeout>
