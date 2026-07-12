@@ -10,13 +10,12 @@
 #include <future>
 #include <iostream>
 #include <memory>
-#include <numeric>
 #include <random>
 #include <stop_token>
 #include <string>
 #include <string_view>
 #include <thread>
-#include <unordered_set>
+#include <unistd.h>
 
 using namespace std::chrono_literals;
 
@@ -119,6 +118,39 @@ int main(int argc, char** argv) {
             }
 
             tpool.Wait();
+
+            const auto endTp = std::chrono::high_resolution_clock::now();
+            RemoveFiles(testingPath);
+            totalTime += (endTp - startTp);
+        }
+        std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+    }
+
+    if (argsMap.contains("--posix")) {
+        auto totalTime = 0ns;
+        for (size_t i = 0; i < argsMap["--ops"]; i++) {
+            const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
+            std::vector<std::future<void>> tasks;
+            tasks.reserve(workFiles.size());
+            const auto startTp = std::chrono::high_resolution_clock::now();
+
+            for (const auto& file: workFiles) {
+                tasks.push_back(std::async(std::launch::async,
+                    [&longString, file](){
+                        auto fd = NUtils::OpenFile(file);
+                        if (fd < 0) {
+                            std::cerr << "error openning file for uring" << std::endl;
+                            return;
+                        }
+                        write(fd, longString.c_str(), longString.size());
+                        return;
+                    }
+                ));
+            }
+
+            for (auto& task: tasks) {
+                task.wait();
+            }
 
             const auto endTp = std::chrono::high_resolution_clock::now();
             RemoveFiles(testingPath);
