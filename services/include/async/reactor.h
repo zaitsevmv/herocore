@@ -1,10 +1,11 @@
 #pragma once
 
+#include "thread_pool/thread_pool.h"
+
 #include <liburing.h>
 #include <coroutine>
 #include <liburing/io_uring.h>
 #include <memory>
-#include <shared_mutex>
 #include <span>
 #include <stop_token>
 
@@ -30,6 +31,7 @@ public:
     };
 
     TReactor();
+    explicit TReactor(TThreadPoolPtr threadPool);
 
     TReactor(const TReactor&) = delete;
     TReactor& operator=(const TReactor&) = delete;
@@ -49,6 +51,8 @@ private:
 
     std::atomic<ssize_t> PendingOps_ = 0u;
     std::mutex UringMutex_;
+
+    TThreadPoolPtr ThreadPool_;
 };
 
 using TReactorPtr = std::shared_ptr<TReactor>;

@@ -3,14 +3,24 @@
 
 #include <atomic>
 #include <cstring>
+#include <memory>
 #include <mutex>
-#include <shared_mutex>
 #include <span>
 #include <stdexcept>
 
 using namespace NAsync;
 
-TReactor::TReactor() {
+TReactor::TReactor()
+    : ThreadPool_(std::make_shared<TThreadPool>(1)) {
+    memset(&RingParams_, 0, sizeof(RingParams_));
+    auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
+    if (ret != 0) {
+        throw std::runtime_error("reactor: error creating uring");
+    }
+}
+
+TReactor::TReactor(TThreadPoolPtr threadPool)
+    : ThreadPool_(threadPool) {
     memset(&RingParams_, 0, sizeof(RingParams_));
     auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
     if (ret != 0) {
@@ -78,7 +88,11 @@ void TReactor::RunOnce() {
         if (cqe->user_data != 0) {
             TReactor::TUserData* userData = reinterpret_cast<TUserData*>(cqe->user_data);
             userData->Cqe = cqe;
-            userData->Handle.resume();
+            ThreadPool_->Append(
+                [userData]() {
+                    userData->Handle.resume();
+                }
+            );
         }
     }
 

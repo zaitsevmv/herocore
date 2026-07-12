@@ -1,6 +1,7 @@
 #include "files/files_operations.h"
 #include "async/reactor.h"
 #include "network/fd_utils.h"
+#include "thread_pool/thread_pool.h"
 
 #include <chrono>
 #include <filesystem>
@@ -101,6 +102,31 @@ int main(int argc, char** argv) {
         std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
     }
 
+    if (argsMap.contains("--default-pool")) {
+        auto totalTime = 0ns;
+        NAsync::TThreadPool tpool(8);
+        for (size_t i = 0; i < argsMap["--ops"]; i++) {
+            const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
+            const auto startTp = std::chrono::high_resolution_clock::now();
+
+            for (const auto& file: workFiles) {
+                tpool.Append(
+                    [&longString, file](){
+                        std::ofstream wf(file);
+                        wf << longString;
+                    }
+                );
+            }
+
+            tpool.Wait();
+
+            const auto endTp = std::chrono::high_resolution_clock::now();
+            RemoveFiles(testingPath);
+            totalTime += (endTp - startTp);
+        }
+        std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+    }
+
     if (argsMap.contains("--uring")) {
         auto totalTime = 0ns;
         NAsync::TReactorPtr reactor = std::make_shared<NAsync::TReactor>();
@@ -125,6 +151,39 @@ int main(int argc, char** argv) {
 
             ssource.request_stop();
             reactorThread.join();
+            const auto endTp = std::chrono::high_resolution_clock::now();
+            RemoveFiles(testingPath);
+            totalTime += (endTp - startTp);
+        }
+        std::cout << "io_uring test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+    }
+
+    if (argsMap.contains("--uring-pool")) {
+        auto totalTime = 0ns;
+        auto tpool = std::make_shared<NAsync::TThreadPool>(8);
+        NAsync::TReactorPtr reactor = std::make_shared<NAsync::TReactor>(tpool);
+        for (size_t i = 0; i < argsMap["--ops"]; i++) {
+            const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
+            std::stop_source ssource;
+            std::jthread reactorThread(
+                [reactor, stoken = ssource.get_token()]() {
+                    reactor->Run(stoken);
+                }
+            );
+            const auto startTp = std::chrono::high_resolution_clock::now();
+
+            for (const auto& file: workFiles) {
+                auto fd = NUtils::OpenFile(file);
+                if (fd < 0) {
+                    std::cerr << "error openning file for uring" << std::endl;
+                    return 1;
+                }
+                NUtils::WriteFileAsync(reactor, fd, longString).Run();
+            }
+
+            ssource.request_stop();
+            reactorThread.join();
+            tpool->Wait();
             const auto endTp = std::chrono::high_resolution_clock::now();
             RemoveFiles(testingPath);
             totalTime += (endTp - startTp);

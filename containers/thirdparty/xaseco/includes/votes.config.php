@@ -137,7 +137,7 @@
 		// track-related votes if the current track is already _running_ for a
 		// specific percentage of the server's TA time limit
 		// this requires  function time_playing()  from plugin.track.php
-		$ta_time_limits = true;
+		$ta_time_limits = false;
 
 		// percentage of TA time limit _after_ which /ladder is disabled
 		$ta_ladder_max = 0.4;
