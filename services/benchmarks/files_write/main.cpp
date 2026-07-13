@@ -218,6 +218,7 @@ int main(int argc, char** argv) {
     if (argsMap.contains("--uring-pool")) {
         auto totalTime = 0ns;
         auto tpool = std::make_shared<NAsync::TThreadPool>(argsMap["-pool"]);
+        auto tpool_ = std::make_shared<NAsync::TThreadPool>(argsMap["-pool"]);
         NAsync::TReactorPtr reactor = std::make_shared<NAsync::TReactor>(tpool);
         for (size_t i = 0; i < argsMap["--ops"]; i++) {
             const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
@@ -230,17 +231,23 @@ int main(int argc, char** argv) {
             const auto startTp = std::chrono::high_resolution_clock::now();
 
             for (const auto& file: workFiles) {
-                auto fd = NUtils::OpenFile(file);
-                if (fd < 0) {
-                    std::cerr << "error openning file for uring" << std::endl;
-                    return 1;
-                }
-                NUtils::WriteFileAsync(reactor, fd, longString).Run();
+                tpool_->Append(
+                    [file, reactor, &longString]() {
+                        auto fd = NUtils::OpenFile(file);
+                        if (fd < 0) {
+                            std::cerr << "error openning file for uring" << std::endl;
+                            return;
+                        }
+                        NUtils::WriteFileAsync(reactor, fd, longString).Run();
+                        return;
+                    }
+                );
             }
 
             ssource.request_stop();
             reactorThread.join();
             tpool->Wait();
+            tpool_->Wait();
             const auto endTp = std::chrono::high_resolution_clock::now();
             RemoveFiles(testingPath);
             totalTime += (endTp - startTp);
