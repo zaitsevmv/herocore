@@ -150,7 +150,7 @@ int main(int argc, char** argv) {
             RemoveFiles(testingPath);
             totalTime += (endTp - startTp);
         }
-        std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+        std::cout << "Posix test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
     }
 
     if (argsMap.contains("--posix-pool")) {
@@ -181,7 +181,7 @@ int main(int argc, char** argv) {
             RemoveFiles(testingPath);
             totalTime += (endTp - startTp);
         }
-        std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+        std::cout << "Posix test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
     }
 
     if (argsMap.contains("--uring")) {
