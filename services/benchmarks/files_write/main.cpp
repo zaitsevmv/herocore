@@ -48,14 +48,19 @@ int main(int argc, char** argv) {
     std::unordered_map<std::string, int> argsMap;
     argsMap["--ops"] = 10;
     argsMap["--string"] = 10000;
-    argsMap["--files"] = 100; 
+    argsMap["--files"] = 100;
+    argsMap["-pool"] = 8;
     std::string prevArg;
     for (int i = 1; i < argc; i++) {
         argsMap.emplace(argv[i], 0);
         if (!std::string_view(argv[i]).starts_with("--")) {
             try {
                 int val = std::stoi(argv[i]);
-                argsMap[prevArg] = val;
+                if (prevArg.ends_with("-pool")) {
+                    argsMap["-pool"] = val;
+                } else {
+                    argsMap[prevArg] = val;
+                }
             } catch (...) {}
         }
         prevArg = argv[i];
@@ -103,7 +108,7 @@ int main(int argc, char** argv) {
 
     if (argsMap.contains("--default-pool")) {
         auto totalTime = 0ns;
-        NAsync::TThreadPool tpool(8);
+        NAsync::TThreadPool tpool(argsMap["-pool"]);
         for (size_t i = 0; i < argsMap["--ops"]; i++) {
             const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
             const auto startTp = std::chrono::high_resolution_clock::now();
@@ -130,27 +135,47 @@ int main(int argc, char** argv) {
         auto totalTime = 0ns;
         for (size_t i = 0; i < argsMap["--ops"]; i++) {
             const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
+            const auto startTp = std::chrono::high_resolution_clock::now();
+
+            for (const auto& file: workFiles) {
+                auto fd = NUtils::OpenFile(file);
+                if (fd < 0) {
+                    std::cerr << "error openning file for posix" << std::endl;
+                    break;
+                }
+                write(fd, longString.c_str(), longString.size());
+            }
+
+            const auto endTp = std::chrono::high_resolution_clock::now();
+            RemoveFiles(testingPath);
+            totalTime += (endTp - startTp);
+        }
+        std::cout << "Default test elapsed " << std::chrono::duration_cast<std::chrono::milliseconds>(totalTime/argsMap["--ops"]) << std::endl;
+    }
+
+    if (argsMap.contains("--posix-pool")) {
+        auto totalTime = 0ns;
+        NAsync::TThreadPool tpool(argsMap["-pool"]);
+        for (size_t i = 0; i < argsMap["--ops"]; i++) {
+            const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
             std::vector<std::future<void>> tasks;
             tasks.reserve(workFiles.size());
             const auto startTp = std::chrono::high_resolution_clock::now();
 
             for (const auto& file: workFiles) {
-                tasks.push_back(std::async(std::launch::async,
-                    [&longString, file](){
+                tpool.Append(
+                    [file, &longString]() {
                         auto fd = NUtils::OpenFile(file);
                         if (fd < 0) {
                             std::cerr << "error openning file for uring" << std::endl;
                             return;
                         }
                         write(fd, longString.c_str(), longString.size());
-                        return;
                     }
-                ));
+                );
             }
 
-            for (auto& task: tasks) {
-                task.wait();
-            }
+            tpool.Wait();
 
             const auto endTp = std::chrono::high_resolution_clock::now();
             RemoveFiles(testingPath);
@@ -192,7 +217,7 @@ int main(int argc, char** argv) {
 
     if (argsMap.contains("--uring-pool")) {
         auto totalTime = 0ns;
-        auto tpool = std::make_shared<NAsync::TThreadPool>(8);
+        auto tpool = std::make_shared<NAsync::TThreadPool>(argsMap["-pool"]);
         NAsync::TReactorPtr reactor = std::make_shared<NAsync::TReactor>(tpool);
         for (size_t i = 0; i < argsMap["--ops"]; i++) {
             const auto workFiles = CreateFiles(testingPath, argsMap["--files"]);
