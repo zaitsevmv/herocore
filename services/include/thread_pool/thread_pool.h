@@ -4,7 +4,7 @@
 // - wait free queue
 // - stop and wait seem strange
 
-#include <thread_safe/queue.h>
+#include <include/thread_safe/queue.h>
 
 #include <cstddef>
 #include <functional>

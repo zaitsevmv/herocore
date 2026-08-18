@@ -1,10 +1,6 @@
 #pragma once
 
-#include "tcp_awaiters.h"
-#include "network/fd_utils.h"
-#include "messages/messages.h"
-#include "async/async_task.h"
-#include "async/reactor.h"
+#include <arpa/inet.h>
 
 #include <cstdint>
 #include <cstring>
@@ -12,7 +8,12 @@
 #include <span>
 #include <string>
 #include <vector>
-#include <arpa/inet.h>
+
+#include "tcp_awaiters.h"
+#include <include/network/fd_utils.h>
+#include <include/messages/messages.h>
+#include <include/async/async_task.h>
+#include <include/async/reactor.h>
 
 namespace {
 

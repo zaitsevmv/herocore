@@ -1,9 +1,4 @@
 #include "raft.h"
-#include "async/async_task.h"
-#include "async/reactor.h"
-#include "network/network_utils.h"
-#include "tcp/tcp_requests.h"
-#include "thread_safe/queue.h"
 
 #include <atomic>
 #include <chrono>
@@ -20,6 +15,11 @@
 #include <type_traits>
 #include <unordered_set>
 #include <vector>
+
+#include <include/async/async_task.h>
+#include <include/async/reactor.h>
+#include <include/network/tcp_requests.h>
+#include <include/thread_safe/queue.h>
 
 using namespace NUtils;
 using namespace std::literals;

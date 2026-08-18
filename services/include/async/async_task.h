@@ -5,6 +5,9 @@
 #include <exception>
 #include <functional>
 #include <memory>
+#include <variant>
+
+#include <include/async/timed_runner.h>
 
 namespace NAsync {
 
@@ -26,7 +29,6 @@ public:
             struct TFinalAwaiter {
                 bool await_ready() noexcept { return false; }
                 std::coroutine_handle<> await_suspend(std::coroutine_handle<promise_type> h) noexcept {
-                    h.promise().AlertSubscribers();
                     if (h.promise().Continuation_ && !h.promise().Continuation_.done()) {
                         return h.promise().Continuation_;
                     }
@@ -49,21 +51,9 @@ public:
             Exception_ = std::current_exception();
         }
 
-        void AddCallback(std::function<void()> cb) {
-            SubscriberCallbacks_.emplace_back(std::move(cb));
-        }
-
-        void AlertSubscribers() {
-            for (auto& func: SubscriberCallbacks_) {
-                func(TaskResult_, Exception_);
-            }
-        }
-
         std::shared_ptr<T> TaskResult_ = nullptr;
         std::coroutine_handle<> Continuation_;
         std::exception_ptr Exception_;
-    private:
-        std::vector<TCallbackFunc> SubscriberCallbacks_;
     };
 
     TAsyncTask(THandle h)
@@ -74,16 +64,27 @@ public:
     TAsyncTask(TAsyncTask&&) = default;
     TAsyncTask& operator=(TAsyncTask&&) = default;
 
-    void Run() {
+    TAsyncTask<T>& Run() {
         Handle_.resume();
+        return *this;
     }
 
-    void Subscribe(TCallbackFunc cb) {
-        if (Handle_ && !Handle_.done()) {
-            Handle_.promise().AddCallback(std::move(cb));
-        } else if (Handle_) {
-            cb(Handle_.promise().TaskResult_, Handle_.promise().Exception_);
-        }
+    enum class ETimedRunStatus : uint {
+        Ok = 0u, Timedout = 1u
+    };
+    using TTimedAsyncTask = std::variant<TAsyncTask<T>, ETimedRunStatus>;
+
+    TAsyncTask<T>& WithTimeout(TTimedRunnerPtr timedRunner, const TTimePointType deadline) const {
+        timedRunner->AddToRunner(
+            []() {
+
+            }, deadline
+        );
+        return this;
+    }
+
+    TAsyncTask<T>& WithTimeout(TTimedRunnerPtr timedRunner, const TDurationType duration) const {
+        return WithTimeout(timedRunner, TTimePointType::clock::now() + duration);
     }
 
     struct TTaskAwaiter {

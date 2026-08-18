@@ -6,10 +6,7 @@
 #include <netinet/in.h>
 
 #include <cstring>
-#include <stdexcept>
-#include <vector>
 #include <string>
-#include <span>
 
 namespace NUtils {
 

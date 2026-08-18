@@ -1,5 +1,4 @@
 #include "reactor.h"
-#include <liburing.h>
 
 #include <atomic>
 #include <cstring>
@@ -7,6 +6,8 @@
 #include <mutex>
 #include <span>
 #include <stdexcept>
+
+#include <liburing.h>
 
 using namespace NAsync;
 

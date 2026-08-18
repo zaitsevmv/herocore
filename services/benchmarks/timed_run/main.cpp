@@ -1,6 +1,3 @@
-#include "async/timed_runner.h"
-#include "thread_pool/thread_pool.h"
-
 #include <chrono>
 #include <format>
 #include <iostream>
@@ -9,6 +6,9 @@
 #include <string>
 #include <string_view>
 #include <thread>
+
+#include <include/async/timed_runner.h>
+#include <include/thread_pool/thread_pool.h>
 
 using namespace std::chrono_literals;
 

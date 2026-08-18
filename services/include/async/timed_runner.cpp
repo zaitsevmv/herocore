@@ -1,8 +1,5 @@
 #include "timed_runner.h"
 
-#include "thread_pool/thread_pool.h"
-#include "thread_safe/queue.h"
-
 #include <atomic>
 #include <compare>
 #include <memory>
@@ -11,6 +8,8 @@
 #include <stop_token>
 
 using namespace NAsync;
+
+// can improve a lot, but for now it just works
 
 class TTimedRunner::TImpl {
 public:

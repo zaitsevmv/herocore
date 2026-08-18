@@ -1,6 +1,7 @@
 #include "messages.h"
 
 #include <netinet/in.h>
+
 #include <cstring>
 #include <stdexcept>
 
