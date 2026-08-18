@@ -4,7 +4,7 @@ add_library(sdk-protos OBJECT
 )
 
 set(PROTO_BINARY_DIR "${CMAKE_CURRENT_BINARY_DIR}/proto")
-target_include_directories(sdk-protos PUBLIC "$<BUILD_INTERFACE:${PROTO_BINARY_DIR}>")
+target_include_directories(sdk-protos PUBLIC "$<BUILD_INTERFACE:${CMAKE_BINARY_DIR}>")
 
 protobuf_generate(
   TARGET sdk-protos
