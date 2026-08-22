@@ -116,6 +116,22 @@ inline NAsync::TAsyncTask<TMessage> ReadMessageAsync(NAsync::TReactorPtr reactor
     co_return msg;
 }
 
+inline NAsync::TAsyncTask<bool> WriteAsync(NAsync::TReactorPtr reactor, int socket, std::vector<char>& data) {
+    co_return co_await WriteAllAsync(reactor, socket, data);
+}
+
+inline NAsync::TAsyncTask<bool> WriteAsync(NAsync::TReactorPtr reactor, int socket, std::string& data) {
+    co_return co_await WriteAllAsync(reactor, socket, data);
+}
+
+inline NAsync::TAsyncTask<std::string> ReadAsync(NAsync::TReactorPtr reactor, int socket) {
+    std::span<char> buffer;
+    auto received = co_await NAsync::TTCPReadAwaiter(reactor, socket, buffer);
+    std::string msg;
+    msg.assign(buffer.subspan(received).begin(), buffer.subspan(received).end());
+    co_return msg;
+}
+
 inline NAsync::TAsyncTask<int> AcceptConnectionAsync(NAsync::TReactorPtr reactor, int serverSocket) {
     co_return co_await NAsync::TTCPAcceptAwaiter(reactor, serverSocket);
 }
