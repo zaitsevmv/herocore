@@ -11,20 +11,26 @@
 
 namespace NHttp {
 
+struct THttpCallback {
+    std::string Target;
+    EHttpMethod Method;
+    std::function<void()> Handler;
+};
+
 class THttpServer {
 private:
     class TImpl;
 
 public:
-    THttpServer();
     explicit THttpServer(NAsync::TReactorPtr reactor);
+    ~THttpServer();
 
-    void Listen(NAsync::TThreadPoolPtr threadPool, const size_t threadCount);
-    void AddCallback(const std::string& target, std::function<void()> callback);
+    void Listen(NAsync::TThreadPoolPtr threadPool, const size_t threadCount, const uint16_t port);
+    void AddCallback(const THttpCallback& callback);
     void StopListen();
 
-    NAsync::TAsyncTask<THttpResponse> SendRequest(const THttpRequest& request);
-    NAsync::TAsyncTask<bool> SendResponse(const THttpResponse& response);
+    NAsync::TAsyncTask<THttpResponsePtr> SendRequest(const THttpRequestPtr request, std::string host, const uint16_t port);
+    NAsync::TAsyncTask<bool> SendResponse(const THttpResponsePtr response, int clientFd);
 
 private:
     std::unique_ptr<TImpl> Pimpl_;

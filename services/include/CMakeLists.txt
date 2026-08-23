@@ -1,7 +1,6 @@
 add_subdirectory(logger)
 add_subdirectory(async)
 add_subdirectory(network)
-add_subdirectory(messages)
 add_subdirectory(files)
 add_subdirectory(thread_pool)
 add_subdirectory(thread_safe)

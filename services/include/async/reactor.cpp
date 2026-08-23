@@ -41,15 +41,18 @@ bool TReactor::RegisterHandle(TUserDataPtr userData, int fd, EOperation opType, 
     if (sqe) {
         switch (opType) {
             case EOperation::Read: {
-                io_uring_prep_recv(sqe, fd, ctx.Data.data(), ctx.Data.size(), 0);
+                auto readSpan = std::get<std::span<char>>(ctx.Data);
+                io_uring_prep_recv(sqe, fd, readSpan.data(), readSpan.size(), 0);
                 break;
             };
             case EOperation::ReadFile: {
-                io_uring_prep_read(sqe, fd, ctx.Data.data(), ctx.Data.size(), ctx.Offset);
+                auto readSpan = std::get<std::span<char>>(ctx.Data);
+                io_uring_prep_read(sqe, fd, readSpan.data(), readSpan.size(), ctx.Offset);
                 break;
             };
             case EOperation::Write: {
-                io_uring_prep_write(sqe, fd, ctx.Data.data(), ctx.Data.size(), ctx.Offset);
+                auto writeSpan = std::get<std::span<const char>>(ctx.Data);
+                io_uring_prep_write(sqe, fd, writeSpan.data(), writeSpan.size(), ctx.Offset);
                 break;
             };
             case EOperation::Accept: {

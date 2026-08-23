@@ -4,6 +4,7 @@
 #include <memory>
 #include <span>
 #include <stop_token>
+#include <variant>
 
 #include <liburing.h>
 #include <liburing/io_uring.h>
@@ -13,7 +14,7 @@
 namespace NAsync {
 
 struct TReactorCtx {
-    std::span<char> Data = std::span<char>();
+    std::variant<std::span<char>, std::span<const char>> Data = std::span<char>();
     sockaddr* Addr = nullptr;
     size_t AddrLen = 0;
     uint64_t Offset = 0ull;

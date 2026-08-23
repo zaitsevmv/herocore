@@ -38,7 +38,7 @@ private:
 
 class TTCPWriteAwaiter : public TTCPAwaiterBase {
 public:
-    TTCPWriteAwaiter(TReactorPtr reactor, int socketDesc, std::span<char> data);
+    TTCPWriteAwaiter(TReactorPtr reactor, int socketDesc, std::span<const char> data);
 
     bool await_ready() const;
 
@@ -47,7 +47,7 @@ public:
     size_t await_resume();
 
 private:
-    std::span<char> Data_;
+    std::span<const char> Data_;
 };
 
 class TTCPAcceptAwaiter : public TTCPAwaiterBase {

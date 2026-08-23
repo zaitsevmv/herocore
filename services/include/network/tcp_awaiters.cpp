@@ -53,7 +53,7 @@ size_t TTCPReadAwaiter::await_resume() {
 }
 
 
-TTCPWriteAwaiter::TTCPWriteAwaiter(TReactorPtr reactor, int socketDesc, std::span<char> data)
+TTCPWriteAwaiter::TTCPWriteAwaiter(TReactorPtr reactor, int socketDesc, std::span<const char> data)
     :TTCPAwaiterBase(reactor, socketDesc), Data_(data) {}
 
 bool TTCPWriteAwaiter::await_ready() const {
