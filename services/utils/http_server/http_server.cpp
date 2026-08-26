@@ -22,7 +22,7 @@ static constexpr std::string_view CRLF = "\r\n";
 static constexpr std::string_view DCRLF = "\r\n\r\n";
 
 static constexpr std::string_view CONTENT_LENGTH_HEADER = "Content-Length";
-static constexpr size_t DEFAULT_BUFFER_SIZE = 1000;
+static constexpr size_t DEFAULT_BUFFER_SIZE = 5;
 
 } // namespace
 
@@ -40,9 +40,10 @@ public:
     NAsync::TAsyncTask<THttpResponsePtr> SendRequest(const THttpRequestPtr request, std::string host, const uint16_t port);
     NAsync::TAsyncTask<bool> SendResponse(const THttpResponsePtr response, int clientFd);
 
-    private:
+private:
     NAsync::TAsyncTask<bool> HandleRequests(int serverFd);
-    NAsync::TAsyncTask<bool> ProcessRequest(const THttpRequestPtr request, int clientFd); 
+    NAsync::TAsyncTask<bool> ProcessRequest(const THttpRequestPtr request, int clientFd);
+    NAsync::TAsyncTask<bool> ReceiveHttpMessage(THttpMessagePtr httpMessage, int clientFd);
 
     NAsync::TReactorPtr Reactor_;
     std::unordered_map<std::string_view, THttpCallback> Callbacks_;
@@ -74,40 +75,49 @@ void THttpServer::TImpl::AddCallback(const THttpCallback& callback) {
     Callbacks_.emplace(callback.Target, callback);
 }
 
+NAsync::TAsyncTask<bool> THttpServer::TImpl::ReceiveHttpMessage(THttpMessagePtr httpMessage, int clientFd) {
+    std::vector<char> buffer(DEFAULT_BUFFER_SIZE);
+    ssize_t headersSize = 0;
+    size_t totalMsgSize = 0;
+    while (true) {
+        totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, clientFd, buffer, totalMsgSize);
+        const ssize_t offset = std::max(headersSize - static_cast<ssize_t>(DCRLF.size()), 0l);
+        std::string_view sv{buffer.begin(), buffer.end()};
+        if (const auto eof = sv.find(DCRLF, offset); eof < buffer.size()) {
+            headersSize = eof + offset + DCRLF.size();
+            break;
+        }
+        if (totalMsgSize == buffer.size()) {
+            buffer.resize(buffer.size()*2);
+        }
+    }
+    std::string_view sv{buffer.begin(), buffer.begin() + headersSize};
+    const auto eosl = sv.find(CRLF);
+    httpMessage->ParseStartLine(sv.substr(0, eosl));
+    sv = sv.substr(eosl + CRLF.size());
+    httpMessage->ParseHeaders(sv);
+    const auto contentSize = httpMessage->GetHeader(CONTENT_LENGTH_HEADER);
+    if (!contentSize.empty()) {
+        size_t cLength = std::stoul(std::string(contentSize));
+        while (totalMsgSize < headersSize + cLength) {
+            if (totalMsgSize == buffer.size()) {
+                buffer.resize(buffer.size()*2);
+            }
+            totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, clientFd, buffer, totalMsgSize);
+        }
+        std::span<char> bufferSpan(buffer);
+        httpMessage->SetContent(bufferSpan.subspan(headersSize, cLength));
+        httpMessage->SetContentBuffer(std::move(buffer));
+    }
+    co_return true;
+}
+
 // TODO: handle end of buffer
 NAsync::TAsyncTask<bool> THttpServer::TImpl::HandleRequests(int serverFd) {
     while (true) try {
         auto client = co_await NUtils::AcceptTCPConnectionAsync(Reactor_, serverFd);
-
-        std::vector<char> buffer(DEFAULT_BUFFER_SIZE);
-        ssize_t headersSize = 0;
-        size_t totalMsgSize = 0;
-        while (true) {
-            totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, client, buffer, totalMsgSize);
-            const ssize_t offset = std::max(headersSize - static_cast<ssize_t>(DCRLF.size()), 0l);
-            std::string_view sv{buffer.begin(), buffer.end()};
-            if (const auto eof = sv.find(DCRLF, offset); eof < buffer.size()) {
-                headersSize = eof + offset + DCRLF.size();
-                break;
-            }
-        }
-        std::string_view sv{buffer.begin(), buffer.begin() + headersSize};
-
-        THttpRequestPtr clientRequest = std::make_shared<THttpRequest>();
-        const auto eosl = sv.find(CRLF);
-        clientRequest->ParseStartLine(sv.substr(0, eosl));
-        sv = sv.substr(eosl + CRLF.size());
-        clientRequest->ParseHeaders(sv);
-        const auto contentSize = clientRequest->GetHeader(CONTENT_LENGTH_HEADER);
-        if (!contentSize.empty()) {
-            size_t cLength = std::stoul(std::string(contentSize));
-            while (totalMsgSize < headersSize + cLength) {
-                totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, client, buffer, totalMsgSize);
-            }
-            std::span<char> bufferSpan(buffer);
-            clientRequest->SetContent(bufferSpan.subspan(headersSize, cLength));
-            clientRequest->SetContentBuffer(std::move(buffer));
-        }
+        THttpRequestPtr clientRequest = std::shared_ptr<THttpRequest>(new THttpRequest);
+        co_await ReceiveHttpMessage(clientRequest, client);
         co_await ProcessRequest(clientRequest, client);
     } catch (const std::exception& e) {
         std::cerr << "Error handling request: " << e.what() << std::endl;
@@ -134,43 +144,13 @@ NAsync::TAsyncTask<bool> THttpServer::TImpl::ProcessRequest(const THttpRequestPt
     co_return true;
 }
 
-// TODO: handle end of buffer
 NAsync::TAsyncTask<THttpResponsePtr> THttpServer::TImpl::SendRequest(const THttpRequestPtr request, std::string host, const uint16_t port) {
     const auto server = co_await NUtils::ConnectTCPHostAsync(Reactor_, host, port);
     const auto requestSpans = request->Serialize();
     co_await NUtils::WriteTCPAsync(Reactor_, server, requestSpans[0]);
     co_await NUtils::WriteTCPAsync(Reactor_, server, requestSpans[1]);
-
-    std::vector<char> buffer(DEFAULT_BUFFER_SIZE);
-    ssize_t headersSize = 0;
-    size_t totalMsgSize = 0;
-    while (true) {
-        totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, server, buffer, totalMsgSize);
-        const ssize_t offset = std::max(headersSize - static_cast<ssize_t>(DCRLF.size()), 0l);
-        std::string_view sv{buffer.begin(), buffer.end()};
-        if (const auto eof = sv.find(DCRLF, offset); eof < buffer.size()) {
-            headersSize = eof + offset + DCRLF.size();
-            break;
-        }
-    }
-    std::string_view sv{buffer.begin(), buffer.begin() + headersSize};
-
-    THttpResponsePtr serverResponse = std::make_shared<THttpResponse>();
-    const auto eosl = sv.find(CRLF);
-    serverResponse->ParseStartLine(sv.substr(0, eosl));
-    sv = sv.substr(eosl + CRLF.size());
-    serverResponse->ParseHeaders(sv);
-    const auto contentSize = serverResponse->GetHeader(CONTENT_LENGTH_HEADER);
-    if (!contentSize.empty()) {
-        size_t cLength = std::stoul(std::string(contentSize));
-        while (totalMsgSize < headersSize + cLength) {
-            totalMsgSize += co_await NUtils::ReadTCPAsync(Reactor_, server, buffer, totalMsgSize);
-        }
-        std::span<char> bufferSpan(buffer);
-        buffer.resize(totalMsgSize);
-        serverResponse->SetContent(bufferSpan.subspan(headersSize, cLength));
-        serverResponse->SetContentBuffer(std::move(buffer));
-    }
+    THttpResponsePtr serverResponse = std::shared_ptr<THttpResponse>(new THttpResponse);
+    co_await ReceiveHttpMessage(serverResponse, server);
     co_return serverResponse;
 }
 

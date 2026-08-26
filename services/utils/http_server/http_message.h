@@ -35,7 +35,21 @@ class TSerializeImpl;
 
 using TContentBufferType = std::variant<std::string, std::vector<char>>;
 
-class THttpRequest {
+class THttpMessage {
+public:
+    virtual void AddHeader(const std::string& name, const std::string& value) = 0;
+    virtual std::string_view GetHeader(const std::string_view name) const = 0;
+
+    virtual void SetContent(const std::span<const char> content) = 0;
+    virtual void SetContentBuffer(const TContentBufferType& content) = 0;
+    virtual void SetContentBuffer(TContentBufferType&& content) = 0;
+
+    virtual void ParseStartLine(const std::string_view startLineStr) = 0;
+    virtual void ParseHeaders(const std::string_view headersStr) = 0;
+};
+using THttpMessagePtr = std::shared_ptr<THttpMessage>;
+
+class THttpRequest : public THttpMessage {
 public:
     THttpRequest();
     ~THttpRequest();
@@ -44,12 +58,12 @@ public:
     THttpRequest(const THttpRequest&) = delete;
     THttpRequest& operator=(const THttpRequest&) = delete;
 
-    void AddHeader(const std::string& name, const std::string& value);
-    std::string_view GetHeader(const std::string_view name) const;
+    void AddHeader(const std::string& name, const std::string& value) override final;
+    std::string_view GetHeader(const std::string_view name) const override final;
 
-    void SetContent(const std::span<const char> content);
-    void SetContentBuffer(const TContentBufferType& content);
-    void SetContentBuffer(TContentBufferType&& content);
+    void SetContent(const std::span<const char> content) override final;
+    void SetContentBuffer(const TContentBufferType& content) override final;
+    void SetContentBuffer(TContentBufferType&& content) override final;
 
     void SetMethod(const EHttpMethod method);
     EHttpMethod GetMethod() const;
@@ -57,8 +71,8 @@ public:
     void SetTarget(const std::string& target);
     std::string GetTarget() const;
 
-    void ParseStartLine(const std::string_view startLineStr);
-    void ParseHeaders(const std::string_view headersStr);
+    void ParseStartLine(const std::string_view startLineStr) override final;
+    void ParseHeaders(const std::string_view headersStr) override final;
 
     std::array<std::span<const char>, 2> Serialize() const;
 
@@ -72,7 +86,7 @@ private:
 };
 using THttpRequestPtr = std::shared_ptr<THttpRequest>;
 
-class THttpResponse {
+class THttpResponse : public THttpMessage {
 public:
     THttpResponse();
     ~THttpResponse();
@@ -81,18 +95,18 @@ public:
     THttpResponse(const THttpResponse&) = delete;
     THttpResponse& operator=(const THttpResponse&) = delete;
 
-    void AddHeader(const std::string& name, const std::string& value);
-    std::string_view GetHeader(const std::string_view name) const;
+    void AddHeader(const std::string& name, const std::string& value) override final;
+    std::string_view GetHeader(const std::string_view name) const override final;
 
-    void SetContent(const std::span<const char> content);
-    void SetContentBuffer(const TContentBufferType& buffer);
-    void SetContentBuffer(TContentBufferType&& buffer);
+    void SetContent(const std::span<const char> content) override final;
+    void SetContentBuffer(const TContentBufferType& buffer) override final;
+    void SetContentBuffer(TContentBufferType&& buffer) override final;
 
     void SetStatus(const EHttpStatus status);
     EHttpStatus GetStatus() const;
 
-    void ParseHeaders(const std::string_view headersStr);
-    void ParseStartLine(const std::string_view startLineStr);
+    void ParseHeaders(const std::string_view headersStr) override final;
+    void ParseStartLine(const std::string_view startLineStr) override final;
 
     std::array<std::span<const char>, 2> Serialize() const;
 
