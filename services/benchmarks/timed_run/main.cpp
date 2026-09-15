@@ -8,7 +8,7 @@
 #include <thread>
 
 #include <include/async/timed_runner.h>
-#include <include/thread_pool/thread_pool.h>
+#include <include/executor/thread_pool.h>
 
 using namespace std::chrono_literals;
 

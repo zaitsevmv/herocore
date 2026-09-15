@@ -10,4 +10,4 @@ target_include_directories(http_server PRIVATE
     ${CMAKE_SOURCE_DIR}
 )
 
-target_link_libraries(http_server tcp_awaiters tcp_requests http_message reactor thread_pool)
+target_link_libraries(http_server tcp_awaiters tcp_requests http_message reactor executor)

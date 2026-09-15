@@ -4,7 +4,7 @@
 // - wait free queue
 // - stop and wait seem strange
 
-#include <include/thread_safe/queue.h>
+#include "executor.h"
 
 #include <cstddef>
 #include <functional>
@@ -12,6 +12,8 @@
 #include <semaphore>
 #include <stop_token>
 #include <thread>
+
+#include <include/thread_safe/queue.h>
 
 namespace NAsync {
 
