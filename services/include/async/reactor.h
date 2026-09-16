@@ -9,7 +9,7 @@
 #include <liburing.h>
 #include <liburing/io_uring.h>
 
-#include <include/executor/thread_pool.h>
+#include <include/executor/executor.h>
 
 namespace NAsync {
 
@@ -33,7 +33,7 @@ public:
     };
 
     TReactor();
-    explicit TReactor(TThreadPoolPtr threadPool);
+    explicit TReactor(IExecutorPtr executor);
 
     TReactor(const TReactor&) = delete;
     TReactor& operator=(const TReactor&) = delete;
@@ -54,7 +54,7 @@ private:
     std::atomic<ssize_t> PendingOps_ = 0u;
     std::mutex UringMutex_;
 
-    TThreadPoolPtr ThreadPool_;
+    IExecutorPtr Executor_;
 };
 
 using TReactorPtr = std::shared_ptr<TReactor>;

@@ -3,7 +3,7 @@
 #include <chrono>
 #include <memory>
 
-#include <include/executor/thread_pool.h>
+#include <include/executor/executor.h>
 
 namespace NAsync {
 
@@ -15,7 +15,7 @@ private:
     class TImpl;
 public:
     TTimedRunner();
-    explicit TTimedRunner(TThreadPoolPtr threadPool);
+    explicit TTimedRunner(IExecutorPtr executor);
 
     ~TTimedRunner();
 

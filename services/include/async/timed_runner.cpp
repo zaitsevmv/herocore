@@ -6,6 +6,9 @@
 #include <mutex>
 #include <queue>
 #include <stop_token>
+#include "include/executor/executor.h"
+
+#include <include/executor/thread_pool.h>
 
 using namespace NAsync;
 
@@ -13,7 +16,7 @@ using namespace NAsync;
 
 class TTimedRunner::TImpl {
 public:
-    explicit TImpl(TThreadPoolPtr threadPool);
+    explicit TImpl(IExecutorPtr executor);
     ~TImpl() = default;
 
     void AddToRunner(std::function<void()> task, const TTimePointType deadline);
@@ -36,7 +39,7 @@ private:
         }
     };
 
-    TThreadPoolPtr ThreadPool_;
+    IExecutorPtr Executor_;
     std::mutex QueueMutex_;
     std::priority_queue<TTask, std::vector<TTask>, std::greater<>> TasksQueue_;
     std::stop_source StopSource_;
@@ -69,9 +72,9 @@ void TTimedRunner::TImpl::RegisterHandle(std::function<void()> task, const TTime
     ++QueueSize_;
 }
 
-TTimedRunner::TImpl::TImpl(TThreadPoolPtr threadPool)
-    : ThreadPool_(threadPool), StopSource_() {
-    ThreadPool_->Append(
+TTimedRunner::TImpl::TImpl(IExecutorPtr executor)
+    : Executor_(std::move(executor)), StopSource_() {
+    Executor_->Append(
         [this]() {
             Loop(StopSource_.get_token());
         }
@@ -92,8 +95,8 @@ TTimedRunner::TTimedRunner() {
     Pimpl_ = std::make_unique<TImpl>(threadPool);
 }
 
-TTimedRunner::TTimedRunner(TThreadPoolPtr threadPool)
-    : Pimpl_(std::make_unique<TImpl>(threadPool)) {}
+TTimedRunner::TTimedRunner(IExecutorPtr executor)
+    : Pimpl_(std::make_unique<TImpl>(executor)) {}
 
 void TTimedRunner::AddToRunner(std::function<void()> task, const TDurationType duration) {
     return AddToRunner(std::move(task), TTimePointType::clock::now() + duration);

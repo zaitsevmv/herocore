@@ -12,6 +12,6 @@ public:
     virtual void Append(std::function<void()> op) = 0;
 };
 
-using IExecutorPtr = std::unique_ptr<IExecutor>;
+using IExecutorPtr = std::shared_ptr<IExecutor>;
 
 } // namespace NAsync

@@ -9,10 +9,12 @@
 
 #include <liburing.h>
 
+#include <include/executor/thread_pool.h>
+
 using namespace NAsync;
 
 TReactor::TReactor()
-    : ThreadPool_(std::make_shared<TThreadPool>(1)) {
+    : Executor_(std::make_shared<TThreadPool>(1)) {
     memset(&RingParams_, 0, sizeof(RingParams_));
     auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
     if (ret != 0) {
@@ -20,8 +22,8 @@ TReactor::TReactor()
     }
 }
 
-TReactor::TReactor(TThreadPoolPtr threadPool)
-    : ThreadPool_(threadPool) {
+TReactor::TReactor(IExecutorPtr executor)
+    : Executor_(std::move(executor)) {
     memset(&RingParams_, 0, sizeof(RingParams_));
     auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
     if (ret != 0) {
@@ -92,7 +94,7 @@ void TReactor::RunOnce() {
         if (cqe->user_data != 0) {
             TReactor::TUserData* userData = reinterpret_cast<TUserData*>(cqe->user_data);
             userData->Cqe = cqe;
-            ThreadPool_->Append(
+            Executor_->Append(
                 [userData]() {
                     userData->Handle.resume();
                 }

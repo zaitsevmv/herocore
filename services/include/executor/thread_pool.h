@@ -17,12 +17,12 @@
 
 namespace NAsync {
 
-class TThreadPool {
+class TThreadPool : public IExecutor {
 public:
     TThreadPool(size_t threadCount);
     ~TThreadPool();
 
-    void Append(std::function<void()> op);
+    void Append(std::function<void()> op) override;
     void Stop();
     void Wait();
 
