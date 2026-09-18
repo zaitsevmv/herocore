@@ -5,7 +5,7 @@
 #include <coroutine>
 #include <cstddef>
 #include <cstring>
-#include <memory>
+#include <optional>
 #include <span>
 #include <stdexcept>
 #include <system_error>
@@ -18,7 +18,9 @@
 using namespace NAsync;
 
 TTCPAwaiterBase::TTCPAwaiterBase(TReactorPtr reactor, int socketDesc)
-    : Reactor_(reactor), Socket_(socketDesc), UserData_(std::make_shared<TReactor::TUserData>()) {}
+    : Socket_(socketDesc) {
+    Reactor_ = std::move(reactor);
+}
 
 
 TTCPReadAwaiter::TTCPReadAwaiter(TReactorPtr reactor, int socketDesc, std::span<char> buffer)
@@ -28,24 +30,11 @@ bool TTCPReadAwaiter::await_ready() const {
     return false;
 }
 
-std::coroutine_handle<> TTCPReadAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Read,
-        TReactorCtx{
-            .Data = Data_
-        }
-    )) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
-}
-
 size_t TTCPReadAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Read: Failed to submit request to reactor");
     }
-    auto result = UserData_->Cqe->res;
+    const auto result = *Result_;
     if (result < 0) {
         throw std::system_error(-result, std::system_category(), "TCP Read failed");
     }
@@ -60,24 +49,11 @@ bool TTCPWriteAwaiter::await_ready() const {
     return false;
 }
 
-std::coroutine_handle<> TTCPWriteAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Write, 
-        TReactorCtx{
-            .Data = Data_
-        }
-    )) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
-}
-
 size_t TTCPWriteAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Write: Failed to submit request to reactor");
     }
-    auto result = UserData_->Cqe->res;
+    const auto result = *Result_;
     if (result < 0) {
         throw std::system_error(-result, std::system_category(), "TCP Write failed");
     }
@@ -89,23 +65,14 @@ TTCPAcceptAwaiter::TTCPAcceptAwaiter(TReactorPtr reactor, int socketDesc)
     : TTCPAwaiterBase(reactor, socketDesc) {}
 
 bool TTCPAcceptAwaiter::await_ready() const {
-    return UserData_->Cqe != nullptr;
-}
-
-std::coroutine_handle<> TTCPAcceptAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Accept, {})) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
+    return Result_ != std::nullopt;
 }
 
 int TTCPAcceptAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Accept: Failed to submit request to reactor");
     }
-    int clientSocket = UserData_->Cqe->res;
+    int clientSocket = *Result_;
     if (clientSocket < 0) {
         throw std::system_error(-clientSocket, std::system_category(), "TCP Accept failed");
     }
@@ -123,26 +90,11 @@ bool TTCPConnectAwaiter::await_ready() const {
     return false;
 }
 
-std::coroutine_handle<> TTCPConnectAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, Socket_, TReactor::EOperation::Connect, 
-        TReactorCtx{
-            .Addr = reinterpret_cast<sockaddr*>(&AddrStorage_),
-            .AddrLen = AddrLen_
-        }
-    )) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
-}
-
 void TTCPConnectAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Connect: Failed to submit request to reactor");
     }
-    auto res = UserData_->Cqe->res;
-    if (res < 0) {
-        throw std::system_error(-res, std::system_category(), "TCP Connect failed");
+    if (*Result_ < 0) {
+        throw std::system_error(-*Result_, std::system_category(), "TCP Connect failed");
     }
 }

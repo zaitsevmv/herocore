@@ -1,11 +1,14 @@
 #include "reactor.h"
 
 #include <atomic>
+#include <cerrno>
 #include <cstring>
 #include <memory>
 #include <mutex>
+#include <optional>
 #include <span>
 #include <stdexcept>
+#include <vector>
 
 #include <liburing.h>
 
@@ -16,7 +19,7 @@ using namespace NAsync;
 TReactor::TReactor()
     : Executor_(std::make_shared<TThreadPool>(1)) {
     memset(&RingParams_, 0, sizeof(RingParams_));
-    auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
+    auto ret = io_uring_queue_init_params(256, &Ring_, &RingParams_);
     if (ret != 0) {
         throw std::runtime_error("reactor: error creating uring");
     }
@@ -25,7 +28,7 @@ TReactor::TReactor()
 TReactor::TReactor(IExecutorPtr executor)
     : Executor_(std::move(executor)) {
     memset(&RingParams_, 0, sizeof(RingParams_));
-    auto ret = io_uring_queue_init_params(4, &Ring_, &RingParams_);
+    auto ret = io_uring_queue_init_params(4096, &Ring_, &RingParams_);
     if (ret != 0) {
         throw std::runtime_error("reactor: error creating uring");
     }
@@ -37,7 +40,7 @@ void TReactor::Run(std::stop_token stoken) {
     }
 }
 
-bool TReactor::RegisterHandle(TUserDataPtr userData, int fd, EOperation opType, TReactorCtx ctx) {
+bool TReactor::RegisterHandle(void* userData, int fd, EOperation opType, TReactorCtx ctx) {
     std::lock_guard<std::mutex> lock(UringMutex_);
     io_uring_sqe* sqe = io_uring_get_sqe(&Ring_);
     if (sqe) {
@@ -66,11 +69,11 @@ bool TReactor::RegisterHandle(TUserDataPtr userData, int fd, EOperation opType, 
                 break;
             }
         }
-        io_uring_sqe_set_data(sqe, userData.get());
+        io_uring_sqe_set_data(sqe, userData);
         PendingOps_.fetch_add(1, std::memory_order::relaxed);
         return true;
     } else {
-        userData->Cqe = nullptr;
+        reinterpret_cast<TReactorAwaiter*>(userData)->SetResult(std::nullopt);
     }
     return false;
 }
@@ -92,13 +95,11 @@ void TReactor::RunOnce() {
         count++;
         if (cqe->res == -ECANCELED) continue;
         if (cqe->user_data != 0) {
-            TReactor::TUserData* userData = reinterpret_cast<TUserData*>(cqe->user_data);
-            userData->Cqe = cqe;
-            Executor_->Append(
-                [userData]() {
-                    userData->Handle.resume();
-                }
-            );
+            auto* userData = reinterpret_cast<TReactorAwaiter*>(cqe->user_data);
+            if (cqe->res != -ECANCELED) {
+                userData->SetResult(cqe->res);
+                Executor_->Append(std::move(*userData));
+            }
         }
     }
 
@@ -107,4 +108,8 @@ void TReactor::RunOnce() {
     if (count > 0) {
         io_uring_cq_advance(&Ring_, count);
     }
+}
+
+void TReactorAwaiter::SetResult(std::optional<int> res) noexcept {
+    Result_ = std::move(res);
 }

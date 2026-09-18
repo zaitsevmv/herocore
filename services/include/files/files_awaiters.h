@@ -11,13 +11,11 @@ static constexpr size_t FILES_BUFFER_SIZE = 1024 * 1024 * 1024;
 
 namespace NAsync {
 
-class TFilesAwaiterBase {
+class TFilesAwaiterBase : public TReactorAwaiter {
 public:
     TFilesAwaiterBase(TReactorPtr reactor, int fd, uint64_t offset);
 
 protected:
-    TReactorPtr Reactor_;
-    TReactor::TUserDataPtr UserData_;
     int FileDesc_;
     uint64_t Offset_;
 };
@@ -28,7 +26,19 @@ public:
 
     bool await_ready() const;
 
-    std::coroutine_handle<> await_suspend(std::coroutine_handle<> handle);
+    template<typename P>
+    std::coroutine_handle<> await_suspend(std::coroutine_handle<P> handle) {
+        SetHandle(handle);
+        if (!Reactor_->RegisterHandle(this, FileDesc_, TReactor::EOperation::Read,
+            TReactorCtx{
+                .Data = Data_
+            }
+        )) {
+            Result_ = std::nullopt;
+            return handle;
+        }
+        return std::noop_coroutine();
+    }
 
     size_t await_resume();
 
@@ -42,7 +52,19 @@ public:
 
     bool await_ready() const;
 
-    std::coroutine_handle<> await_suspend(std::coroutine_handle<> handle);
+    template<typename P>
+    std::coroutine_handle<> await_suspend(std::coroutine_handle<P> handle) {
+        SetHandle(handle);
+        if (!Reactor_->RegisterHandle(this, FileDesc_, TReactor::EOperation::Write, 
+            TReactorCtx{
+                .Data = std::span<char>(const_cast<char*>(Data_.data()), Data_.size())
+            }
+        )) {
+            Result_ = std::nullopt;
+            return handle;
+        }
+        return std::noop_coroutine();
+    }
 
     size_t await_resume();
 

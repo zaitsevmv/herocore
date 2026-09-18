@@ -1,5 +1,7 @@
 add_library(tcp_awaiters tcp_awaiters.h tcp_awaiters.cpp)
 
+target_link_libraries(tcp_awaiters PUBLIC reactor)
+
 target_include_directories(tcp_awaiters PRIVATE
     ${CMAKE_SOURCE_DIR}
 )
@@ -10,4 +12,4 @@ target_include_directories(tcp_requests PRIVATE
     ${CMAKE_SOURCE_DIR}
 )
 
-target_link_libraries(tcp_requests tcp_awaiters reactor)
+target_link_libraries(tcp_requests PUBLIC tcp_awaiters reactor)

@@ -1,7 +1,7 @@
 #pragma once
 
-#include <coroutine>
 #include <memory>
+#include <optional>
 #include <span>
 #include <stop_token>
 #include <variant>
@@ -9,6 +9,7 @@
 #include <liburing.h>
 #include <liburing/io_uring.h>
 
+#include <include/async/base_awaiters.h>
 #include <include/executor/executor.h>
 
 namespace NAsync {
@@ -22,12 +23,6 @@ struct TReactorCtx {
 
 class TReactor {
 public:
-    struct TUserData {
-        io_uring_cqe* Cqe;
-        std::coroutine_handle<> Handle;
-    };
-    using TUserDataPtr = std::shared_ptr<TUserData>;
-
     enum class EOperation: short {
         Read, ReadFile, Write, Accept, Connect
     };
@@ -42,7 +37,7 @@ public:
 
     void Run(std::stop_token stoken);
 
-    bool RegisterHandle(TUserDataPtr userData, int fd, EOperation opType, TReactorCtx ctx);
+    bool RegisterHandle(void* userData, int fd, EOperation opType, TReactorCtx ctx);
 
 private:
     void RunOnce();
@@ -58,5 +53,14 @@ private:
 };
 
 using TReactorPtr = std::shared_ptr<TReactor>;
+
+class TReactorAwaiter : public TIntrusiveAwaiter {
+public:
+    void SetResult(std::optional<int> result) noexcept;
+
+protected:
+    TReactorPtr Reactor_ = nullptr;
+    std::optional<int> Result_ = std::nullopt;
+};
 
 } // namespace NAsync

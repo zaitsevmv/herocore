@@ -2,6 +2,7 @@
 
 #include <functional>
 #include <stop_token>
+#include <variant>
 
 namespace NAsync {
 
@@ -11,7 +12,7 @@ void TThreadPool::QueueWaitOperation() {
         QueueSemaphore_.acquire();
         if (auto op = OperationsQueue_.TryPop(); op) {
             try {
-                op.value()();
+                std::visit(ExecutorVisitor, *op);
             } catch (...) {}
         }
     }
@@ -56,6 +57,11 @@ void TThreadPool::Wait() {
 
 void TThreadPool::Append(std::function<void()> op) {
     OperationsQueue_.Push(std::move(op));
+    QueueSemaphore_.release();
+}
+
+void TThreadPool::Append(TIntrusiveAwaiter&& resumable) {
+    OperationsQueue_.Push(std::move(resumable));
     QueueSemaphore_.release();
 }
 

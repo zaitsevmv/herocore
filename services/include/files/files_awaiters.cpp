@@ -5,7 +5,7 @@
 #include <coroutine>
 #include <cstddef>
 #include <cstring>
-#include <memory>
+#include <optional>
 #include <span>
 #include <stdexcept>
 #include <system_error>
@@ -17,7 +17,9 @@
 using namespace NAsync;
 
 TFilesAwaiterBase::TFilesAwaiterBase(TReactorPtr reactor, int fd, uint64_t offset)
-    : Reactor_(reactor), FileDesc_(fd), UserData_(std::make_shared<TReactor::TUserData>()), Offset_(offset) {}
+    : FileDesc_(fd), Offset_(offset) {
+    Reactor_ = std::move(reactor);
+}
 
 
 TFilesReadAwaiter::TFilesReadAwaiter(TReactorPtr reactor, int fd, std::span<char> buffer, uint64_t offset)
@@ -27,24 +29,11 @@ bool TFilesReadAwaiter::await_ready() const {
     return false;
 }
 
-std::coroutine_handle<> TFilesReadAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, FileDesc_, TReactor::EOperation::Read,
-        TReactorCtx{
-            .Data = Data_
-        }
-    )) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
-}
-
 size_t TFilesReadAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Read: Failed to submit request to reactor");
     }
-    auto result = UserData_->Cqe->res;
+    auto result = *Result_;
     if (result < 0) {
         throw std::system_error(-result, std::system_category(), "TCP Read failed");
     }
@@ -59,24 +48,11 @@ bool TFilesWriteAwaiter::await_ready() const {
     return false;
 }
 
-std::coroutine_handle<> TFilesWriteAwaiter::await_suspend(std::coroutine_handle<> handle) {
-    UserData_->Handle = handle;
-    if (!Reactor_->RegisterHandle(UserData_, FileDesc_, TReactor::EOperation::Write, 
-        TReactorCtx{
-            .Data = std::span<char>(const_cast<char*>(Data_.data()), Data_.size())
-        }
-    )) {
-        UserData_->Cqe = nullptr;
-        return handle;
-    }
-    return std::noop_coroutine();
-}
-
 size_t TFilesWriteAwaiter::await_resume() {
-    if (!UserData_->Cqe) {
+    if (!Result_) {
         throw std::runtime_error("TCP Write: Failed to submit request to reactor");
     }
-    auto result = UserData_->Cqe->res;
+    const auto result = *Result_;
     if (result < 0) {
         throw std::system_error(-result, std::system_category(), "TCP Write failed");
     }

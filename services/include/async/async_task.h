@@ -4,8 +4,8 @@
 #include <coroutine>
 #include <exception>
 #include <memory>
-#include <variant>
 
+#include <include/async/base_awaiters.h>
 #include <include/async/timed_runner.h>
 #include <include/executor/executor.h>
 
@@ -14,13 +14,59 @@ namespace NAsync {
 template<std::movable T>
 class TPromiseType;
 
-template<std::movable T, std::derived_from<TPromiseType<T>> P>
-class TAsyncTask;
+template<std::movable T, std::derived_from<TPromiseType<T>> P = TPromiseType<T>>
+class TAsyncTask {
+public:
+    using THandle = std::coroutine_handle<P>;
+    using promise_type = P;
+
+    TAsyncTask(THandle h)
+        :Handle_(h) {}
+
+    TAsyncTask(const TAsyncTask&) = delete;
+    TAsyncTask& operator=(const TAsyncTask&) = delete;
+
+    TAsyncTask(TAsyncTask&& o) noexcept
+        : Handle_(std::exchange(o.Handle_, nullptr)) {}
+    TAsyncTask& operator=(TAsyncTask&& o) noexcept {
+        if (this != &o) {
+            if (Handle_) Handle_.destroy();
+            Handle_ = std::exchange(o.Handle_, nullptr);
+        }
+        return *this;
+    }
+
+    // ~TAsyncTask() {
+    //     if (Handle_) {
+    //         Handle_.destroy(); 
+    //     }
+    // }
+
+    const P& GetPromise() const {
+        return Handle_.promise();
+    }
+
+    P& GetPromise() {
+        return Handle_.promise();
+    }
+
+    auto& Run() {
+        Handle_.promise().Resume();
+        return *this;
+    }
+
+    TTaskAwaiter<THandle, T> operator co_await() const noexcept {
+        return TTaskAwaiter<THandle, T>(Handle_);
+    }
+
+private:
+    THandle Handle_ = nullptr;
+};
 
 template<std::movable T>
-class TPromiseType {
+class TPromiseType : public IResumable {
 public:
-    void Resume() {
+    void Resume() override {
         auto h = std::coroutine_handle<TPromiseType>::from_promise(*this);
         h.resume();
     }
@@ -44,7 +90,7 @@ public:
     }
 
     auto get_return_object() {
-        return TAsyncTask(std::coroutine_handle<TPromiseType<T>>::from_promise(*this));
+        return TAsyncTask<T, TPromiseType<T>>(std::coroutine_handle<TPromiseType<T>>::from_promise(*this));
     }
 
     void return_value(T value) {
@@ -59,9 +105,15 @@ public:
         Continuation_ = std::move(continuation);
     }
 
-    T GetTaskResult() noexcept {
+    auto GetTaskResult() {
         return *TaskResult_;
     }
+
+    auto GetException() noexcept {
+        return Exception_;
+    }
+
+    ~TPromiseType() = default;
 
 private:
     std::shared_ptr<T> TaskResult_ = nullptr;
@@ -73,7 +125,7 @@ template<typename T>
 requires std::movable<T>
 class TExecutorPromiseType : public TPromiseType<T> {
 public:
-    void Resume() {
+    void Resume() override {
         auto h = std::coroutine_handle<TExecutorPromiseType>::from_promise(*this);
         if (Executor_ == nullptr) {
             h.resume();
@@ -85,67 +137,17 @@ public:
     }
 
     auto get_return_object() {
-        return TAsyncTask(std::coroutine_handle<TExecutorPromiseType>::from_promise(*this));
+        return TAsyncTask<T, TExecutorPromiseType<T>>(std::coroutine_handle<TExecutorPromiseType>::from_promise(*this));
     }
 
-    void SetExecutor(IExecutorPtr executor) const noexcept {
+    void SetExecutor(IExecutorPtr executor) noexcept {
         Executor_ = std::move(executor);
     }
 
-private:
-    mutable IExecutorPtr Executor_ = nullptr;
-};
-
-template<std::movable T, std::derived_from<TPromiseType<T>> P = TPromiseType<T>>
-class TAsyncTask {
-public:
-    using THandle = std::coroutine_handle<P>;
-
-    TAsyncTask(THandle h)
-        :Handle_(h) {}
-
-    TAsyncTask(const TAsyncTask&) = delete;
-    TAsyncTask& operator=(const TAsyncTask&) = delete;
-    TAsyncTask(TAsyncTask&&) = default;
-    TAsyncTask& operator=(TAsyncTask&&) = default;
-
-    const P GetPromise() const {
-        return Handle_.promise();
-    }
-
-    auto& Run() {
-        Handle_.promise().Resume();
-        return *this;
-    }
-
-    struct TTaskAwaiter {
-        THandle TaskHandle = nullptr;
-
-        operator bool() const {
-            return TaskHandle != nullptr;
-        }
-
-        bool await_ready() const {
-            return TaskHandle.done();
-        }
-
-        auto await_suspend(std::coroutine_handle<> handle) noexcept {
-            TaskHandle.promise().SetContinuation(std::move(handle));
-            return TaskHandle;
-        }
-
-        T await_resume() {
-            if (TaskHandle.promise().Exception_) std::rethrow_exception(TaskHandle.promise().Exception_);
-            return *TaskHandle.promise().GetTaskResult();
-        }
-    };
-
-    TTaskAwaiter operator co_await() const noexcept {
-        return TTaskAwaiter(Handle_);
-    }
+    ~TExecutorPromiseType() = default;
 
 private:
-    THandle Handle_ = nullptr;
+    IExecutorPtr Executor_ = nullptr;
 };
 
 template<std::movable T, std::derived_from<TPromiseType<T>> P>

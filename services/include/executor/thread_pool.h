@@ -12,6 +12,7 @@
 #include <semaphore>
 #include <stop_token>
 #include <thread>
+#include <variant>
 
 #include <include/thread_safe/queue.h>
 
@@ -23,6 +24,7 @@ public:
     ~TThreadPool();
 
     void Append(std::function<void()> op) override;
+    void Append(TIntrusiveAwaiter&& resumable) override;
     void Stop();
     void Wait();
 
@@ -35,7 +37,7 @@ private:
     std::vector<std::jthread> Threads_;
 
     std::counting_semaphore<> QueueSemaphore_;
-    TQueueSafe<std::function<void()>> OperationsQueue_;
+    TQueueSafe<std::variant<std::function<void()>, TIntrusiveAwaiter>> OperationsQueue_;
 };
 
 using TThreadPoolPtr = std::shared_ptr<TThreadPool>;

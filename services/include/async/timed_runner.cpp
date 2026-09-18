@@ -13,6 +13,7 @@
 using namespace NAsync;
 
 // can improve a lot, but for now it just works
+// need to think how to use executor
 
 class TTimedRunner::TImpl {
 public:

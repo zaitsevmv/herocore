@@ -22,7 +22,7 @@ static constexpr std::string_view CRLF = "\r\n";
 static constexpr std::string_view DCRLF = "\r\n\r\n";
 
 static constexpr std::string_view CONTENT_LENGTH_HEADER = "Content-Length";
-static constexpr size_t DEFAULT_BUFFER_SIZE = 5;
+static constexpr size_t DEFAULT_BUFFER_SIZE = 1024 * 1024;
 
 } // namespace
 
