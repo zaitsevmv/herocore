@@ -8,7 +8,6 @@
 #include <optional>
 #include <span>
 #include <stdexcept>
-#include <vector>
 
 #include <liburing.h>
 
@@ -96,10 +95,8 @@ void TReactor::RunOnce() {
         if (cqe->res == -ECANCELED) continue;
         if (cqe->user_data != 0) {
             auto* userData = reinterpret_cast<TReactorAwaiter*>(cqe->user_data);
-            if (cqe->res != -ECANCELED) {
-                userData->SetResult(cqe->res);
-                Executor_->Append(std::move(*userData));
-            }
+            userData->SetResult(cqe->res);
+            Executor_->Append(std::move(*userData));
         }
     }
 

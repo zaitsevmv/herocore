@@ -29,6 +29,7 @@ Aseco::registerEvent("onStartup", "realh_flexitime_startup");
 Aseco::registerEvent("onBeginRound", "realh_flexitime_begin_round");
 Aseco::registerEvent("onEndRound", "realh_flexitime_end_round");
 Aseco::registerEvent("onEverySecond", "realh_flexitime_tick");
+Aseco::registerEvent("onVoteUpdated", "realh_flexitime_tick");
 
 Aseco::addChatCommand("timeleft",
     "Change or query time left: /timeleft [[+|-]MINUTES]|[pause|resume]");
@@ -233,7 +234,7 @@ class FlexiTime {
                     $val *= 60;
                 }
 
-                $tl = $this->timeleft;
+                $tl = $this->time_left;
                 if ($plus) {
                     $tl += $val;
                 } else if ($minus) {
@@ -293,6 +294,13 @@ class FlexiTime {
         }
         $this->showChatMsg($login . " set future time for this track to " .
             $param . " minutes.");
+    }
+
+    // [0]=StateName, [1]=Login, [2]=CmdName, [3]=CmdParam
+    public function extendTime($answer) {
+        if ($answer[0])
+        $tl = $this->time_left;
+        $tl += $val;
     }
 
     public function tick() {
@@ -465,6 +473,11 @@ function realh_flexitime_end_round($aseco) {
 function realh_flexitime_tick($aseco, $command) {
     global $realh_flexitime;
     $realh_flexitime->tick();
+}
+
+function realh_flexitime_extend($aseco, $answer) {
+    global $realh_flexitime;
+    $realh_flexitime->extendTime($command);
 }
 
 function chat_timeleft($aseco, $command) {
