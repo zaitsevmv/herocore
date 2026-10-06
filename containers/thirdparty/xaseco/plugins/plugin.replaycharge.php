@@ -241,19 +241,19 @@ function replaychargeBill($aseco, $replaybill) {
 		switch($replaybill[1]) {
 		case 4:  // Payed (Paid)
 			if (!$replaycharge['score']) {
-				$uid = $aseco->server->challenge->uid;
-				$jukebox = array_reverse($jukebox, true);
-				$jukebox[$uid]['FileName'] = $aseco->server->challenge->filename;
-				$jukebox[$uid]['Name'] = $aseco->server->challenge->name;
-				$jukebox[$uid]['Env'] = $aseco->server->challenge->environment;
-				$jukebox[$uid]['Login'] = $login;
-				$jukebox[$uid]['Nick'] = $nickname;
-				$jukebox[$uid]['source'] = 'ReplayCharge';
-				$jukebox[$uid]['tmx'] = false;
-				$jukebox[$uid]['uid'] = $uid;
-				$jukebox = array_reverse($jukebox, true);
+				// $uid = $aseco->server->challenge->uid;
+				// $jukebox = array_reverse($jukebox, true);
+				// $jukebox[$uid]['FileName'] = $aseco->server->challenge->filename;
+				// $jukebox[$uid]['Name'] = $aseco->server->challenge->name;
+				// $jukebox[$uid]['Env'] = $aseco->server->challenge->environment;
+				// $jukebox[$uid]['Login'] = $login;
+				// $jukebox[$uid]['Nick'] = $nickname;
+				// $jukebox[$uid]['source'] = 'ReplayCharge';
+				// $jukebox[$uid]['tmx'] = false;
+				// $jukebox[$uid]['uid'] = $uid;
+				// $jukebox = array_reverse($jukebox, true);
 			
-				$aseco->releaseEvent('onJukeboxChanged', array('replay', $jukebox[$uid]));
+				$aseco->releaseEvent('onJukeboxChanged', array('extend'));
 			} else {
 				if (isset($atl_restart)) $atl_restart = true;
 				$aseco->client->query('ChallengeRestart');

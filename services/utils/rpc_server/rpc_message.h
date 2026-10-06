@@ -1,10 +1,12 @@
 #pragma once
 
 #include <memory>
+#include <optional>
 #include <span>
 #include <string>
 #include <variant>
 #include <vector>
+#include "include/thread_safe/lazy_value.h"
 
 namespace NRpc {
 
@@ -17,18 +19,24 @@ using TContentBufferType = std::variant<std::string, std::vector<char>>;
 
 class IRpcMessage {
 public:
-    virtual std::string Serialize() = 0;
+    virtual std::string_view Serialize() = 0;
     virtual void SetBuffer(std::string&& buffer) = 0;
+    virtual std::optional<TRpcHeader> GetHeader(const std::string& key) const = 0;
+    virtual std::string_view GetBody(const bool decode) const = 0;
 
-private:
+protected:
     std::vector<TRpcHeader> Headers_;
+    std::string_view Body_;
     TContentBufferType Buffer_;
+    mutable Lazy<std::string> BodyBuffer_;
 };
 using IRpcMessagePtr = std::unique_ptr<IRpcMessage>;
 
 class TRpcMessage : public IRpcMessage {
 public:
-    std::string Serialize() override;
+    std::string_view Serialize() override;
+    std::optional<TRpcHeader> GetHeader(const std::string& key) const override;
+    std::string_view GetBody(const bool decode) const override;
 };
 
 enum class EStreamState : uint8_t {
@@ -38,7 +46,9 @@ enum class EStreamState : uint8_t {
 
 class TRpcStreamMessage : public IRpcMessage {
 public:
-    std::string Serialize() override;
+    std::string_view Serialize() override;
+    std::optional<TRpcHeader> GetHeader(const std::string& key) const override;
+    std::string_view GetBody(const bool decode) const override;
 
     void ParseChunk(const std::span<const char>& message);
     EStreamState GetState() noexcept;

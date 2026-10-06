@@ -1375,18 +1375,18 @@ function chat_y($aseco, $command) {
 				                $chatvote['login']);
 				break;
 			case 2:  // replay
-				// prepend current track to start of jukebox
-				$uid = $aseco->server->challenge->uid;
-				$jukebox = array_reverse($jukebox, true);
-				$jukebox[$uid]['FileName'] = $aseco->server->challenge->filename;
-				$jukebox[$uid]['Name'] = $aseco->server->challenge->name;
-				$jukebox[$uid]['Env'] = $aseco->server->challenge->environment;
-				$jukebox[$uid]['Login'] = $chatvote['login'];
-				$jukebox[$uid]['Nick'] = $chatvote['nick'];
-				$jukebox[$uid]['source'] = 'Replay';
-				$jukebox[$uid]['tmx'] = false;
-				$jukebox[$uid]['uid'] = $uid;
-				$jukebox = array_reverse($jukebox, true);
+				// // prepend current track to start of jukebox
+				// $uid = $aseco->server->challenge->uid;
+				// $jukebox = array_reverse($jukebox, true);
+				// $jukebox[$uid]['FileName'] = $aseco->server->challenge->filename;
+				// $jukebox[$uid]['Name'] = $aseco->server->challenge->name;
+				// $jukebox[$uid]['Env'] = $aseco->server->challenge->environment;
+				// $jukebox[$uid]['Login'] = $chatvote['login'];
+				// $jukebox[$uid]['Nick'] = $chatvote['nick'];
+				// $jukebox[$uid]['source'] = 'Replay';
+				// $jukebox[$uid]['tmx'] = false;
+				// $jukebox[$uid]['uid'] = $uid;
+				// $jukebox = array_reverse($jukebox, true);
 
 				if ($aseco->debug) {
 					$aseco->console_text('/replay pass - $jukebox:' . CRLF .
@@ -1397,7 +1397,7 @@ function chat_y($aseco, $command) {
 				                $chatvote['login']);
 
 				// throw 'jukebox changed' event
-				$aseco->releaseEvent('onJukeboxChanged', array('replay', $jukebox[$uid]));
+				$aseco->releaseEvent('onJukeboxChanged', array('extend'));
 				break;
 			case 3:  // skip
 				// skip immediately to next track

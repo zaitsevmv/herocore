@@ -712,7 +712,7 @@ function chat_replay($aseco, $command) {
 	$chatvote['nick'] = $player->nickname;
 	$chatvote['votes'] = required_votes($vote_ratios[2]);
 	$chatvote['type'] = 2;
-	$chatvote['desc'] = 'Replay Track after Finish';
+	$chatvote['desc'] = 'Extend Track Time';
 	// reset votes, rounds counter, TA interval counter & start time
 	$plrvotes = array();
 	$r_expire_num = 0;
