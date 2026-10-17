@@ -10,11 +10,11 @@
 #include <string_view>
 #include <thread>
 
-#include <utils/http_server/http_server.h>
-#include <include/files/files_operations.h>
-#include <include/async/timed_runner.h>
-#include <include/network/fd_utils.h>
-#include <include/executor/thread_pool.h>
+#include <lib/utils/http_server/http_server.h>
+#include <lib/base/files/files_operations.h>
+#include <lib/base/async/timed_runner.h>
+#include <lib/base/network/fd_utils.h>
+#include <lib/base/executor/thread_pool.h>
 
 using namespace std::chrono_literals;
 

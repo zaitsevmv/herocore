@@ -1,0 +1,45 @@
+#pragma once
+
+// things I dont like here
+// - wait free queue
+// - stop and wait seem strange
+
+#include "executor.h"
+
+#include <cstddef>
+#include <functional>
+#include <memory>
+#include <semaphore>
+#include <stop_token>
+#include <thread>
+#include <variant>
+
+#include <lib/base/thread_safe/queue.h>
+
+namespace NAsync {
+
+class TThreadPool : public IExecutor {
+public:
+    TThreadPool(size_t threadCount);
+    ~TThreadPool();
+
+    void Append(std::function<void()> op) override;
+    void Append(TIntrusiveAwaiter&& resumable) override;
+    void Stop();
+    void Wait();
+
+private:
+    void QueueWaitOperation();
+    void AssingWorkers();
+
+    size_t ThreadCount_ = 0;
+    std::stop_source StopSource_;
+    std::vector<std::jthread> Threads_;
+
+    std::counting_semaphore<> QueueSemaphore_;
+    TQueueSafe<std::variant<std::function<void()>, TIntrusiveAwaiter>> OperationsQueue_;
+};
+
+using TThreadPoolPtr = std::shared_ptr<TThreadPool>;
+
+} // namespace NAsync
