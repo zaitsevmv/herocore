@@ -3,7 +3,7 @@
 #include <filesystem>
 
 #include <lib/base/async/async_task.h>
-#include <sdk/proto/tmf.pb.h>
+#include <lib/sdk/proto/tmf.pb.h>
 
 namespace NSdk {
 
