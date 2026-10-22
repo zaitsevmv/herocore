@@ -14,7 +14,7 @@ namespace NHttp {
 struct THttpCallback {
     std::string Target;
     EHttpMethod Method;
-    std::function<void()> Handler;
+    std::function<NAsync::TAsyncTask<THttpResponsePtr>()> Handler;
 };
 
 class THttpServer {
@@ -26,8 +26,9 @@ public:
     ~THttpServer();
 
     void Listen(NAsync::TThreadPoolPtr threadPool, const size_t threadCount, const uint16_t port);
-    void AddCallback(const THttpCallback& callback);
     void StopListen();
+
+    void AddCallback(const THttpCallback& callback);
 
     NAsync::TAsyncTask<THttpResponsePtr> SendRequest(const THttpRequestPtr request, std::string host, const uint16_t port);
     NAsync::TAsyncTask<bool> SendResponse(const THttpResponsePtr response, int clientFd);

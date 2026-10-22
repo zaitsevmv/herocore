@@ -9,8 +9,8 @@ namespace NRpc {
 
 namespace {
 
-static constexpr std::string_view CRLF = "\n";
-static constexpr std::string_view HEADER_SPLIT = "::";
+static constexpr std::string_view CRLF = "\r\n";
+static constexpr std::string_view HEADER_SPLIT = " ";
 
 template<class... Ts>
 struct overloads : Ts... { using Ts::operator()...; };
@@ -55,6 +55,8 @@ TRpcMessage::TRpcMessage(std::string&& buffer)
 
 TRpcMessage::TRpcMessage(std::vector<char>&& buffer)
     : IRpcMessage(std::move(buffer)) {}
+
+IRpcMessage::~IRpcMessage() = default;
 
 std::string_view TRpcMessage::Serialize() {
     return std::visit(BufferVisitor, Buffer_);

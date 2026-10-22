@@ -21,6 +21,7 @@ class IRpcMessage {
 public:
     IRpcMessage(std::string&& buffer);
     IRpcMessage(std::vector<char>&& buffer);
+    virtual ~IRpcMessage();
 
     virtual std::string_view Serialize() = 0;
     virtual void AddHeader(const TRpcHeader& header) = 0;

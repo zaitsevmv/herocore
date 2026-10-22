@@ -126,18 +126,19 @@ NAsync::TAsyncTask<bool> THttpServer::TImpl::HandleRequests(int serverFd) {
 }
 
 NAsync::TAsyncTask<bool> THttpServer::TImpl::ProcessRequest(const THttpRequestPtr request, int clientFd) {
-    THttpResponse response;
+    THttpResponsePtr response;
     if (const auto callback = Callbacks_.find(request->GetTarget()); callback != Callbacks_.cend()) {
-        response.SetStatus(EHttpStatus::OK);
+        auto result = co_await callback->second.Handler(); 
+        response = std::move(result);
     } else {
         std::string errorMessage = "Target not found";
-        response.SetStatus(EHttpStatus::BAD_REQUEST);
-        response.AddHeader("Content-Type", "text/plain");
-        response.SetContent(errorMessage);
-        response.SetContentBuffer(std::move(errorMessage));
-        response.AddHeader(std::string(CONTENT_LENGTH_HEADER), std::to_string(errorMessage.size()));
+        response->SetStatus(EHttpStatus::BAD_REQUEST);
+        response->AddHeader("Content-Type", "text/plain");
+        response->SetContent(errorMessage);
+        response->SetContentBuffer(std::move(errorMessage));
+        response->AddHeader(std::string(CONTENT_LENGTH_HEADER), std::to_string(errorMessage.size()));
     }
-    const auto responseSpans = response.Serialize();
+    const auto responseSpans = response->Serialize();
     co_await NUtils::WriteTCPAsync(Reactor_, clientFd, responseSpans[0]);
     co_await NUtils::WriteTCPAsync(Reactor_, clientFd, responseSpans[1]);
     close(clientFd);
